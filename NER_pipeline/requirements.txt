@@ -1,0 +1,4 @@
+gliner2>=1.2.4
+# Pulled in transitively by gliner2 but pinned here for clarity:
+# torch>=2.0
+# transformers>=4.36

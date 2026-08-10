@@ -1,0 +1,18 @@
+# Core analysis: metrics, error taxonomy, cost calibration, figures.
+# These are enough to reproduce every number in Sections 4.2-4.4 from the
+# artefacts shipped in NER_pipeline/eval/.
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+statsmodels>=0.14      # OLS with cluster-robust standard errors (calibration)
+scikit-learn>=1.3      # StratifiedKFold for the fold assignment
+
+# HTR scoring (Section 4.1).
+jiwer>=3.0             # CER / WER
+
+# Only needed to regenerate predictions from scratch, not to reproduce the
+# reported numbers from the shipped prediction files.
+# gliner2              # zero-shot and fine-tuned GLiNER2 inference
+# openai               # OpenRouter-compatible client for the prompted models
+# requests             # HTTP calls to OpenRouter
+# pillow               # page-image handling for the transcription step

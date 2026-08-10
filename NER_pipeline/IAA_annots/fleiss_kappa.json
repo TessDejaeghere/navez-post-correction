@@ -1,0 +1,82 @@
+{
+  "raters": [
+    "A1",
+    "Gaëtan",
+    "A2",
+    "A4"
+  ],
+  "n_letters": 20,
+  "n_tokens": 12782,
+  "categories": [
+    "O",
+    "ART",
+    "ART_NOM",
+    "EVT",
+    "LOC",
+    "ORG",
+    "PER",
+    "PER_NOM"
+  ],
+  "kappa_overall": 0.6616784206362426,
+  "P_observed_overall": 0.9417409899337609,
+  "P_chance_overall": 0.827799899208912,
+  "kappa_span_detection": 0.7015116954857847,
+  "per_label": [
+    {
+      "label": "LOC",
+      "n_token_ratings": 422,
+      "prevalence_pct": 0.8253794398372711,
+      "kappa": 0.8295568624731181,
+      "P_observed": 0.9972096176915453,
+      "P_chance": 0.9836286614471959
+    },
+    {
+      "label": "PER",
+      "n_token_ratings": 1035,
+      "prevalence_pct": 2.0243310905961507,
+      "kappa": 0.8142757530574435,
+      "P_observed": 0.9926328691388931,
+      "P_chance": 0.9603329614609477
+    },
+    {
+      "label": "EVT",
+      "n_token_ratings": 259,
+      "prevalence_pct": 0.5065717415115005,
+      "kappa": 0.7037761188029539,
+      "P_observed": 0.9970140301465603,
+      "P_chance": 0.9899198881556297
+    },
+    {
+      "label": "PER_NOM",
+      "n_token_ratings": 1581,
+      "prevalence_pct": 3.09223908621499,
+      "kappa": 0.5616072466217137,
+      "P_observed": 0.9737260731236635,
+      "P_chance": 0.9400676067889634
+    },
+    {
+      "label": "ORG",
+      "n_token_ratings": 167,
+      "prevalence_pct": 0.32663120012517605,
+      "kappa": 0.557436685664,
+      "P_observed": 0.9971183435038856,
+      "P_chance": 0.9934887135856756
+    },
+    {
+      "label": "ART_NOM",
+      "n_token_ratings": 972,
+      "prevalence_pct": 1.9011109372555155,
+      "kappa": 0.5147809342396273,
+      "P_observed": 0.981901632504042,
+      "P_chance": 0.9627006258140403
+    },
+    {
+      "label": "ART",
+      "n_token_ratings": 226,
+      "prevalence_pct": 0.4420278516664059,
+      "kappa": 0.24444785972559058,
+      "P_observed": 0.9933500234705054,
+      "P_chance": 0.9911985206910017
+    }
+  ]
+}

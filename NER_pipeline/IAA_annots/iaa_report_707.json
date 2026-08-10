@@ -1,0 +1,1028 @@
+[
+  {
+    "annotators": [
+      "NER_707_A1_iaa10_u22",
+      "NER_707_A2_iaa10_u24"
+    ],
+    "n_common": 10,
+    "n_only_A": 0,
+    "n_only_B": 0,
+    "strict": {
+      "P": 0.4864864864864865,
+      "R": 0.4712041884816754,
+      "F1": 0.4787234042553191,
+      "TP": 90,
+      "FP": 95,
+      "FN": 101
+    },
+    "lenient": {
+      "P": 0.8108108108108109,
+      "R": 0.7853403141361257,
+      "F1": 0.7978723404255319,
+      "TP": 150,
+      "FP": 35,
+      "FN": 41
+    },
+    "per_label_strict": {
+      "PER": [
+        45,
+        27,
+        27
+      ],
+      "ORG": [
+        8,
+        9,
+        17
+      ],
+      "PER_NOM": [
+        13,
+        31,
+        31
+      ],
+      "ART_NOM": [
+        3,
+        11,
+        15
+      ],
+      "LOC": [
+        18,
+        7,
+        6
+      ],
+      "EVT": [
+        3,
+        6,
+        2
+      ],
+      "ART": [
+        0,
+        4,
+        3
+      ]
+    },
+    "per_label_lenient": {
+      "PER": [
+        68,
+        4,
+        4
+      ],
+      "ORG": [
+        15,
+        2,
+        10
+      ],
+      "PER_NOM": [
+        27,
+        17,
+        17
+      ],
+      "ART_NOM": [
+        12,
+        2,
+        6
+      ],
+      "LOC": [
+        22,
+        3,
+        2
+      ],
+      "EVT": [
+        3,
+        6,
+        2
+      ],
+      "ART": [
+        3,
+        1,
+        0
+      ]
+    },
+    "per_task": [
+      {
+        "letter_id": "Ms. II 70/1/143",
+        "spans_A": 8,
+        "spans_B": 7,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/1/147",
+        "spans_A": 7,
+        "spans_B": 9,
+        "strict_F1": 0.5,
+        "lenient_F1": 0.75
+      },
+      {
+        "letter_id": "Ms. II 70/1/154",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.5,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/167",
+        "spans_A": 5,
+        "spans_B": 6,
+        "strict_F1": 0.727,
+        "lenient_F1": 0.909
+      },
+      {
+        "letter_id": "Ms. II 70/1/189",
+        "spans_A": 8,
+        "spans_B": 9,
+        "strict_F1": 0.471,
+        "lenient_F1": 0.941
+      },
+      {
+        "letter_id": "Ms. II 70/1/27",
+        "spans_A": 7,
+        "spans_B": 10,
+        "strict_F1": 0.706,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/2/112",
+        "spans_A": 78,
+        "spans_B": 61,
+        "strict_F1": 0.489,
+        "lenient_F1": 0.82
+      },
+      {
+        "letter_id": "Ms. II 70/2/12",
+        "spans_A": 3,
+        "spans_B": 3,
+        "strict_F1": 0.667,
+        "lenient_F1": 1.0
+      },
+      {
+        "letter_id": "Ms. II 70/2/16",
+        "spans_A": 11,
+        "spans_B": 10,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/2/65",
+        "spans_A": 54,
+        "spans_B": 60,
+        "strict_F1": 0.351,
+        "lenient_F1": 0.772
+      }
+    ]
+  },
+  {
+    "annotators": [
+      "NER_707_A1_iaa10_u22",
+      "NER_707_A3_iaa10_u23"
+    ],
+    "n_common": 10,
+    "n_only_A": 0,
+    "n_only_B": 0,
+    "strict": {
+      "P": 0.654054054054054,
+      "R": 0.6335078534031413,
+      "F1": 0.6436170212765957,
+      "TP": 121,
+      "FP": 64,
+      "FN": 70
+    },
+    "lenient": {
+      "P": 0.7675675675675676,
+      "R": 0.743455497382199,
+      "F1": 0.7553191489361701,
+      "TP": 142,
+      "FP": 43,
+      "FN": 49
+    },
+    "per_label_strict": {
+      "PER": [
+        65,
+        8,
+        7
+      ],
+      "PER_NOM": [
+        18,
+        27,
+        26
+      ],
+      "ORG": [
+        8,
+        2,
+        17
+      ],
+      "ART_NOM": [
+        6,
+        15,
+        12
+      ],
+      "LOC": [
+        23,
+        6,
+        1
+      ],
+      "EVT": [
+        1,
+        5,
+        4
+      ],
+      "ART": [
+        0,
+        1,
+        3
+      ]
+    },
+    "per_label_lenient": {
+      "PER": [
+        69,
+        4,
+        3
+      ],
+      "PER_NOM": [
+        24,
+        21,
+        20
+      ],
+      "ORG": [
+        9,
+        1,
+        16
+      ],
+      "ART_NOM": [
+        12,
+        9,
+        6
+      ],
+      "LOC": [
+        24,
+        5,
+        0
+      ],
+      "EVT": [
+        3,
+        3,
+        2
+      ],
+      "ART": [
+        1,
+        0,
+        2
+      ]
+    },
+    "per_task": [
+      {
+        "letter_id": "Ms. II 70/1/143",
+        "spans_A": 8,
+        "spans_B": 6,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.571
+      },
+      {
+        "letter_id": "Ms. II 70/1/147",
+        "spans_A": 7,
+        "spans_B": 8,
+        "strict_F1": 0.533,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/1/154",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.6,
+        "lenient_F1": 0.6
+      },
+      {
+        "letter_id": "Ms. II 70/1/167",
+        "spans_A": 5,
+        "spans_B": 4,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.889
+      },
+      {
+        "letter_id": "Ms. II 70/1/189",
+        "spans_A": 8,
+        "spans_B": 12,
+        "strict_F1": 0.7,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/27",
+        "spans_A": 7,
+        "spans_B": 10,
+        "strict_F1": 0.588,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/2/112",
+        "spans_A": 78,
+        "spans_B": 70,
+        "strict_F1": 0.635,
+        "lenient_F1": 0.757
+      },
+      {
+        "letter_id": "Ms. II 70/2/12",
+        "spans_A": 3,
+        "spans_B": 3,
+        "strict_F1": 1.0,
+        "lenient_F1": 1.0
+      },
+      {
+        "letter_id": "Ms. II 70/2/16",
+        "spans_A": 11,
+        "spans_B": 10,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.762
+      },
+      {
+        "letter_id": "Ms. II 70/2/65",
+        "spans_A": 54,
+        "spans_B": 52,
+        "strict_F1": 0.66,
+        "lenient_F1": 0.774
+      }
+    ]
+  },
+  {
+    "annotators": [
+      "NER_707_A1_iaa10_u22",
+      "NER_707_A4_iaa10_u26"
+    ],
+    "n_common": 10,
+    "n_only_A": 0,
+    "n_only_B": 0,
+    "strict": {
+      "P": 0.625,
+      "R": 0.5235602094240838,
+      "F1": 0.5698005698005698,
+      "TP": 100,
+      "FP": 60,
+      "FN": 91
+    },
+    "lenient": {
+      "P": 0.85625,
+      "R": 0.7172774869109948,
+      "F1": 0.7806267806267806,
+      "TP": 137,
+      "FP": 23,
+      "FN": 54
+    },
+    "per_label_strict": {
+      "PER": [
+        52,
+        22,
+        20
+      ],
+      "ORG": [
+        14,
+        3,
+        11
+      ],
+      "PER_NOM": [
+        5,
+        21,
+        39
+      ],
+      "ART_NOM": [
+        5,
+        6,
+        13
+      ],
+      "LOC": [
+        21,
+        5,
+        3
+      ],
+      "EVT": [
+        3,
+        1,
+        2
+      ],
+      "ART": [
+        0,
+        2,
+        3
+      ]
+    },
+    "per_label_lenient": {
+      "PER": [
+        68,
+        6,
+        4
+      ],
+      "ORG": [
+        15,
+        2,
+        10
+      ],
+      "PER_NOM": [
+        16,
+        10,
+        28
+      ],
+      "ART_NOM": [
+        11,
+        0,
+        7
+      ],
+      "LOC": [
+        23,
+        3,
+        1
+      ],
+      "EVT": [
+        3,
+        1,
+        2
+      ],
+      "ART": [
+        1,
+        1,
+        2
+      ]
+    },
+    "per_task": [
+      {
+        "letter_id": "Ms. II 70/1/143",
+        "spans_A": 8,
+        "spans_B": 6,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.571
+      },
+      {
+        "letter_id": "Ms. II 70/1/147",
+        "spans_A": 7,
+        "spans_B": 6,
+        "strict_F1": 0.615,
+        "lenient_F1": 0.769
+      },
+      {
+        "letter_id": "Ms. II 70/1/154",
+        "spans_A": 10,
+        "spans_B": 9,
+        "strict_F1": 0.526,
+        "lenient_F1": 0.842
+      },
+      {
+        "letter_id": "Ms. II 70/1/167",
+        "spans_A": 5,
+        "spans_B": 5,
+        "strict_F1": 0.8,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/189",
+        "spans_A": 8,
+        "spans_B": 9,
+        "strict_F1": 0.588,
+        "lenient_F1": 0.941
+      },
+      {
+        "letter_id": "Ms. II 70/1/27",
+        "spans_A": 7,
+        "spans_B": 7,
+        "strict_F1": 0.857,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/2/112",
+        "spans_A": 78,
+        "spans_B": 55,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.782
+      },
+      {
+        "letter_id": "Ms. II 70/2/12",
+        "spans_A": 3,
+        "spans_B": 2,
+        "strict_F1": 0.4,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/2/16",
+        "spans_A": 11,
+        "spans_B": 10,
+        "strict_F1": 0.381,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/2/65",
+        "spans_A": 54,
+        "spans_B": 51,
+        "strict_F1": 0.552,
+        "lenient_F1": 0.781
+      }
+    ]
+  },
+  {
+    "annotators": [
+      "NER_707_A2_iaa10_u24",
+      "NER_707_A3_iaa10_u23"
+    ],
+    "n_common": 10,
+    "n_only_A": 0,
+    "n_only_B": 0,
+    "strict": {
+      "P": 0.4648648648648649,
+      "R": 0.4648648648648649,
+      "F1": 0.4648648648648649,
+      "TP": 86,
+      "FP": 99,
+      "FN": 99
+    },
+    "lenient": {
+      "P": 0.7783783783783784,
+      "R": 0.7783783783783784,
+      "F1": 0.7783783783783784,
+      "TP": 144,
+      "FP": 41,
+      "FN": 41
+    },
+    "per_label_strict": {
+      "PER": [
+        43,
+        30,
+        29
+      ],
+      "PER_NOM": [
+        12,
+        33,
+        32
+      ],
+      "ORG": [
+        6,
+        4,
+        11
+      ],
+      "ART_NOM": [
+        3,
+        18,
+        11
+      ],
+      "LOC": [
+        20,
+        9,
+        5
+      ],
+      "EVT": [
+        2,
+        4,
+        7
+      ],
+      "ART": [
+        0,
+        1,
+        4
+      ]
+    },
+    "per_label_lenient": {
+      "PER": [
+        70,
+        3,
+        2
+      ],
+      "PER_NOM": [
+        23,
+        22,
+        21
+      ],
+      "ORG": [
+        10,
+        0,
+        7
+      ],
+      "ART_NOM": [
+        9,
+        12,
+        5
+      ],
+      "LOC": [
+        25,
+        4,
+        0
+      ],
+      "EVT": [
+        6,
+        0,
+        3
+      ],
+      "ART": [
+        1,
+        0,
+        3
+      ]
+    },
+    "per_task": [
+      {
+        "letter_id": "Ms. II 70/1/143",
+        "spans_A": 7,
+        "spans_B": 6,
+        "strict_F1": 0.615,
+        "lenient_F1": 0.923
+      },
+      {
+        "letter_id": "Ms. II 70/1/147",
+        "spans_A": 9,
+        "spans_B": 8,
+        "strict_F1": 0.353,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/1/154",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.4,
+        "lenient_F1": 0.7
+      },
+      {
+        "letter_id": "Ms. II 70/1/167",
+        "spans_A": 6,
+        "spans_B": 4,
+        "strict_F1": 0.6,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/189",
+        "spans_A": 9,
+        "spans_B": 12,
+        "strict_F1": 0.476,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/1/27",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.6,
+        "lenient_F1": 0.9
+      },
+      {
+        "letter_id": "Ms. II 70/2/112",
+        "spans_A": 61,
+        "spans_B": 70,
+        "strict_F1": 0.534,
+        "lenient_F1": 0.748
+      },
+      {
+        "letter_id": "Ms. II 70/2/12",
+        "spans_A": 3,
+        "spans_B": 3,
+        "strict_F1": 0.667,
+        "lenient_F1": 1.0
+      },
+      {
+        "letter_id": "Ms. II 70/2/16",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.5,
+        "lenient_F1": 0.7
+      },
+      {
+        "letter_id": "Ms. II 70/2/65",
+        "spans_A": 60,
+        "spans_B": 52,
+        "strict_F1": 0.339,
+        "lenient_F1": 0.768
+      }
+    ]
+  },
+  {
+    "annotators": [
+      "NER_707_A2_iaa10_u24",
+      "NER_707_A4_iaa10_u26"
+    ],
+    "n_common": 10,
+    "n_only_A": 0,
+    "n_only_B": 0,
+    "strict": {
+      "P": 0.5,
+      "R": 0.43243243243243246,
+      "F1": 0.463768115942029,
+      "TP": 80,
+      "FP": 80,
+      "FN": 105
+    },
+    "lenient": {
+      "P": 0.9125,
+      "R": 0.7891891891891892,
+      "F1": 0.846376811594203,
+      "TP": 146,
+      "FP": 14,
+      "FN": 39
+    },
+    "per_label_strict": {
+      "PER": [
+        36,
+        38,
+        36
+      ],
+      "ORG": [
+        10,
+        7,
+        7
+      ],
+      "PER_NOM": [
+        9,
+        17,
+        35
+      ],
+      "ART_NOM": [
+        5,
+        6,
+        9
+      ],
+      "LOC": [
+        17,
+        9,
+        8
+      ],
+      "EVT": [
+        3,
+        1,
+        6
+      ],
+      "ART": [
+        0,
+        2,
+        4
+      ]
+    },
+    "per_label_lenient": {
+      "PER_NOM": [
+        24,
+        2,
+        20
+      ],
+      "PER": [
+        70,
+        4,
+        2
+      ],
+      "ORG": [
+        13,
+        4,
+        4
+      ],
+      "ART_NOM": [
+        9,
+        2,
+        5
+      ],
+      "LOC": [
+        24,
+        2,
+        1
+      ],
+      "EVT": [
+        4,
+        0,
+        5
+      ],
+      "ART": [
+        2,
+        0,
+        2
+      ]
+    },
+    "per_task": [
+      {
+        "letter_id": "Ms. II 70/1/143",
+        "spans_A": 7,
+        "spans_B": 6,
+        "strict_F1": 0.615,
+        "lenient_F1": 0.923
+      },
+      {
+        "letter_id": "Ms. II 70/1/147",
+        "spans_A": 9,
+        "spans_B": 6,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/154",
+        "spans_A": 10,
+        "spans_B": 9,
+        "strict_F1": 0.526,
+        "lenient_F1": 0.737
+      },
+      {
+        "letter_id": "Ms. II 70/1/167",
+        "spans_A": 6,
+        "spans_B": 5,
+        "strict_F1": 0.727,
+        "lenient_F1": 0.909
+      },
+      {
+        "letter_id": "Ms. II 70/1/189",
+        "spans_A": 9,
+        "spans_B": 9,
+        "strict_F1": 0.333,
+        "lenient_F1": 1.0
+      },
+      {
+        "letter_id": "Ms. II 70/1/27",
+        "spans_A": 10,
+        "spans_B": 7,
+        "strict_F1": 0.706,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/2/112",
+        "spans_A": 61,
+        "spans_B": 55,
+        "strict_F1": 0.483,
+        "lenient_F1": 0.862
+      },
+      {
+        "letter_id": "Ms. II 70/2/12",
+        "spans_A": 3,
+        "spans_B": 2,
+        "strict_F1": 0.4,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/2/16",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.6,
+        "lenient_F1": 1.0
+      },
+      {
+        "letter_id": "Ms. II 70/2/65",
+        "spans_A": 60,
+        "spans_B": 51,
+        "strict_F1": 0.324,
+        "lenient_F1": 0.793
+      }
+    ]
+  },
+  {
+    "annotators": [
+      "NER_707_A3_iaa10_u23",
+      "NER_707_A4_iaa10_u26"
+    ],
+    "n_common": 10,
+    "n_only_A": 0,
+    "n_only_B": 0,
+    "strict": {
+      "P": 0.58125,
+      "R": 0.5027027027027027,
+      "F1": 0.5391304347826087,
+      "TP": 93,
+      "FP": 67,
+      "FN": 92
+    },
+    "lenient": {
+      "P": 0.84375,
+      "R": 0.7297297297297297,
+      "F1": 0.7826086956521738,
+      "TP": 135,
+      "FP": 25,
+      "FN": 50
+    },
+    "per_label_strict": {
+      "PER": [
+        55,
+        19,
+        18
+      ],
+      "PER_NOM": [
+        7,
+        19,
+        38
+      ],
+      "ORG": [
+        6,
+        11,
+        4
+      ],
+      "ART_NOM": [
+        2,
+        9,
+        19
+      ],
+      "LOC": [
+        22,
+        4,
+        7
+      ],
+      "EVT": [
+        1,
+        3,
+        5
+      ],
+      "ART": [
+        0,
+        2,
+        1
+      ]
+    },
+    "per_label_lenient": {
+      "PER_NOM": [
+        16,
+        10,
+        29
+      ],
+      "PER": [
+        71,
+        3,
+        2
+      ],
+      "ORG": [
+        9,
+        8,
+        1
+      ],
+      "ART_NOM": [
+        8,
+        3,
+        13
+      ],
+      "LOC": [
+        26,
+        0,
+        3
+      ],
+      "EVT": [
+        4,
+        0,
+        2
+      ],
+      "ART": [
+        1,
+        1,
+        0
+      ]
+    },
+    "per_task": [
+      {
+        "letter_id": "Ms. II 70/1/143",
+        "spans_A": 6,
+        "spans_B": 6,
+        "strict_F1": 0.833,
+        "lenient_F1": 0.833
+      },
+      {
+        "letter_id": "Ms. II 70/1/147",
+        "spans_A": 8,
+        "spans_B": 6,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/1/154",
+        "spans_A": 10,
+        "spans_B": 9,
+        "strict_F1": 0.526,
+        "lenient_F1": 0.737
+      },
+      {
+        "letter_id": "Ms. II 70/1/167",
+        "spans_A": 4,
+        "spans_B": 5,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.889
+      },
+      {
+        "letter_id": "Ms. II 70/1/189",
+        "spans_A": 12,
+        "spans_B": 9,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/1/27",
+        "spans_A": 10,
+        "spans_B": 7,
+        "strict_F1": 0.588,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/2/112",
+        "spans_A": 70,
+        "spans_B": 55,
+        "strict_F1": 0.496,
+        "lenient_F1": 0.752
+      },
+      {
+        "letter_id": "Ms. II 70/2/12",
+        "spans_A": 3,
+        "spans_B": 2,
+        "strict_F1": 0.4,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/2/16",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.5,
+        "lenient_F1": 0.7
+      },
+      {
+        "letter_id": "Ms. II 70/2/65",
+        "spans_A": 52,
+        "spans_B": 51,
+        "strict_F1": 0.524,
+        "lenient_F1": 0.796
+      }
+    ]
+  }
+]

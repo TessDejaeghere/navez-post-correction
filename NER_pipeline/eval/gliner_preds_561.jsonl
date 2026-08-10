@@ -1,0 +1,5 @@
+{"letter_id": "10163407", "pred_spans": [[9, 25, "PER_NOM"], [36, 51, "PER_NOM"], [60, 75, "PER"], [60, 75, "PER_NOM"], [81, 101, "PER_NOM"], [112, 131, "PER_NOM"], [166, 181, "PER_NOM"], [192, 208, "PER_NOM"], [390, 399, "LOC"], [584, 627, "ORG"], [704, 725, "LOC"]]}
+{"letter_id": "17524382", "pred_spans": [[20, 32, "PER_NOM"], [35, 43, "PER_NOM"], [2511, 2518, "LOC"], [2536, 2544, "PER_NOM"], [2640, 2647, "PER"], [2640, 2647, "PER_NOM"], [2653, 2661, "PER"], [2653, 2661, "PER_NOM"]]}
+{"letter_id": "17524392", "pred_spans": []}
+{"letter_id": "21361043", "pred_spans": [[0, 6, "LOC"], [28, 45, "PER"], [214, 231, "PER_NOM"], [370, 378, "ART"], [518, 527, "LOC"], [758, 775, "PER_NOM"]]}
+{"letter_id": "IDN_17513259", "pred_spans": [[435, 440, "PER_NOM"]]}

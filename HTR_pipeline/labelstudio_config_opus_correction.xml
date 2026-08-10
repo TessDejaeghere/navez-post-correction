@@ -1,0 +1,39 @@
+<View>
+  <!-- Top Banner: letter ID + filenames to search in Drive -->
+  <View style="padding: 15px; background: #f0f4f8; border-radius: 5px; margin-bottom: 15px; border: 1px solid #d1d9e0;">
+    <View style="display: flex; justify-content: space-between; align-items: center;">
+      <View>
+        <Header value="Letter $letter_id  ($n_pages pages)" size="3" style="margin: 0; color: #1a3a5f;"/>
+        <Text name="page_filenames" value="Open the Drive folder and search for: $page_filenames_str"/>
+        <Text name="instruction" value="1. Check the highlighted anomalies. 2. Fix the text below. 3. Use the button to open the Drive folder and look up the scan(s) by filename." />
+      </View>
+      <!-- Single button: opens the shared Drive folder. -->
+      <HyperText name="image_links" value="$image_links_html"/>
+    </View>
+  </View>
+
+  <View style="display: flex; gap: 20px;">
+    <!-- LEFT: Read-Only Reference Text with Automated Highlights -->
+    <View style="flex: 1; padding: 10px; background: #fffbe6; border: 1px solid #e6d8a7; border-radius: 4px;">
+      <Header value="Automated Anomaly Detection" size="5" style="margin-top: 0; color: #8a6d3b;"/>
+
+      <Labels name="anomaly_labels" toName="reference_text" showInline="false">
+        <Label value="Person Name"       background="#a0c4ff"/>
+        <Label value="Suspicious French" background="#ffcc00"/>
+        <Label value="Format Anomaly"    background="#ff9999"/>
+      </Labels>
+
+      <Text name="reference_text" value="$claude_text"/>
+    </View>
+
+    <!-- RIGHT: The Editable Correction Box -->
+    <View style="flex: 1;">
+      <Header value="Edit Transcription Here:" size="5" style="margin-top: 0;"/>
+      <TextArea name="transcription" toName="reference_text"
+                editable="true"
+                maxSubmissions="1"
+                rows="20"
+                placeholder="Transcription will appear here..."/>
+    </View>
+  </View>
+</View>

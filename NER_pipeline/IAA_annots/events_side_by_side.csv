@@ -1,0 +1,573 @@
+﻿letter_id,event_start,event_end,context,event_type,n_raters_tagged,labels_present,A1_label,A1_text,Gaëtan_label,Gaëtan_text,A2_label,A2_text,A4_label,A4_text
+Ms. II 70/1/100,0,5,Paris ce 14 novembre 1820.  Mon che,missing,3,LOC,LOC,Paris,LOC,Paris,—,,LOC,Paris
+Ms. II 70/1/100,28,43,Paris ce 14 novembre 1820.  Mon cher maitre  Je profite de l'occasion de,label,4,"PER,PER_NOM",PER_NOM,Mon cher maitre,PER_NOM,Mon cher maitre,PER_NOM,Mon cher maitre,PER_NOM,Mon cher maitre
+Ms. II 70/1/100,73,89,Je profite de l'occasion de Monsieur  Coutan pour m'informer de votre sant,label,4,"PER,PER_NOM",PER_NOM,Monsieur  Coutan,PER_NOM,Monsieur  Coutan,PER_NOM,Monsieur  Coutan,PER_NOM,Monsieur  Coutan
+Ms. II 70/1/100,542,565,s  dix huit mois je frequente l’attelier  de Mr. gros [+ Antoine-Jean Gros] et le r,label,4,"ORG,PER",PER,Mr. gros,PER,Mr. gros,ORG,l’attelier  de Mr. gros,PER,Mr. gros
+Ms. II 70/1/100,657,687,a travailler chez moi.  pour la dernière exposition de gand  J’avois entrepris un tableau,span,4,EVT,EVT,exposition de gand,EVT,la dernière exposition de gand,EVT,exposition de gand,EVT,exposition de gand
+Ms. II 70/1/100,707,717,on de gand  J’avois entrepris un tableau dont Mrs.  Mr. David [+ Jacqu,missing,3,ART_NOM,ART_NOM,un tableau,ART_NOM,un tableau,ART_NOM,un tableau,—,
+Ms. II 70/1/100,723,738,ois entrepris un tableau dont Mrs.  Mr. David [+ Jacques-Louis David] et Gr,label,4,"PER,PER_NOM",PER_NOM,Mrs.  Mr. David,PER_NOM,Mrs.  Mr. David,PER,Mr. David,PER_NOM,Mrs.  Mr. David
+Ms. II 70/1/100,766,771,id [+ Jacques-Louis David] et Gros ont été assez satisfait   fait,span,4,PER,PER,Gros,PER,Gros,PER,Gros ,PER,Gros
+Ms. II 70/1/100,802,836,nt été assez satisfait   fait la société des beaux arts  de gand m’a a cette occasion  decerné,label,4,"LOC,ORG",ORG,la société des beaux arts  de gand,ORG,la société des beaux arts  de gand,ORG,la société des beaux arts  de gand,ORG,la société des beaux arts  de gand
+Ms. II 70/1/100,843,857,des beaux arts  de gand m’a a cette occasion  decernés une médaille et le,missing,1,ART_NOM,—,,ART_NOM,cette occasion,—,,—,
+Ms. II 70/1/100,910,1019,"et le gouvernement  a acheté mon tableau  il representait les reproches d'hector  aa Paris, sujet de trois figures  hector, paris, hélène, maintenant  je continue de no",label,4,"ART,ART_NOM,LOC",ART_NOM,mon tableau,ART_NOM,mon tableau,ART_NOM,mon tableau,ART_NOM,mon tableau
+Ms. II 70/1/100,1123,1148,sible faire des progrès pour  l'exposition de Bruxelles. Mr.  david ne travaille plus,label,4,"EVT,LOC",EVT,exposition de Bruxelles,EVT,l'exposition de Bruxelles,EVT,l'exposition de Bruxelles,EVT,exposition de Bruxelles
+Ms. II 70/1/100,1179,1199,Mr.  david ne travaille plus son dernier  tableau est la colère d’achille  et j,label,4,"ART,ART_NOM",ART,son dernier  tableau,ART_NOM,son dernier  tableau,ART_NOM,son dernier  tableau,ART_NOM,son dernier  tableau
+Ms. II 70/1/100,1204,1223,plus son dernier  tableau est la colère d’achille  et je ne crois pas qu’il en,missing,3,ART,—,,ART,la colère d’achille,ART,la colère d’achille,ART,la colère d’achille
+Ms. II 70/1/100,1470,1491,ez recu quelques  detailes sur l’exposition de Gand  Je ne sais si vous savez que,label,4,"EVT,LOC",EVT,exposition de Gand,EVT,l’exposition de Gand,EVT,l’exposition de Gand,EVT, l’exposition de Gand
+Ms. II 70/1/100,1694,1705,n'ont  pas osé faire sensir a cet artiste combien  peu il etoit louable,label,4,"PER,PER_NOM",PER,cet artiste,PER_NOM,cet artiste,PER_NOM,cet artiste,PER_NOM,cet artiste
+Ms. II 70/1/100,1762,1770,ble pour lui de  se mettre en concours avec des eleves  pour un prix,missing,1,EVT,—,,—,,EVT,concours,—,
+Ms. II 70/1/100,2015,2027,vise) qui l’avoit engagé faire ce  tableau. Melle. Sophie henriet etoit,span,4,ART_NOM,ART_NOM,ce  tableau,ART_NOM,ce  tableau,ART_NOM,ce  tableau,ART_NOM, ce  tableau
+Ms. II 70/1/100,2029,2050,oit engagé faire ce  tableau. Melle. Sophie henriet etoit celle  ce qui tout le m,label,4,"LOC,PER,PER_NOM",PER,Melle. Sophie henriet,PER,Melle. Sophie henriet,PER,Melle. Sophie henriet,LOC,Melle.
+Ms. II 70/1/100,2279,2295,vous  embrasse de tout cœur.  Felix Heyndrickx Rue cassette No 23 Paris  Si,label,4,"PER,PER_NOM",PER,Felix Heyndrickx,PER,Felix Heyndrickx,PER,Felix Heyndrickx,PER_NOM,Felix Heyndrickx
+Ms. II 70/1/100,2296,2320,tout cœur.  Felix Heyndrickx Rue cassette No 23 Paris  Si je puis vous etre utile,span,4,LOC,LOC,Paris,LOC,Paris,LOC,Rue cassette No 23 Paris,LOC,Rue cassette No 23
+Ms. II 70/1/101,0,23,Mon cher Monsieur Navez  il c’en est peu fallu que je,span,4,PER,PER,Mon cher Monsieur Navez,PER,Mon cher Monsieur Navez,PER,Mon cher Monsieur Navez,PER,Monsieur Navez
+Ms. II 70/1/101,78,86,ue je ne puisse  Vous envoyer la toile que vous me  demandez dans la,label+missing,3,"ART,ART_NOM",ART,la toile,ART_NOM,la toile,—,,ART_NOM,la toile
+Ms. II 70/1/101,117,135,que vous me  demandez dans la troisième fabrique  seulement j’en ai trouvé d’a,missing,1,PER,—,,PER,troisième fabrique,—,,—,
+Ms. II 70/1/101,447,465,rand plaisir que vous faites  le portrait du roi qui quoique lan fait  de votr,label,4,"ART,ART_NOM",ART_NOM,le portrait du roi,ART_NOM,le portrait du roi,ART,le portrait du roi,ART_NOM,le portrait du roi
+Ms. II 70/1/101,676,693,us vissiez ce que J’envoye au coucours  de gand.  je Vous demande pardon si j,label,4,"EVT,LOC",EVT,coucours  de gand,EVT,coucours  de gand,EVT,coucours  de gand,EVT,coucours  de gand
+Ms. II 70/1/101,794,805,eriez bonplaisir  de donner a Stapeleaux  un petit croquis  du genre de,span,4,PER,PER,Stapeleaux,PER,Stapeleaux,PER,Stapeleaux ,PER,Stapeleaux
+Ms. II 70/1/101,805,844,aisir  de donner a Stapeleaux  un petit croquis  du genre de broderie qu’il convient que  je mette,span,4,ART_NOM,ART_NOM,un petit croquis  du genre de broderie,ART_NOM, un petit croquis  du genre de broderie,ART_NOM,un petit croquis  du genre de broderie,ART_NOM,un petit croquis
+Ms. II 70/1/101,892,906,"e  je mette à l’ajustement de ma samaritaine  doivent elles être en or, po",label+missing,3,"ART,PER_NOM",—,,ART,ma samaritaine,ART,ma samaritaine,PER_NOM,ma samaritaine
+Ms. II 70/1/101,953,981,"tre en or, pourrais je faire  le turban rayé bleu et jaune.  dans l’espoir cependant de",missing,1,ART,—,,ART,le turban rayé bleu et jaune,—,,—,
+Ms. II 70/1/101,1072,1090,vous embrasse  de tout cœur. Votre devoue éleve  felix heyndrickx  rue de la,missing,2,PER_NOM,—,,PER_NOM,Votre devoue éleve,PER_NOM,Votre devoue éleve,—,
+Ms. II 70/1/101,1092,1108,out cœur. Votre devoue éleve  felix heyndrickx  rue de la Bourse N° 188.,label,4,"PER,PER_NOM",PER,felix heyndrickx,PER,felix heyndrickx,PER,felix heyndrickx,PER,felix heyndrickx
+Ms. II 70/1/101,1110,1134,voue éleve  felix heyndrickx  rue de la Bourse N° 188.,span,4,LOC,LOC,rue de la Bourse N° 188.,LOC,rue de la Bourse N° 188,LOC,rue de la Bourse N° 188,LOC,rue de la Bourse N° 188.
+Ms. II 70/1/116,15,36,Monsieur Navez Madame de Chastelier me charge de vous prier si cel,span,4,PER,PER,Madame de Chastelier,PER,Madame de Chastelier,PER,Madame de Chastelier,PER,Madame de Chastelier 
+Ms. II 70/1/116,130,148,a complaisance de lui prettre un costume Italien sentiment le [? cors] et le m,missing,1,ART_NOM,ART_NOM,un costume Italien,—,,—,,—,
+Ms. II 70/1/116,174,191,lien sentiment le [? cors] et le morceau quarré qu'on met sur la tête à la lu,missing,1,ART_NOM,ART_NOM,le morceau quarré,—,,—,,—,
+Ms. II 70/1/116,313,319,"sieur Navez de le remettre au modèle, je vous prie de souhaiter le",missing,1,PER_NOM,—,,—,,PER_NOM,modèle,—,
+Ms. II 70/1/116,437,451,uadée des sentimens d'amitié  de votre élève  Adele Kind  [SKETCH] <+ un m,span+missing,2,PER_NOM,—,,PER_NOM,de votre élève,PER_NOM,votre élève,—,
+Ms. II 70/1/116,477,494,lève  Adele Kind  [SKETCH] <+ un morceau quarré. Si vous avez aussi le monrce,missing,2,ART_NOM,ART_NOM,un morceau quarré,ART_NOM,un morceau quarré,—,,—,
+Ms. II 70/1/116,515,527,au quarré. Si vous avez aussi le monrceaua que l'on met au col >,span+missing,3,ART_NOM,ART_NOM,monrceaua,ART_NOM,monrceaua,—,,ART_NOM,le monrceaua
+Ms. II 70/1/164,0,16,"Mons cher Navez,  J’approuve beaucoup l’idée d",span,4,PER,PER,Mons cher Navez,PER,"Mons cher Navez,",PER,Mons cher Navez,PER,Navez
+Ms. II 70/1/164,57,68,e beaucoup l’idée de demander au Ministre  une indemnité pour les jeune,span,4,PER_NOM,PER_NOM,Ministre,PER_NOM,Ministre,PER_NOM,Ministre,PER_NOM,au Ministre
+Ms. II 70/1/164,89,128,"Ministre  une indemnité pour les jeunes gens qui ont Concouru à Gand,  mais je voudrais aussi que",label,4,"ART,LOC",ART,les jeunes gens qui ont Concouru à Gand,LOC,Gand,LOC,Gand,LOC,Gand
+Ms. II 70/1/164,234,243,"omme beaucoup trop forte pour cet objet,  puisse être employée à fair",missing,2,ART_NOM,ART_NOM,cet objet,—,,ART_NOM,cet objet,—,
+Ms. II 70/1/164,275,301,"puisse être employée à faire l'acquisition des tableaux  qui s’y trouvaient exposés,",label,4,"ART_NOM,EVT",ART_NOM,des tableaux,ART_NOM,des tableaux,ART_NOM,des tableaux,EVT,l'acquisition des tableaux
+Ms. II 70/1/164,503,525,"lques  informations, de faire une liste des tableaux qui  méritent cette distincti",span,4,ART_NOM,ART_NOM,tableaux,ART_NOM,des tableaux,ART_NOM,des tableaux,ART_NOM,une liste des tableaux
+Ms. II 70/1/164,744,763,ncouragement non seulement au titre de concourant  mais à tous ceux qui se sont,missing,1,ART_NOM,ART_NOM,titre de concourant,—,,—,,—,
+Ms. II 70/1/164,833,850,s peines et ont  travaillés.  Votre tout devoué Jos. Paelinck  le 31 octobre,missing,1,PER_NOM,—,,—,,PER_NOM,Votre tout devoué,—,
+Ms. II 70/1/172,2,71,A Monsieur Monsieur Navez Directeur de l'académie de Bruxelles au Musée  Mai 1840 a Mr Le Directeur d,label,4,"LOC,ORG,PER,PER_NOM",PER_NOM,Monsieur,PER,Monsieur Monsieur Navez Directeur de l'académie de Bruxelles au Musée,PER_NOM,Monsieur,PER,Monsieur Navez
+Ms. II 70/1/172,84,125,ruxelles au Musée  Mai 1840 a Mr Le Directeur de l'academie a Bruxelles  Monsieur  M. Pilqué étant in,label,4,"LOC,ORG,PER_NOM",PER_NOM,Mr Le Directeur de l'academie a Bruxelles,PER_NOM,Mr Le Directeur de l'academie a Bruxelles,PER_NOM,Mr Le Directeur de l'academie a Bruxelles,PER_NOM,Mr Le Directeur
+Ms. II 70/1/172,127,147,ur de l'academie a Bruxelles  Monsieur  M. Pilqué étant indisposé ne peut assist,label,4,"PER,PER_NOM",PER_NOM,Monsieur,PER,Monsieur  M. Pilqué ,PER_NOM,Monsieur,PER,M. Pilqué
+Ms. II 70/1/172,208,218,"r au Jugement du ton cours de Vos elèves, il me charge de Vous le fair",missing,1,PER_NOM,—,,—,,PER_NOM,Vos elèves,—,
+Ms. II 70/1/200,76,86,te de l’occasion du départ de M. Purtoit architecte des hospices de Br,label,4,"PER,PER_NOM",PER,M. Purtoit,PER,M. Purtoit,PER_NOM,M. Purtoit,PER_NOM,M. Purtoit
+Ms. II 70/1/200,102,123,"de M. Purtoit architecte des hospices de Bruxelles, pour me rapeler à votre souv",label+missing,3,"LOC,ORG",ORG,hospices de Bruxelles,—,,ORG,hospices de Bruxelles,LOC,Bruxelles
+Ms. II 70/1/200,203,215,"ps vous dire quelques mots de l’exposition. elle est très médiocrre, auc",span,4,EVT,EVT,l’exposition,EVT,l’exposition,EVT,exposition,EVT,l’exposition
+Ms. II 70/1/200,304,321,pe ou qui parle à l’ame toute peinture de modes. qui du reste sont gentiles e,missing,1,ART_NOM,ART_NOM,peinture de modes,—,,—,,—,
+Ms. II 70/1/200,411,420,"ands artiste n’a exposé, sauf M. Conder, qui à fait l’ouverture des é",label,4,"ART,PER",PER,M. Conder,PER,M. Conder,ART,M. Conder,PER,M. Conder
+Ms. II 70/1/200,433,476,"é, sauf M. Conder, qui à fait l’ouverture des états Genéraux à Versailles. vaste composition, qui a bea",label,4,"ART,LOC,ORG",ART,l’ouverture des états Genéraux à Versailles,ART,l’ouverture des états Genéraux à Versailles,ART,ouverture des états Genéraux à Versailles,ORG,des états Genéraux
+Ms. II 70/1/200,612,630,ien peint. M. Whentz a exposé une scène d’italie qui pour son auteur laisse be,label,4,"ART,ART_NOM,LOC",ART_NOM,une scène d’italie,ART_NOM,une scène d’italie,ART_NOM,scène d’italie,ART,scène d’italie
+Ms. II 70/1/200,640,650,é une scène d’italie qui pour son auteur laisse beaucoup à desirer. M,missing,1,PER_NOM,—,,—,,PER_NOM,son auteur,—,
+Ms. II 70/1/200,935,963,"sez travaillez ici, et a fait le portrait d’un journaliste et un petit tableau ceci je l",label,4,"ART,ART_NOM",ART_NOM,le portrait d’un journaliste,ART_NOM,le portrait d’un journaliste,ART,portrait d’un journaliste,ART_NOM,le portrait d’un journaliste
+Ms. II 70/1/200,967,988,portrait d’un journaliste et un petit tableau ceci je le suit de très bonne sour,span,4,ART_NOM,ART_NOM,un petit tableau,ART_NOM,un petit tableau ceci,ART_NOM,petit tableau,ART_NOM,un petit tableau
+Ms. II 70/1/200,1046,1053,"urce, toujours de l’intrigue. Le Jury a été d’une vérité atroce, et",label,4,"ORG,PER_NOM",ORG,Le Jury,PER_NOM,Le Jury,ORG,Jury,ORG,Le Jury
+Ms. II 70/1/200,1297,1322,brouvons d’insolences contre les membres de l’institut.  Van Eycken n’est pas trop b,label,4,"ORG,PER_NOM",ORG,l’institut,PER_NOM,les membres de l’institut,PER_NOM,membres de l’institut,ORG,l’institut
+Ms. II 70/1/200,1408,1419,dans un faux jour. cependant son tableau est bien et Généralement ou e,label,4,"ART,ART_NOM",ART_NOM,son tableau,ART_NOM,son tableau,ART,tableau,ART_NOM,son tableau
+Ms. II 70/1/200,1507,1519,Moi je n’ai pas à me plaindre mon portrait est assez bien moi et pourrai,label,4,"ART,ART_NOM",ART_NOM,mon portrait,ART_NOM,mon portrait,ART,mon portrait,ART_NOM,mon portrait
+Ms. II 70/1/200,1712,1741,us viendrai en personne juger l'exposition à la fin d’avril  dans cet espoir je suis votr,span,4,EVT,EVT,l'exposition à la fin d’avril,EVT,l'exposition,EVT,exposition à la fin d’avril,EVT,l'exposition
+Ms. II 70/1/200,1767,1785,vril  dans cet espoir je suis votre dévoué Eleve et vous embrasse de coeur.  A,missing,2,PER_NOM,—,,PER_NOM,votre dévoué Eleve,PER_NOM,votre dévoué Eleve,—,
+Ms. II 70/1/200,1830,1840,se de coeur.  Albert Roberti  Ma famille vous faits ses amitiés et nou,missing,2,PER_NOM,—,,—,,PER_NOM,Ma famille,PER_NOM,Ma famille
+Ms. II 70/1/200,1916,1921,eux pour votre bonheur et que Dieu vous conserve la santé ainsi q,missing,1,PER,—,,—,,PER,Dieu ,—,
+Ms. II 70/1/200,1954,1973,s conserve la santé ainsi que votre chère famille.,missing,2,PER_NOM,—,,—,,PER_NOM,votre chère famille,PER_NOM,votre chère famille
+Ms. II 70/2/100,0,6,Paris 14 janvier 1838 Mon cher Navez,span,4,LOC,LOC,Paris,LOC,Paris,LOC,Paris ,LOC,Paris
+Ms. II 70/2/100,22,36,Paris 14 janvier 1838 Mon cher Navez vous m'aurez accusé je pense,span,4,PER,PER,Mon cher Navez,PER,Mon cher Navez,PER,Navez,PER,Navez
+Ms. II 70/2/100,230,279,votre lettre m'attendait que le jour de la fête du bienheureux saint Silvestre et comme vous me paraissiez t,span,4,EVT,EVT,le jour de la fête du bienheureux saint Silvestre,EVT,la fête du bienheureux saint Silvestre,EVT,fête du bienheureux saint Silvestre,EVT, la fête du bienheureux saint Silvestre
+Ms. II 70/2/100,483,493,de vous écrire j'ai été voir vos élevés tout au commencement de l'ann,missing,1,PER_NOM,—,,—,,PER_NOM,vos élevés,—,
+Ms. II 70/2/100,562,577,avoir s'ils n'attendaient pas quelque tableau de vous pour l'exposition et,span+missing,2,ART_NOM,—,,ART_NOM,tableau,—,,ART_NOM,quelque tableau
+Ms. II 70/2/100,591,603,quelque tableau de vous pour l'exposition et en même temps pour leur di,span+missing,3,EVT,EVT,l'exposition,EVT,l'exposition,EVT,exposition,—,
+Ms. II 70/2/100,1127,1136,e nous il ne faut pas tant de cérémonie vous avez su sans doute que n,missing,1,EVT,—,,—,,EVT,cérémonie,—,
+Ms. II 70/2/100,1189,1205,e que nous avions perdu un de nos ancient amis ce pauvre Dupré a succombé à,missing,1,PER_NOM,—,,—,,—,,PER_NOM,nos ancient amis
+Ms. II 70/2/100,1548,1566,lanterie en est cause c'était un fort bon garçon rempli d'honneur et de délica,span+missing,2,PER_NOM,—,,PER_NOM,un fort bon garçon,PER_NOM,fort bon garçon,—,
+Ms. II 70/2/100,1864,1888,utre je vois avec plaisir que tous les petits tableaux qui vous enneraient sont term,span,4,ART_NOM,ART_NOM,les petits tableaux,ART_NOM,tous les petits tableaux,ART_NOM,petits tableaux,ART_NOM,tous les petits tableaux
+Ms. II 70/2/100,2111,2126,pulation et qui plus est tout le chef veuille bien employer une partie de s,span+missing,3,PER_NOM,PER_NOM,le chef veuille,PER_NOM,le chef,PER_NOM,chef veuille,—,
+Ms. II 70/2/100,2213,2221,les futilités pard- onnez moi mon cher cette expression vous savez q,missing,2,PER_NOM,PER_NOM,mon cher,PER_NOM,mon cher,—,,—,
+Ms. II 70/2/100,2549,2567,tilités vous ne valent pas le plus petit caporal celui-ci au moins est comme m,missing,1,PER_NOM,—,,—,,PER_NOM,plus petit caporal,—,
+Ms. II 70/2/100,2596,2622,l celui-ci au moins est comme membre de la force brutale un être précieux dont ils che,missing,1,PER_NOM,—,,—,,PER_NOM,membre de la force brutale,—,
+Ms. II 70/2/100,2971,2983,mmédia- ment ce desir il fait deux figures que peut être il mettra à l’e,missing,2,ART_NOM,—,,—,,ART_NOM,deux figures,ART_NOM,deux figures
+Ms. II 70/2/100,3010,3022,res que peut être il mettra à l’exposition il n’a plus que son grand tab,span,4,EVT,EVT,exposition,EVT,l’exposition,EVT,exposition,EVT,exposition
+Ms. II 70/2/100,3039,3074,l’exposition il n’a plus que son grand table- au de la Madelaine mais le froid excessif l'empe,label,4,"ART,ART_NOM",ART_NOM,son grand table- au de la Madelaine,ART_NOM,son grand table- au de la Madelaine,ART,grand table- au de la Madelaine,ART_NOM,son grand table- au de la Madelaine
+Ms. II 70/2/100,3176,3186,siné toutes les figures quand ce tableau sera terminé je ne vois pas t,span+missing,3,ART_NOM,ART_NOM,ce tableau,ART_NOM,ce tableau,ART_NOM,tableau,—,
+Ms. II 70/2/100,3272,3295,'a plus rien de commandé mais un membre de linstitut ne restera pas sans ouvrage cr,label,4,"ORG,PER_NOM",ORG,linstitut,PER_NOM,un membre de linstitut,PER_NOM,membre de linstitut,PER_NOM,un membre de linstitut 
+Ms. II 70/2/100,3315,3322,linstitut ne restera pas sans ouvrage croisiez-vous que maintenant,label+missing,3,"ART,ART_NOM",ART_NOM,ouvrage,—,,ART_NOM,ouvrage,ART_NOM,ouvrage
+Ms. II 70/2/100,3582,3616,eille pas ce serait d'épouser une jeune personne de dix huit ans et c'est cependant ce qu'il d,span+missing,3,PER_NOM,PER_NOM,une jeune personne de dix huit ans,—,,PER_NOM,jeune personne de dix huit ans,PER_NOM,une jeune personne de dix huit ans
+Ms. II 70/2/100,3740,3749,venue précisément au sujet de votre ami Mr. le Barbier qui a fait cet,missing,1,PER_NOM,—,,PER_NOM,votre ami,—,,—,
+Ms. II 70/2/100,3750,3764,isément au sujet de votre ami Mr. le Barbier qui a fait cette folie en épo,label,4,"PER,PER_NOM",PER,Mr. le Barbier,PER,Mr. le Barbier,PER_NOM,Mr. le Barbier,PER,Mr. le Barbier
+Ms. II 70/2/100,3968,3977,tion que j’emploie ce mot car cet homme ma toujours fait l'effet d’un,missing,3,PER_NOM,PER_NOM,cet homme,PER_NOM,cet homme,PER_NOM,cet homme,—,
+Ms. II 70/2/100,4017,4028,rs fait l'effet d’un viderant jeune homme et grace à sa consommation de,missing,2,PER_NOM,PER_NOM,jeune homme,—,,PER_NOM,jeune homme,—,
+Ms. II 70/2/100,4124,4131,ermet le nombre de ses années Poisson a été fort sensible à votre s,label,4,"ART_NOM,PER",PER,Poisson,PER,Poisson,ART_NOM,Poisson,PER,Poisson
+Ms. II 70/2/100,4181,4194,à votre souvenir il fait pour l’exposition quelques portraits je crois q,span+missing,3,EVT,EVT,l’exposition,EVT,l’exposition,—,,EVT, l’exposition
+Ms. II 70/2/100,4285,4316,est ont bien malheureux quand un artiste a cinquante deux ans est encore forée de faire com,span+missing,3,PER_NOM,PER_NOM,un artiste,—,,PER_NOM,artiste,PER_NOM,un artiste a cinquante deux ans
+Ms. II 70/2/100,4349,4366,t encore forée de faire comme un jeune débutant dans la carrière des portrait,missing,1,PER_NOM,PER_NOM,un jeune débutant,—,,—,,—,
+Ms. II 70/2/100,4446,4473,ttirer des prand[?] il a fait un portrait pour Versailles ou là trouve assez bien pour,label,4,"ART,ART_NOM,EVT,LOC",ART_NOM,un portrait,ART_NOM,un portrait pour Versailles,ART,portrait,ART_NOM,un portrait pour Versailles
+Ms. II 70/2/100,4534,4552,ui en donner un autre a faire ces deux commandes l'on a peu près remis à flot,missing,1,ART_NOM,—,,—,,ART_NOM,ces deux commandes,—,
+Ms. II 70/2/100,4637,4643,orcé de vivre au jour le jour Sauvé vous remercie de vos aimables,span+missing,2,PER,—,,—,,PER,Sauvé ,PER,Sauvé
+Ms. II 70/2/100,4722,4736,"s les rend au centuple adieu, mon cher Navez agréez je vous prie les compl",label,4,"PER,PER_NOM",PER,mon cher Navez,PER,Navez,PER_NOM,Navez,PER,Navez
+Ms. II 70/2/100,4842,4873,croyez a la sincère amitié de votre vieux compagnon de voyage tout a vous de coeur. Beauvoi,missing,3,PER_NOM,PER_NOM,votre vieux compagnon de voyage,—,,PER_NOM,votre vieux compagnon de voyage,PER_NOM,votre vieux compagnon de voyage
+Ms. II 70/2/100,4896,4904,voyage tout a vous de coeur. Beauvoir Aurèle Robert est parti pour,missing,3,PER,—,,PER,Beauvoir,PER,Beauvoir,PER,Beauvoir
+Ms. II 70/2/100,4905,4918,out a vous de coeur. Beauvoir Aurèle Robert est parti pour Venise puisse,label,4,"PER,PER_NOM",PER,Aurèle Robert,PER,Aurèle Robert,PER_NOM,Aurèle Robert,PER,Aurèle Robert
+Ms. II 70/2/106,79,85,ncore une nouvelle absence de Paris avant de m'y installer de ma p,span,4,LOC,LOC,Paris,LOC,Paris,LOC,Paris ,LOC,Paris
+Ms. II 70/2/106,272,287,'affection que j'ai pour vous mon cher Navez je le fais avec d'autant plus,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/106,680,696,que vous ne viendrez pas voir notre exposition; l'année prochaine il me remb,missing,3,EVT,EVT,notre exposition,EVT,notre exposition,EVT,notre exposition,—,
+Ms. II 70/2/106,1095,1103,elle mère qui est encore à la campagne ma femme est si souffrante qu,missing,1,LOC,—,,—,,LOC,campagne,—,
+Ms. II 70/2/106,1187,1202,"e à la laisser seule ici avec ses deux enfans, rien nʼest timide comme les",span,4,PER_NOM,PER_NOM,ses deux enfans,PER_NOM,ses deux enfans,PER_NOM,deux enfans,PER_NOM,ses deux enfans
+Ms. II 70/2/106,1721,1725,llait que je me rendisse pour Noël en Champagne c'est le moment,missing,3,EVT,EVT,Noël,—,,EVT,Noël,EVT,Noël
+Ms. II 70/2/106,1729,1739,e je me rendisse pour Noël en Champagne c'est le moment d'y faire une,span+missing,3,LOC,LOC,Champagne,—,,LOC,Champagne ,LOC,Champagne
+Ms. II 70/2/106,1957,1968,er à s'occuper de l'éducation les maîtres pleuvent alors et c'est une p,missing,1,PER_NOM,PER_NOM,les maîtres,—,,—,,—,
+Ms. II 70/2/106,2186,2193,ou nous étions gourmandé par ces Mrs et surtout aux bourasques de,missing,2,PER_NOM,PER_NOM,ces Mrs,—,,—,,PER_NOM,ces Mrs
+Ms. II 70/2/106,2676,2681,re jamais vu Rome à propos de Rome dites moi si vous recevez quel,span,4,LOC,LOC,Rome,LOC,Rome,LOC,Rome ,LOC,Rome
+Ms. II 70/2/106,2898,2914,g des visites à son frère ils Mr. Schnetz aine et sa femme ont fait un voyag,span,4,PER,PER,Mr. Schnetz,PER,Mr. Schnetz,PER,Schnetz aine,PER,Mr. Schnetz
+Ms. II 70/2/106,2918,2926,frère ils Mr. Schnetz aine et sa femme ont fait un voyage de près de,missing,3,PER_NOM,—,,PER_NOM,sa femme,PER_NOM,sa femme,PER_NOM,sa femme
+Ms. II 70/2/106,3017,3028,vous dire qu'ils ont logé chez leur frère il paraît que ce grand garcon,span,4,PER_NOM,PER_NOM,leur frère,PER_NOM,leur frère,PER_NOM,leur frère,PER_NOM, leur frère
+Ms. II 70/2/106,3043,3058,chez leur frère il paraît que ce grand garcon là ne fait que flanêr cette m,missing,2,PER_NOM,PER_NOM,ce grand garcon,—,,PER_NOM,ce grand garcon,—,
+Ms. II 70/2/106,3253,3276,iente il a simplement terminé un portrait de sénateur il a bien un grand tableau de,label,4,"ART,ART_NOM",ART_NOM,portrait de sénateur,ART_NOM,un portrait de sénateur,ART,portrait de sénateur,ART_NOM,un portrait de sénateur
+Ms. II 70/2/106,3287,3303,ortrait de sénateur il a bien un grand tableau de commandé mais il ne pense,span+missing,3,ART_NOM,ART_NOM,un grand tableau,ART_NOM,un grand tableau,ART_NOM,grand tableau,—,
+Ms. II 70/2/106,3420,3435,eur était de se prélasser das la rue du cours la dans sa caratel il se donn,span,4,LOC,LOC,rue du cours,LOC,la rue du cours,LOC,rue du cours,LOC,rue du cours
+Ms. II 70/2/106,3577,3590,de costume qui ferait honte à l'ambassadeur le plus coquet il parai- trai,span+missing,3,PER_NOM,—,,PER_NOM,l'ambassadeur,PER_NOM,ambassadeur,PER_NOM,l'ambassadeur
+Ms. II 70/2/106,3758,3766,ulière auriez vous jamais cru mon cher que cet homme de jugement et,missing,3,PER_NOM,PER_NOM,mon cher,—,,PER_NOM,mon cher,PER_NOM,mon cher
+Ms. II 70/2/106,3771,3792,vous jamais cru mon cher que cet homme de jugement et d'un talent supérieur fini,span+missing,2,PER_NOM,PER_NOM,cet homme de jugement,—,,PER_NOM,cet homme,—,
+Ms. II 70/2/106,3990,4000,and il aura fini son temps de directorat Mr le Roi détrôné redeviendra,missing,1,ORG,ORG,directorat,—,,—,,—,
+Ms. II 70/2/106,4001,4010,fini son temps de directorat Mr le Roi détrôné redeviendra gros Jean,label,4,"PER,PER_NOM",PER,Mr le Roi,PER_NOM,Mr le Roi,PER_NOM,Mr le Roi,PER,Mr le Roi
+Ms. II 70/2/106,4036,4040,Roi détrôné redeviendra gros Jean comme ci devant convenons que,missing,2,PER,PER,Jean,PER,Jean,—,,—,
+Ms. II 70/2/106,4191,4210,hochet[?] a changé voila tout votre grand tableau a-t-il été fini pour votre ex,span,4,ART_NOM,ART_NOM,grand tableau,ART_NOM,votre grand tableau,ART_NOM,grand tableau,ART_NOM,votre grand tableau
+Ms. II 70/2/106,4232,4261,tableau a-t-il été fini pour votre exposition de septembre trente figures à faire mais c,span,4,EVT,EVT,exposition de septembre,EVT,votre exposition de septembre,EVT,votre exposition de septembre,EVT,exposition de septembre
+Ms. II 70/2/106,4262,4276,votre exposition de septembre trente figures à faire mais c'est un ouvrage,missing,1,ART_NOM,—,,ART_NOM,trente figures,—,,—,
+Ms. II 70/2/106,4296,4306,te figures à faire mais c'est un ouvrage à la Paule Veronese dʼaprès v,label,4,"ART,ART_NOM",ART_NOM,un ouvrage,ART_NOM,un ouvrage,ART_NOM,ouvrage,ART_NOM,ouvrage
+Ms. II 70/2/106,4361,4369,rès votre position pecuniaire mon cher il ne faut plus vous tuer de,missing,3,PER_NOM,PER_NOM,mon cher,—,,PER_NOM,mon cher,PER_NOM,mon cher
+Ms. II 70/2/106,4415,4430,vous tuer de travail ellevez vos deux enfans un père judicieux est si util,span+missing,3,PER_NOM,—,,PER_NOM,deux enfans,PER_NOM,vos deux enfans,PER_NOM,vos deux enfans
+Ms. II 70/2/106,4431,4438,avail ellevez vos deux enfans un père judicieux est si utile aux vi,missing,2,PER_NOM,—,,PER_NOM,un père,PER_NOM,un père,—,
+Ms. II 70/2/106,4563,4571,quer traiez leur une carrière une père est si util dans les débuts m,missing,2,PER_NOM,—,,PER_NOM,une père,PER_NOM,une père,—,
+Ms. II 70/2/106,4746,4755,es personnes on leur donne de l’ouvrage pour toute la semaine et un m,missing,3,ART_NOM,ART_NOM,l’ouvrage,ART_NOM,l’ouvrage,—,,ART_NOM,l’ouvrage
+Ms. II 70/2/106,4781,4790,rage pour toute la semaine et un maître vient 3 frois entre chaque co,label+missing,2,"ART_NOM,PER_NOM",—,,ART_NOM,un maître,—,,PER_NOM,un maître
+Ms. II 70/2/106,4947,4955,tout en travaillant chez soi. Poisson se porte bien il vous fait mil,span+missing,3,PER,—,,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/106,5003,5021,"ous fait mille amitiés adieu, mon cher présentez, je vous prie mes hommages à",span+missing,2,PER_NOM,PER_NOM,mon cher présentez,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/106,5127,5135,ère comme je crois à la vôtre mon cher. Beauvoir,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/107,62,77,parait bien prouvé maintenant mon cher Navez que nous n’aurons pas le plais,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/107,642,662,m’est toujours si agréable. A l'ouverture du Salon l'on débuta par vier au mirac,span,4,EVT,EVT,l'ouverture du Salon,EVT,l'ouverture du Salon,EVT,ouverture du Salon,EVT,l'ouverture du Salon
+Ms. II 70/2/107,699,720,ébuta par vier au miracle sur le tableau de Papety le sujet me paraît mal choisi,label,4,"ART_NOM,LOC,PER",ART_NOM,le tableau de Papety,ART_NOM,le tableau de Papety,ART_NOM,tableau de Papety,ART_NOM,le tableau de Papety
+Ms. II 70/2/107,750,769,"le sujet me paraît mal choisi un rêve de, bonheur le rague de cette idée ne dit",missing,2,ART_NOM,—,,ART_NOM,"un rêve de, bonheur",ART_NOM,"un rêve de, bonheur",—,
+Ms. II 70/2/107,1193,1202,x serpentant sur le ventre de ces dames les chairs s'emblent avoir ét,missing,1,PER_NOM,PER_NOM,ces dames,—,,—,,—,
+Ms. II 70/2/107,1438,1446,r. Papety n'a point de talent Schnetz la eu sous sa direction  le me,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/107,1505,1544,eilleur me parêt sa réception des tableaux de Mr Granet Jacques Molay dans l’ordre des templiers qu,label,4,"ART_NOM,PER",ART_NOM,des tableaux de Mr Granet,ART_NOM,des tableaux de Mr Granet Jacques Molay,PER,Mr Granet,ART_NOM,des tableaux de Mr Granet Jacques Molay
+Ms. II 70/2/107,1748,1771,es valent mieux que celles de la mere abbesse à Rome ou du baptême du Duc de Chartr,label,4,"ART_NOM,LOC",ART_NOM,la mere abbesse,ART_NOM,la mere abbesse à Rome,ART_NOM,mere abbesse à Rome,LOC,Rome
+Ms. II 70/2/107,1774,1803,de la mere abbesse à Rome ou du baptême du Duc de Chartres dans ces deux tableaux elles,label,4,"ART_NOM,PER_NOM",ART_NOM,du baptême du Duc de Chartres,ART_NOM,baptême du Duc de Chartres,ART_NOM,baptême du Duc de Chartres,PER_NOM,Duc de Chartres
+Ms. II 70/2/107,1809,1826,ptême du Duc de Chartres dans ces deux tableaux elles sont par trop pitoyable,label+missing,3,"ART_NOM,PER_NOM",ART_NOM,ces deux tableaux,—,,PER_NOM,ces deux tableaux,ART_NOM,ces deux tableaux
+Ms. II 70/2/107,1963,1974,un bon effet il me semble que cet artiste naurait jamais du quitter l'I,missing,3,PER_NOM,PER_NOM,cet artiste,PER_NOM,cet artiste,PER_NOM,cet artiste,—,
+Ms. II 70/2/107,2001,2009,ste naurait jamais du quitter l'Italie où il eut difficilement trouv,label,4,"ART_NOM,LOC",LOC,l'Italie,LOC,l'Italie,ART_NOM,Italie,LOC,l'Italie
+Ms. II 70/2/107,2041,2049,ù il eut difficilement trouvé un rival pour en rendre les intérieurs,missing,1,PER_NOM,PER_NOM,un rival,—,,—,,—,
+Ms. II 70/2/107,2146,2158,aque pas vous souvient-il des ses capucins croyez-vous que Mr. Granet ai,label+missing,2,"ART_NOM,PER_NOM",PER_NOM,ses capucins,—,,ART_NOM,ses capucins,—,
+Ms. II 70/2/107,2222,2232,mais fait rien de supérieur à ce tableau je crois que cet artiste comm,missing,2,ART_NOM,ART_NOM,ce tableau,—,,—,,ART_NOM,ce tableau
+Ms. II 70/2/107,2246,2257,eur à ce tableau je crois que cet artiste commence furieusement à se la,missing,2,PER_NOM,PER_NOM,cet artiste,—,,PER_NOM,cet artiste,—,
+Ms. II 70/2/107,2326,2337,a quelques années encore que ses figures quoique modelées à facette co,missing,1,ART_NOM,—,,—,,ART_NOM,ses figures,—,
+Ms. II 70/2/107,2866,2894,u moins circuler à chaque pas dans les rues de cette ville des êtres semblables mais ici,missing,1,LOC,LOC,dans les rues de cette ville,—,,—,,—,
+Ms. II 70/2/107,3193,3212,un peintre d'un grand mérite ses petites toiles ou des figures en pied plus tê,span+missing,2,ART_NOM,—,,ART_NOM,ses petites toiles ,ART_NOM,ses petites toiles,—,
+Ms. II 70/2/107,3215,3234,mérite ses petites toiles ou des figures en pied plus têtes plus petites que d,span+missing,2,ART_NOM,—,,ART_NOM,des figures,ART_NOM,figures en pied,—,
+Ms. II 70/2/107,3267,3277,us têtes plus petites que des minatures bien dessinées et remplies mêm,missing,1,ART_NOM,—,,—,,ART_NOM,minatures ,—,
+Ms. II 70/2/107,3328,3347,plies même d'expres- sion lon intérieur d'atelier est d’un effet charmant je cr,missing,1,ART_NOM,—,,—,,ART_NOM,intérieur d'atelier,—,
+Ms. II 70/2/107,3385,3397,n effet charmant je crois que vos flamands ne valent guere mieux. l'inté,label+missing,3,"ART_NOM,LOC,PER_NOM",PER_NOM,vos flamands,—,,LOC,flamands,ART_NOM,vos flamands
+Ms. II 70/2/107,3421,3458,"amands ne valent guere mieux. l'intérieur d'un bois par le koekkoek[?], cet paysage est admirable",label+missing,3,"ART,ART_NOM,PER",ART,l'intérieur d'un bois par le koekkoek,ART_NOM,l'intérieur d'un bois par le koekkoek,ART_NOM,intérieur d'un bois ,—,
+Ms. II 70/2/107,3463,3474,"d'un bois par le koekkoek[?], cet paysage est admirable et je crois que",missing,2,ART_NOM,ART_NOM,cet paysage,—,,ART_NOM,cet paysage,—,
+Ms. II 70/2/107,3591,3601,une fraicheur étonnante dans ce tableau les plantes des premi- iers p,missing,3,ART_NOM,ART_NOM,ce tableau,—,,ART_NOM,ce tableau,ART_NOM,ce tableau
+Ms. II 70/2/107,3758,3773,s ne nuisent point à lʼeffet. général Hostein a peint les ruines de Chabril,span,4,PER,PER,général Hostein,PER,général Hostein,PER,Hostein,PER,général Hostein
+Ms. II 70/2/107,3782,3806,ffet. général Hostein a peint les ruines de Chabrillan ce paysage beaucoup plus gran,label,4,"ART,ART_NOM,LOC",ART,les ruines de Chabrillan,ART,les ruines de Chabrillan,ART_NOM,les ruines de Chabrillan,LOC,Chabrillan
+Ms. II 70/2/107,3807,3817,eint les ruines de Chabrillan ce paysage beaucoup plus grand que lʼaut,missing,2,ART_NOM,ART_NOM,ce paysage,—,,ART_NOM,ce paysage,—,
+Ms. II 70/2/107,3989,4013,couleurs et de ne point faire une peinture rocailleuse cʼest ce que je nomme de la p,missing,1,ART_NOM,—,,—,,ART_NOM,une peinture rocailleuse,—,
+Ms. II 70/2/107,4039,4061,euse cʼest ce que je nomme de la peinture bas-relief vous saurez que Poisson et mo,label+missing,3,"ART,ART_NOM",ART_NOM,peinture bas-relief,ART_NOM,la peinture bas-relief,ART,peinture bas-relief,—,
+Ms. II 70/2/107,4078,4085,re bas-relief vous saurez que Poisson et moi nous ne sommes pas du,label,4,"PER,PER_NOM",PER,Poisson,PER,Poisson,PER_NOM,Poisson,PER,Poisson
+Ms. II 70/2/107,4142,4159,du même avis sur le mérite de ces deux artistes lui est partisant du dernier,label+missing,3,"ART_NOM,PER_NOM",PER_NOM,ces deux artistes,PER_NOM,ces deux artistes,ART_NOM,ces deux artistes,—,
+Ms. II 70/2/107,4181,4189,artistes lui est partisant du dernier et moi du premier il y a quelq,missing,1,ART_NOM,—,,—,,ART_NOM,dernier ,—,
+Ms. II 70/2/107,4199,4207,artisant du dernier et moi du premier il y a quelque une[?]- lité à,missing,1,ART_NOM,—,,—,,ART_NOM,premier ,—,
+Ms. II 70/2/107,4265,4273,à cet aveu que vous ensemble? Poisson a un portrait grandeur naturel,span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/107,4274,4317,"u que vous ensemble? Poisson a un portrait grandeur naturelle et mi-corps, c'est un homme qui joue de l",span,4,ART_NOM,ART_NOM,un portrait,ART_NOM,un portrait,ART_NOM,portrait grandeur naturelle et mi-corps,ART_NOM, un portrait
+Ms. II 70/2/107,4325,4379,"naturelle et mi-corps, c'est un homme qui joue de la passe pisiccate son instrument est comme bien vous pensez en",label+missing,2,"ART,PER_NOM",PER_NOM,un homme,—,,ART,homme qui joue de la passe pisiccate son instrument,—,
+Ms. II 70/2/107,4566,4581,isses ce portant ne peut être un chef d’œuvre cet excellent ami n’est point,span+missing,2,ART_NOM,ART_NOM,un chef d’œuvre,—,,ART_NOM,chef d’œuvre,—,
+Ms. II 70/2/107,4582,4599,ne peut être un chef d’œuvre cet excellent ami n’est point du bois qui produ,missing,1,PER_NOM,—,,—,,PER_NOM,cet excellent ami,—,
+Ms. II 70/2/107,4664,4681,"fruit, mais néanmoins il y a la mille portrait qui sont loin de valoir le jo",label+missing,3,"ART,ART_NOM",ART_NOM,la mille portrait,ART_NOM,la mille portrait,ART,la mille portrait,—,
+Ms. II 70/2/107,4725,4737,de valoir le joueur de basse Léon Cogniet est cette année le roi de l'e,label,4,"PER,PER_NOM",PER,Léon Cogniet,PER,Léon Cogniet,PER_NOM,Léon Cogniet,PER,Léon Cogniet
+Ms. II 70/2/107,4754,4776,Léon Cogniet est cette année le roi de l'exposition ce qu'il a demieux est sans c,label+missing,3,"EVT,PER,PER_NOM",EVT,l'exposition,PER_NOM,le roi de l'exposition,PER,le roi de l'exposition,—,
+Ms. II 70/2/107,4815,4827,a demieux est sans contredit le Tintoret ce père infortune est occupé a,label,4,"ART_NOM,PER",ART_NOM,le Tintoret,PER,Tintoret,PER,Tintoret ,PER,Tintoret
+Ms. II 70/2/107,4827,4834,st sans contredit le Tintoret ce père infortune est occupé a faire,missing,3,PER_NOM,PER_NOM,ce père,PER_NOM,ce père,PER_NOM,ce père,—,
+Ms. II 70/2/107,4835,4844,contredit le Tintoret ce père infortune est occupé a faire le portrai,missing,1,PER_NOM,—,,—,,PER_NOM,infortune,—,
+Ms. II 70/2/107,4863,4893,e infortune est occupé a faire le portrait de sa fille morte la tête de ce grand artiste e,label,4,"ART_NOM,PER_NOM",ART_NOM,le portrait,ART_NOM,le portrait de sa fille morte,PER_NOM,sa fille,ART_NOM, le portrait de sa fille morte
+Ms. II 70/2/107,4905,4921,de sa fille morte la tête de ce grand artiste est remplie d’une noble et im,label+missing,2,"ART_NOM,PER_NOM",PER_NOM,ce grand artiste,—,,ART_NOM,ce grand artiste,—,
+Ms. II 70/2/107,4992,5004,ur devant le corps inanimé de cette Marie qu'il a tant aimée il a aussi,label,4,"PER,PER_NOM",PER_NOM,cette Marie,PER,Marie,PER,Marie ,PER,Marie
+Ms. II 70/2/107,5038,5073,l a tant aimée il a aussi une tête d'étude d'après un jeune arabe elle est fort belle ainsi qu',label+missing,2,"ART_NOM,PER_NOM",PER_NOM,un jeune arabe,—,,ART_NOM,tête d'étude d'après un jeune arabe,—,
+Ms. II 70/2/107,5103,5122,elle est fort belle ainsi qu'un portrait d'homme que je crois fort supérieur à,span+missing,3,ART_NOM,ART_NOM,un portrait d'homme,ART_NOM,un portrait d'homme,ART_NOM,portrait d'homme,—,
+Ms. II 70/2/107,5153,5163,que je crois fort supérieur à un en pied de Drolingue cette toile port,missing,1,ART_NOM,—,,—,,ART_NOM,un en pied,—,
+Ms. II 70/2/107,5167,5177,ort supérieur à un en pied de Drolingue cette toile porte deux figures,span+missing,2,PER,PER,Drolingue,—,,PER,Drolingue ,—,
+Ms. II 70/2/107,5323,5342,rt bien rendue en somme c'est un fort bon ouvrage de tous les tableaux de Blond,missing,1,ART_NOM,ART_NOM,un fort bon ouvrage,—,,—,,—,
+Ms. II 70/2/107,5346,5374,c'est un fort bon ouvrage de tous les tableaux de Blondel je n'ai trouvé de bien mais d,label,4,"ART_NOM,PER",ART_NOM,tous les tableaux de Blondel,PER,Blondel,PER,tous les tableaux de Blondel,PER,Blondel
+Ms. II 70/2/107,5420,5446,de bien mais de très bien que son portrait de Mr. Gisors Architecte mais il est fort b,label,4,"ART,ART_NOM,PER",PER,Mr. Gisors,PER,Mr. Gisors,ART_NOM,son portrait de Mr. Gisors,ART,portrait de Mr. Gisors
+Ms. II 70/2/107,5481,5490,itecte mais il est fort bien. La Dubufe ce peintre à la mode jadis po,label+missing,3,"ART_NOM,PER",ART_NOM,La Dubufe,PER,Dubufe,PER,La Dubufe,—,
+Ms. II 70/2/107,5491,5501,s il est fort bien. La Dubufe ce peintre à la mode jadis pour les port,missing,2,PER_NOM,PER_NOM,ce peintre,PER_NOM,ce peintre,—,,—,
+Ms. II 70/2/107,5523,5535,peintre à la mode jadis pour les portrait commence à baisser considérab,span+missing,2,ART_NOM,ART_NOM,les portrait,—,,ART_NOM,les portrai,—,
+Ms. II 70/2/107,5705,5737,en raison  directe de son âge les Duval le Camus père et fils produisent des tableaux vous c,label,4,"PER,PER_NOM",PER,les Duval le Camus,PER,Duval,PER,Duval le Camus père,PER,Duval le Camus
+Ms. II 70/2/107,5748,5760,Camus père et fils produisent des tableaux vous connaissez le talent du,span+missing,3,ART_NOM,ART_NOM,des tableaux,ART_NOM,des tableaux,ART_NOM,tableaux,—,
+Ms. II 70/2/107,5790,5795,vous connaissez le talent du père il ne fait ni mieux ni plus ma,missing,1,PER_NOM,—,,—,,PER_NOM,père ,—,
+Ms. II 70/2/107,5849,5854,lus mal qu'autrefois quand àu fils il vise a être peintre d'histo,missing,1,PER_NOM,—,,—,,PER_NOM,fils ,—,
+Ms. II 70/2/107,5996,6031,rquable. Horace Vernet a fait un petit tableau sujet de la Génèse ce tableau est coquet et les,label,4,"ART,ART_NOM",ART_NOM,un petit tableau sujet de la Génèse,ART_NOM,un petit tableau sujet de la Génèse,ART,petit tableau sujet de la Génèse,ART,tableau sujet de la Génèse
+Ms. II 70/2/107,6032,6042,it tableau sujet de la Génèse ce tableau est coquet et les figure sont,missing,3,ART_NOM,ART_NOM,ce tableau,ART_NOM,ce tableau,ART_NOM,ce tableau,—,
+Ms. II 70/2/107,6094,6108,ure sont pleines de lubricité Juda et Thamar ont des figures qui ne renden,label+missing,3,"ART,PER_NOM",PER_NOM,Juda,ART,Juda,—,,ART,Juda et Thama
+Ms. II 70/2/107,6218,6225,qui est parfaite- ment rendu Horace est le seul de tous les peintr,span,4,PER,PER,Horace,PER,Horace,PER,Horace ,PER,Horace
+Ms. II 70/2/107,6307,6314,ion qui ait a peu près exposé ces Mrs. ont tort il me semble de fai,missing,2,PER_NOM,PER_NOM,ces Mrs,—,,—,,PER_NOM,ces Mrs
+Ms. II 70/2/107,6361,6375,semble de faire fi du public? les sculpteurs eux toujours plus imitateur d,missing,1,PER_NOM,PER_NOM,les sculpteurs,—,,—,,—,
+Ms. II 70/2/107,6669,6676,que les formes a exprimer et pradiez [?] fait une fort belle Cassa,missing,1,ART_NOM,—,,—,,ART_NOM,pradiez,—,
+Ms. II 70/2/107,6686,6717,"exprimer et pradiez [?] fait une fort belle Cassandre violéé, la souplesse des chair nous",label,4,"ART,ART_NOM",ART_NOM,une fort belle Cassandre,ART,Cassandre,ART_NOM,fort belle Cassandre violéé,ART,belle Cassandre violéé
+Ms. II 70/2/107,7421,7429,santé la mieux établie. adieu mon cher présentez je vous prie mes ho,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/107,7467,7479,ez je vous prie mes hommages à votre femme dont j'espère que la santé es,span,4,PER_NOM,PER_NOM,votre femme,PER_NOM,votre femme,PER_NOM,votre femme,PER_NOM, votre femme
+Ms. II 70/2/107,7562,7571,apportable puisque ainsi que la mienne elle est fort mal partagée de,missing,1,PER_NOM,PER_NOM,la mienne,—,,—,,—,
+Ms. II 70/2/107,7619,7634,partagée de ce côté j'espère queros enfants se portent aussi bien que les,span+missing,3,PER_NOM,PER_NOM,queros enfants,—,,PER_NOM,ros enfants ,PER_NOM,enfants
+Ms. II 70/2/107,7660,7669,nts se portent aussi bien que les miens tout à vous de cœur votre ami,missing,1,PER_NOM,PER_NOM,les miens,—,,—,,—,
+Ms. II 70/2/107,7690,7708,les miens tout à vous de cœur votre ami Beauvoir. Vous souvientil qu’il y a au,span,4,PER,PER,votre ami Beauvoir,PER,Beauvoir,PER,Beauvoir,PER,Beauvoir
+Ms. II 70/2/107,7962,7978,vulgaire nomme un empailleur Ce pauvre diable quoiqu’avec beaucoup le talen,missing,2,PER_NOM,PER_NOM,Ce pauvre diable,—,,PER_NOM,Ce pauvre diable,—,
+Ms. II 70/2/107,8070,8081,ains qu’il ne frise la devine cet artiste à torcheur a beaucoup travail,missing,2,PER_NOM,PER_NOM,cet artiste,PER_NOM,cet artiste,—,,—,
+Ms. II 70/2/107,8119,8153,eur a beaucoup travaillé pour une Mr de votre pays nommé Drapier que vous devez connaitre ou p,label,4,"PER,PER_NOM",PER,une Mr de votre pays nommé Drapier,PER,Drapier,PER,Drapier,PER,Drapier
+Ms. II 70/2/107,8658,8674,vous voyez que vous obligerez un pauvre diable que le talent protège à peine,missing,1,PER_NOM,PER_NOM,un pauvre diable,—,,—,,—,
+Ms. II 70/2/107,8747,8749,uvreté tout a vous de rechef. B [Beauvoir],missing,1,PER,—,,—,,PER,B ,—,
+Ms. II 70/2/107,8750,8758,eté tout a vous de rechef. B [Beauvoir],label,4,"PER,PER_NOM",PER,Beauvoir,PER,Beauvoir,PER,Beauvoir,PER,Beauvoir
+Ms. II 70/2/108,22,36,"Paris 20 février 1845 Mon cher Navez, Il faut convenir que vous êt",span,4,PER,PER,Mon cher Navez,PER,Navez,PER,Navez,PER,Navez
+Ms. II 70/2/108,184,195,aire arriver mes vœux di Buon capo d'anno avant que les vôtres me parvi,missing,1,EVT,EVT,capo d'anno,—,,—,,—,
+Ms. II 70/2/108,308,316,ruit cet espoir croiriez-vous mon cher que dans mon dépit j'ai eu l',missing,1,PER_NOM,PER_NOM,mon cher,—,,—,,—,
+Ms. II 70/2/108,911,918,ne grande satisfac- tion pour un père et surtout une grande consola,span+missing,2,PER_NOM,PER_NOM,un père,—,,PER_NOM,père,—,
+Ms. II 70/2/108,958,967,t une grande consolation pour leur mère il en est de même dans mon mé,missing,2,PER_NOM,PER_NOM,leur mère,—,,PER_NOM,leur mère,—,
+Ms. II 70/2/108,990,1001,ur mère il en est de même dans mon ménage dont trois des membres se por,missing,1,PER_NOM,—,,—,,—,,PER_NOM, mon ménage
+Ms. II 70/2/108,1299,1311,e cela elle n'a jamais eu que deux enfants et ni fausse-couche ni aucune,missing,3,PER_NOM,PER_NOM,deux enfants,PER_NOM,deux enfants,PER_NOM,deux enfants,—,
+Ms. II 70/2/108,1366,1371,ucune désordre dans sa fie de femme voila tout au plus un mois qu,missing,1,PER_NOM,—,,—,,PER_NOM,femme,—,
+Ms. II 70/2/108,1624,1637,e pas vous voir cette année à lʼexpos- tion puisque vous ne me parlez poi,missing,2,EVT,EVT,lʼexpos- tion,—,,—,,EVT,lʼexpos- tion
+Ms. II 70/2/108,1734,1751,it quʼHorace Vernet y enverra une toile immense dont le sujet est la victoire,span,4,ART_NOM,ART_NOM,une toile,ART_NOM,une toile,ART_NOM,toile,ART_NOM,une toile immense
+Ms. II 70/2/108,1773,1833,immense dont le sujet est la victoire que nos troupes ont remportées sur les Mar- oquains de quelque manière que ce suj,label+missing,2,"ART,PER_NOM",PER_NOM,les Mar- oquains,—,,ART,victoire que nos troupes ont remportées sur les Mar- oquains,—,
+Ms. II 70/2/108,1880,1890,re que ce sujet soit exem- té ce tableau ne pourra manquer dʼavoir un,missing,3,ART_NOM,ART_NOM,ce tableau,ART_NOM,ce tableau,ART_NOM,ce tableau,—,
+Ms. II 70/2/108,2036,2047,nt dʼautres points ou dit que cette toile est grande comme la fameuse s,missing,1,ART_NOM,ART_NOM,cette toile,—,,—,,—,
+Ms. II 70/2/108,2065,2100,cette toile est grande comme la fameuse scène de Paul Veronnaise quand aux autres artistes qui,label,4,"ART_NOM,PER,PER_NOM",PER,Paul Veronnaise,ART_NOM,la fameuse scène de Paul Veronnaise,PER_NOM,fameuse scène,ART_NOM,la fameuse scène
+Ms. II 70/2/108,2111,2126,de Paul Veronnaise quand aux autres artistes qui exposeront j'en sais fort,missing,1,PER_NOM,PER_NOM,autres artistes,—,,—,,—,
+Ms. II 70/2/108,2251,2259,à autre encore maintenant que sa fille à terminé son éducation il pa,missing,3,PER_NOM,PER_NOM,sa fille,PER_NOM,sa fille,PER_NOM,sa fille,—,
+Ms. II 70/2/108,2327,2341,on va la marier elle épousera un jeune homme dans le com- merce vous savez,span+missing,3,PER_NOM,PER_NOM,un jeune homme,PER_NOM,un jeune homme,PER_NOM,jeune homme,—,
+Ms. II 70/2/108,2376,2394,le com- merce vous savez que ce prave[?] garçon n'a pas une grande fortune et,missing,2,PER_NOM,PER_NOM,ce prave[?] garçon,—,,PER_NOM,ce prave[?] garçon,—,
+Ms. II 70/2/108,2626,2639,nt quand on voit Vernet faire des tableaux en jouant pour ainsi dire croi,span+missing,2,ART_NOM,ART_NOM,des tableaux,—,,ART_NOM,tableaux ,—,
+Ms. II 70/2/108,2740,2751,e prend pas la peine de faire un croquis il voit sa tête est si bien or,span+missing,3,ART_NOM,ART_NOM,un croquis,—,,ART_NOM,croquis ,ART_NOM,un croquis
+Ms. II 70/2/108,3001,3009,sur ce qu'il a fait convenez. mon cher que voila un tas d'histoires,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/108,3058,3069,'histoires sur la facilité de cet artiste d'ignes d'un garçon épicier s,missing,2,PER_NOM,PER_NOM,cet artiste,PER_NOM,cet artiste,—,,—,
+Ms. II 70/2/108,3080,3097,lité de cet artiste d'ignes d'un garçon épicier se douterait- on a leur naive,missing,2,PER_NOM,PER_NOM,un garçon épicier,PER_NOM,un garçon épicier,—,,—,
+Ms. II 70/2/108,3344,3367,tié que jʼai contractées avec quelques braves garçons qui étaient chez Mr. David en,missing,1,PER_NOM,PER_NOM,quelques braves garçons,—,,—,,—,
+Ms. II 70/2/108,3384,3394,raves garçons qui étaient chez Mr. David en même temps que moi Il para,span,4,PER,PER,Mr. David,PER,Mr. David,PER,Mr. David,PER, Mr. David
+Ms. II 70/2/108,3461,3469,je ne suis pas le seul auquel Schnetz nʼait pas répondu avec moi qui,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/108,3803,3809,autre chose et également avec Sauvé qui a été son compagnon de voy,span,4,PER,PER,Sauvé,PER,Sauvé,PER,Sauvé ,PER,Sauvé
+Ms. II 70/2/108,3819,3842,galement avec Sauvé qui a été son compagnon de voyage et qui même lui rendait souve,missing,1,ART_NOM,—,,—,,ART_NOM,son compagnon de voyage,—,
+Ms. II 70/2/108,3934,3946,Rome en lui envoyant souvent des dessins pour les tableaux qu'il voulai,span+missing,2,ART_NOM,—,,ART_NOM,des dessins,ART_NOM,dessins ,—,
+Ms. II 70/2/108,3951,3964,yant souvent des dessins pour les tableaux qu'il voulait faire j'ai lu dé,span+missing,2,ART_NOM,—,,—,,ART_NOM,tableaux ,ART_NOM,les tableaux
+Ms. II 70/2/108,4025,4033,à dans les debats je crois que Laroche serait nommé successeur de Sc,span,4,PER,PER,Laroche,PER,Laroche,PER,Laroche,PER, Laroche
+Ms. II 70/2/108,4061,4068,he serait nommé successeur de Schnetz je crois à vous dire la vérit,label,4,"PER,PER_NOM",PER,Schnetz,PER,Schnetz,PER,Schnetz,PER,Schnetz
+Ms. II 70/2/108,4157,4162,e il a été passer une année à Rome les public a pu croire que c'é,span,4,LOC,LOC,Rome,LOC,Rome,LOC,Rome ,LOC,Rome
+Ms. II 70/2/108,4263,4290,calité mais cétait pour faire son beau-père Horace Vernet avec lequel il avait eu une d,label,4,"PER,PER_NOM",PER,son beau-père Horace Vernet,PER_NOM,son beau-père,PER_NOM,son beau-père,PER,Horace Vernet
+Ms. II 70/2/108,4360,4368,es plus vive et tellement que ces Mrs. ne sachant comment sʼinjurier,missing,2,PER_NOM,PER_NOM,ces Mrs.,—,,—,,PER_NOM,ces Mrs.
+Ms. II 70/2/108,4498,4511,sés que le public trouve dans leurs oeuvres cous jugez comme ils ont été,label+missing,2,"ART_NOM,PER_NOM",ART_NOM,leurs oeuvres,—,,PER_NOM,leurs oeuvres,—,
+Ms. II 70/2/108,4608,4620,inimitié sera éternelle adieu mon cher ami présentez mes hommages à tout,missing,2,PER_NOM,PER_NOM,mon cher ami,—,,—,,PER_NOM,mon cher ami
+Ms. II 70/2/108,4781,4789,r vous durera autant que moi. Beauvoir je vous dirai que j'ai eu un,label,4,"ORG,PER",PER,Beauvoir,PER,Beauvoir,ORG,Beauvoir,PER,Beauvoir
+Ms. II 70/2/108,4841,4852,i eu un mal de pied qui a été mon ouvrage c’est à dire que j’aurais pu,label+missing,3,"ART,ART_NOM",ART_NOM,mon ouvrage,ART_NOM,mon ouvrage,ART_NOM,ouvrage,—,
+Ms. II 70/2/108,5212,5220,contrie beaucoup défiez-vous mon cher des des chaussures a semelles,missing,1,PER_NOM,PER_NOM,mon cher,—,,—,,—,
+Ms. II 70/2/108,5409,5437,r le lit et j'étais tout seul dans un village de Champagne ne voyant du monde que pour m,span,4,LOC,LOC,dans un village de Champagne,LOC,Champagne,LOC,un village de Champagne,LOC,Champagne
+Ms. II 70/2/108,5627,5635,lulaire suis-je devenu bavard mon cher le suis-je devenu si vous ave,missing,1,PER_NOM,—,,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/109,43,51,cie de vos renseignements sur votre Mr il parait qu'l'arrieré de com,missing,2,PER_NOM,PER_NOM,votre Mr,—,,—,,PER_NOM,votre Mr
+Ms. II 70/2/109,149,158,t pas la peine qu'on en parle cet homme a perdu sa femme et dans sa d,missing,1,PER_NOM,PER_NOM,cet homme,—,,—,,—,
+Ms. II 70/2/109,167,175,on en parle cet homme a perdu sa femme et dans sa douleur conjugale,missing,3,PER_NOM,PER_NOM,sa femme,PER_NOM,sa femme,—,,PER_NOM,sa femme
+Ms. II 70/2/109,294,308,esse. Paris le 1 janvier 1844 Mon cher Navez  Avant de répondre à votre ai,span,4,PER,PER,Mon cher Navez,PER,Navez,PER,Navez,PER,Navez
+Ms. II 70/2/109,472,477,mpacte votre diable de papier Ognon est tellement fin qu'on peut,missing,1,PER,—,,PER,Ognon,—,,—,
+Ms. II 70/2/109,1054,1075,e pas aussi meurtrière pour n d'anciens camar- ades que celle qui vient de s'écou,missing,1,PER_NOM,PER_NOM,d'anciens camar- ades,—,,—,,—,
+Ms. II 70/2/109,1164,1193,"la mort rient de nous enlèver un de nos anciens ca- marades, Gué artiste d’un talent dist",span+missing,3,PER_NOM,PER_NOM,nos anciens ca- marades,—,,PER_NOM,un de nos anciens ca- marades,PER_NOM,nos anciens ca- marades
+Ms. II 70/2/109,1195,1199,"n de nos anciens ca- marades, Gué artiste d’un talent distingué",span+missing,3,PER,PER,Gué,PER,Gué,PER,Gué ,—,
+Ms. II 70/2/109,1599,1619,lidée de voir disparaitre des com- pagnons d'étude nous en avons tant vu qui ne,missing,1,PER_NOM,—,,—,,PER_NOM,com- pagnons d'étude,—,
+Ms. II 70/2/109,1831,1838,Vers la fin de l'été dernier Schnetz avait obtenu un congé de deux,label,4,"EVT,PER",PER,Schnetz,PER,Schnetz,EVT,Schnetz,PER,Schnetz
+Ms. II 70/2/109,2281,2289,ant de déceptions j'ignore si Schnetz s’est remis à travailler jusqu,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/109,2385,2411,'exposera point cette fois ci les hommes de notre époque qui ont la conscience d'une c,missing,1,PER_NOM,PER_NOM,les hommes de notre époque,—,,—,,—,
+Ms. II 70/2/109,2554,2562,ison du motif qui peut porter ces Mrs. à avoir l’air de se retirer d,span+missing,2,PER_NOM,PER_NOM,ces Mrs,—,,—,,PER_NOM,ces Mrs.
+Ms. II 70/2/109,2868,2893,vous voir cette année soit à l'exposition des tableaux soit à celle de l'industrie c,label,4,"ART_NOM,EVT",EVT,l'exposition des tableaux,EVT,l'exposition des tableaux,EVT,exposition des tableaux,EVT,exposition des tableaux
+Ms. II 70/2/109,2901,2921,xposition des tableaux soit à celle de l'industrie cette dernière ne doit pas êt,label+missing,2,"EVT,PER",—,,—,,PER,industrie,EVT,celle de l'industrie
+Ms. II 70/2/109,3790,3801,mployer tout le fer qu'a fait la belgique et il en est de même partout,span,4,LOC,LOC,la belgique,LOC,belgique,LOC,belgique,LOC,belgique
+Ms. II 70/2/109,3849,3857,ême partout je vous dirai que Poisson a une envie extrême de voir un,span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/109,4166,4184,lus pénible l'éloignement que certains camarades lui ont montré c'est surtout,missing,1,PER_NOM,PER_NOM,certains camarades,—,,—,,—,
+Ms. II 70/2/109,4360,4368,onner une éducation soignée à sa fille elle fait bien je la vois tou,missing,2,PER_NOM,PER_NOM,sa fille,—,,—,,PER_NOM,sa fille
+Ms. II 70/2/109,4447,4462,rs où je mène mes deux filles elle plus âgée est dans la dernière classe où,missing,1,PER_NOM,—,,—,,PER_NOM,elle plus âgée ,—,
+Ms. II 70/2/109,4554,4562,mmagement fort grand pour lui Poisson a un intérieur grace à sa femm,span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/109,4781,4802,ient d'autant plus amitété de ses anciens camarades d'etude que l’on ne fait a l',missing,2,PER_NOM,PER_NOM,ses anciens camarades,—,,—,,PER_NOM,ses anciens camarades
+Ms. II 70/2/109,4985,4992,hise absence des usages de la société et parconséquent ignorance de,missing,1,ORG,ORG,société,—,,—,,—,
+Ms. II 70/2/109,5056,5078,rt de se déguiser Témoignez à Mme. et Mr. Dehemptume combien je suis sensible à le,label,4,"PER,PER_NOM",PER,Mme.,PER_NOM,Mme.,PER,Mme,PER,Mme. et Mr. Dehemptume
+Ms. II 70/2/109,5357,5369,'altère de plus en plus quand aux enfants ils sont dans un âgé ou bien v,span+missing,3,PER_NOM,PER_NOM,enfants,—,,PER_NOM,enfants ,PER_NOM,aux enfants
+Ms. II 70/2/109,5437,5445,doivent nous remplacer adieu mon cher recevez mes compliments de bo,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/109,5568,5579,millé ans car que deviendrait nos enfants mais au moins dans un nombre,missing,2,PER_NOM,PER_NOM,nos enfants,—,,—,,PER_NOM,nos enfants
+Ms. II 70/2/109,5657,5675,sonnable tout à vous de coeur votre ami Beauvoir,span,4,PER,PER,votre ami Beauvoir,PER,Beauvoir,PER,Beauvoir,PER,Beauvoir
+Ms. II 70/2/113,21,35,Paris le 15 mai 1847 Mon chez Navez Vous avez été vraiment un gra,span,4,PER,PER,Mon chez Navez,PER,Navez,PER,Navez,PER,Navez
+Ms. II 70/2/113,124,155,nt pas que vous aviez écrit à vos Mrs. de la rue de Richélieu le même jour qu'a moi par vot,label,4,"LOC,PER_NOM",PER_NOM,vos Mrs. de la rue de Richélieu,PER_NOM,Mrs. de la rue de Richélieu,PER_NOM,vos Mrs. de la rue de Richélieu,PER_NOM,vos Mrs. de la rue de Richélieu
+Ms. II 70/2/113,215,224,re lettre vous m'aviez laissé le maître de faire ce que je jugerais c,missing,2,PER_NOM,PER_NOM,le maître,PER_NOM,le maître,—,,—,
+Ms. II 70/2/113,390,399,uscription ne connaissant pas l'ouvrage j'etais incapable de décider,span,4,ART_NOM,ART_NOM,l'ouvrage,ART_NOM,l'ouvrage,ART_NOM,ouvrage,ART_NOM,l'ouvrage
+Ms. II 70/2/113,536,545,it être à juger seulement par l'ouvrage que fait que peu de chose ma,span+missing,3,ART_NOM,ART_NOM,l'ouvrage,ART_NOM,l'ouvrage,ART_NOM,ouvrage,—,
+Ms. II 70/2/113,610,634,ion ne vous eut pas empêché à votre premier voyage ici de continuer l'abonnement un,missing,1,EVT,—,,—,,—,,EVT,votre premier voyage ici
+Ms. II 70/2/113,769,776,ous l'ai- mez mieux la mienne ses Mrs m'ont dit mais Mr. Navez ne n,span+missing,3,PER_NOM,PER_NOM,ses Mrs,PER_NOM,Mrs,—,,PER_NOM,ses Mrs
+Ms. II 70/2/113,1231,1240,si vous eussiez pu croire que l'ouvrage dut jamais arriver à 750.00 a,missing,1,ART_NOM,ART_NOM,l'ouvrage,—,,—,,—,
+Ms. II 70/2/113,1357,1366,eux c'est d’être parfaitement le maître de faire ce qui vous conviend,missing,1,PER_NOM,PER_NOM,le maître,—,,—,,—,
+Ms. II 70/2/113,1784,1793,rder comme engagé à continuer l’ouvrage annuellement au même prix ici,label,4,"ART_NOM,PER_NOM",ART_NOM,l’ouvrage,ART_NOM,l’ouvrage,PER_NOM,ouvrage,ART_NOM,l’ouvrage
+Ms. II 70/2/113,2521,2529,je le ferai avant mon départ Schnetz est attendu ici d'un moment à,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/113,2588,2612,l'autre il n'a terminé qu'un des deux grands tableaux qu'il avait à faire il paraît,span+missing,3,ART_NOM,—,,ART_NOM,deux grands tableaux,ART_NOM,deux grands tableaux,ART_NOM,des deux grands tableaux
+Ms. II 70/2/113,2670,2676,ît qu'il compte le terminer à Paris dans sa dernière lettre à Sauv,span,4,LOC,LOC,Paris,LOC,Paris,LOC,Paris ,LOC,Paris
+Ms. II 70/2/113,2702,2708,ris dans sa dernière lettre à Sauvé il disait qu'il voulait arrive,span,4,PER,PER,Sauvé,PER,Sauvé,PER,Sauvé ,PER,Sauvé
+Ms. II 70/2/113,2745,2757,it qu'il voulait arriver pour l'exposition elle ferme. aujourd'hui ou de,span,4,EVT,EVT,l'exposition,EVT,l'exposition,EVT,exposition,EVT,exposition
+Ms. II 70/2/113,2879,2893,ir et vous fait mille amitiés Votre portrait fait un fort bon effet il est,label+missing,3,"ART,ART_NOM",ART_NOM,Votre portrait,—,,ART,Votre portrait,ART_NOM,Votre portrait
+Ms. II 70/2/113,2935,2955,t bon effet il est placé dans le grand salon carré il m'a paru faire plaisir il,span+missing,2,LOC,—,,—,,LOC,grand salon carré,LOC,le grand salon carré
+Ms. II 70/2/113,3000,3031,ire plaisir il est surtout du très petit nombre des portrait dont les mains sont bien faite,span+missing,3,ART_NOM,ART_NOM,petit nombre des portrait,ART_NOM,portrait,ART_NOM,très petit nombre des portrait ,—,
+Ms. II 70/2/113,3168,3174,longueur. j'ai été pour voir Duval il était sorti je lui ai écrit,span,4,PER,PER,Duval,PER,Duval,PER,Duval ,PER,Duval
+Ms. II 70/2/113,3232,3244,it et l'ai chargé de prévenir M. Feuillet [?] que vous lui faisiez copie,span,4,PER,PER,M. Feuillet,PER,M. Feuillet,PER,M. Feuillet ,PER,M. Feuillet
+Ms. II 70/2/113,3291,3298,faisiez copier les lettres de Robert vous me demander si je lui ai,span,4,PER,PER,Robert,PER,Robert,PER,Robert ,PER,Robert
+Ms. II 70/2/113,3390,3396,s avoue que j'ai témoi- gné à ce Mr. une telle répugnance à cela q,span+missing,3,PER_NOM,PER_NOM,ce Mr.,PER_NOM,Mr.,—,,PER_NOM,ce Mr.
+Ms. II 70/2/113,3490,3505,tatives et vraiment ce serait Mrs. les hommes de talent à ne plus öser[?] p,missing,1,PER_NOM,PER_NOM,Mrs. les hommes,—,,—,,—,
+Ms. II 70/2/113,3631,3639,r livrée à l'a publicité avec ses amis L'on écrit tantôt une chose t,missing,1,PER_NOM,—,,PER_NOM,ses amis,—,,—,
+Ms. II 70/2/113,4124,4143,ut ce qui nous est chère mais ses propres enfants eux qui doivent nous survivre,missing,3,PER_NOM,PER_NOM,ses propres enfants,—,,PER_NOM,ses propres enfants,PER_NOM,ses propres enfants
+Ms. II 70/2/113,4380,4394,on est le renède le meiller à mon cher Navez il faut nous attendre à n'avo,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez,PER,Navez
+Ms. II 70/2/113,5076,5084,mps avec un tel ennemie adieu mon cher dites à toutes les personnes,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/113,5425,5433,"aits, je vous le répète l'ami Poisson va toujours bien son visage to",span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/113,5487,5503,age tourne singuliè- rement à la vieille femme soit dit entre nous ce n'est,missing,1,PER_NOM,PER_NOM,la vieille femme,—,,—,,—,
+Ms. II 70/2/113,5604,5612,ui est fort stupide même pour un vieux.,missing,1,PER_NOM,PER_NOM,un vieux,—,,—,,—,
+Ms. II 70/2/50,24,40,Ne vous semble-t-il pas mon  cher Navez que vous êtes un bien  singuli,span,4,PER,PER,mon  cher Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/50,101,127,r personnage vous m'adressez  un petit tableau de Robert qui a  déjà été exposé à la s,label,4,"ART,ART_NOM,PER",ART_NOM,un petit tableau,ART_NOM,un petit tableau de Robert,ART,petit tableau de Robert,ART_NOM,un petit tableau de Robert
+Ms. II 70/2/50,153,183,bert qui a  déjà été exposé à la société des amis  des Grecs je dis que c'est vous qui me,span,4,ORG,ORG,société des amis  des Grecs,ORG,la société des amis  des Grecs,ORG,société des amis  des Grecs,ORG,société des amis  des Grecs
+Ms. II 70/2/50,431,440,nse bien qu’il faut l’envoyer au  Musée il faut précessairement  qu’i,span,4,ORG,ORG,Musée,ORG,Musée,ORG,Musée,ORG,au  Musée
+Ms. II 70/2/50,476,487,ut précessairement  qu’il ait une bordure quel prix  veut-on y mettre [,missing,1,ART_NOM,ART_NOM,une bordure,—,,—,,—,
+Ms. II 70/2/50,587,596,aire donner] le désigner dans le livret j'ai attendu patiamment plusi,missing,1,ART_NOM,ART_NOM,le livret,—,,—,,—,
+Ms. II 70/2/50,770,780,demande  et de suite quoique ce tableau  ne puisse être exposé que le,span,4,ART_NOM,ART_NOM,ce tableau,ART_NOM,ce tableau,ART_NOM,tableau,ART_NOM,ce tableau
+Ms. II 70/2/50,998,1006,"ne  quinzaine de Paris  adieu mon cher tout à vous,  votre ami Beauv",missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/64,0,5,Paris 12 mai 1830 Mon cher Navez  J,missing,3,LOC,LOC,Paris,LOC,Paris,—,,LOC,Paris
+Ms. II 70/2/64,18,32,Paris 12 mai 1830 Mon cher Navez  Je pense qu'il n'est peut êt,span,4,PER,PER,Mon cher Navez,PER,Navez,PER,Navez,PER,Navez
+Ms. II 70/2/64,448,460,ille et je pense que l'air de la  campagne sera plus salutaire à toutes,missing,1,LOC,—,,—,,LOC,la  campagne,—,
+Ms. II 70/2/64,483,494,ampagne sera plus salutaire à toutes deux  voyez comme je m’étudie à êt,missing,2,PER_NOM,PER_NOM,toutes deux,—,,PER_NOM,toutes deux,—,
+Ms. II 70/2/64,527,535,oyez comme je m’étudie à être bon père puisque  je sacrifie déjà un,missing,2,PER_NOM,PER_NOM,bon père,—,,PER_NOM,bon père,—,
+Ms. II 70/2/64,600,610,e mes goûts particuliers  pour un enfant qui ne peut être encore  inté,span+missing,3,PER_NOM,PER_NOM,un enfant,PER_NOM,un enfant,PER_NOM, un enfant,—,
+Ms. II 70/2/64,881,886,e moins  semblable à celui de Venus je veux bien vous  faire grac,missing,1,PER,PER,Venus,—,,—,,—,
+Ms. II 70/2/64,1580,1589,u  deprès tout ce que souffre une femme qui accouche je suis plus que,missing,1,PER_NOM,PER_NOM,une femme,—,,—,,—,
+Ms. II 70/2/64,1910,1919,n adieu éternerl [sic] malgré son frère  il saura bien trouver le moy,missing,3,PER_NOM,PER_NOM,son frère,PER_NOM,son frère,—,,PER_NOM,son frère
+Ms. II 70/2/64,2000,2006,ore il va faire un plafond au louvre pour  l'exposition de mil hui,missing,1,ORG,—,,ORG,louvre,—,,—,
+Ms. II 70/2/64,2013,2049,re un plafond au louvre pour  l'exposition de mil huit cent trente un nous n'en  n’aurons pas [d,span,4,EVT,EVT,exposition de mil huit cent trente,EVT,l'exposition de mil huit cent trente,EVT,exposition de mil huit cent trente,EVT,exposition de mil huit cent trente
+Ms. II 70/2/64,2078,2090,e un nous n'en  n’aurons pas [d’exposition] m’a-t-on assuré avant  cette,missing,1,EVT,EVT,d’exposition,—,,—,,—,
+Ms. II 70/2/64,2415,2424,z que Mr. Granet est nommé de linstitut honneur au peintre de muraill,span,4,ORG,ORG,linstitut,ORG,linstitut,ORG,institut,ORG,linstitut
+Ms. II 70/2/64,2436,2465,nommé de linstitut honneur au peintre de murailles noirices par le temps  je ne sais si c,missing,1,PER_NOM,—,,PER_NOM,peintre de murailles noirices,—,,—,
+Ms. II 70/2/64,2660,2668,mille  francs je doute que de la ville où il est il puisse  la rempl,missing,1,LOC,LOC,la ville,—,,—,,—,
+Ms. II 70/2/64,2847,2858,ne fait pas.  que elles sont les travaux que vous entreprenez  vous te,missing,1,ART_NOM,ART_NOM,les travaux,—,,—,,—,
+Ms. II 70/2/64,2894,2917,ous entreprenez  vous terminé votre tableau d'Athalie vous  êtes sans doute toujour,label,4,"ART,ART_NOM",ART_NOM,tableau d'Athalie,ART_NOM,votre tableau d'Athalie,ART,votre tableau d'Athalie,ART,tableau d'Athalie
+Ms. II 70/2/64,2957,2966,s sans doute toujours accablé d'ouvrage et j'aime  à croire que vous,span,4,ART_NOM,ART_NOM,d'ouvrage,ART_NOM,ouvrage,ART_NOM,ouvrage,ART_NOM,ouvrage
+Ms. II 70/2/64,3033,3057,livrez point à ce lazzi  que tous nos jeunes peintres ont adopté et qu'ils  nomment,span+missing,2,PER_NOM,PER_NOM,tous nos jeunes peintres,—,,—,,PER_NOM,nos jeunes peintres
+Ms. II 70/2/64,3265,3274,jugement sévère porté contre de Potter  adieu mon cher présentez mes,span,4,PER,PER,Potter,PER,Potter,PER,de Potter,PER,de Potter
+Ms. II 70/2/64,3282,3290,porté contre de Potter  adieu mon cher présentez mes hommages à  M’a,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/64,3317,3324,her présentez mes hommages à  M’adame [sic] et rappelez moi au souv,label,4,"ART_NOM,PER_NOM",PER_NOM,M’adame,PER_NOM,M’adame,ART_NOM,M’adame,PER_NOM,M’adame
+Ms. II 70/2/64,3362,3390,t rappelez moi au souvenir de toute  la famille Dehemptine [sic] tout à vous  de coeur v,label,4,"ART_NOM,PER,PER_NOM",PER,toute  la famille Dehemptine,PER_NOM,la famille Dehemptine,ART_NOM,la famille Dehemptine,PER,la famille Dehemptine
+Ms. II 70/2/64,3419,3437,e [sic] tout à vous  de coeur votre ami Beauvoir,span,4,PER,PER,votre ami Beauvoir,PER,Beauvoir,PER,Beauvoir,PER,Beauvoir
+Ms. II 70/2/66,28,43,Aussitôt votre lettre reçue mon cher Navez jʼai été trouver M. fillion el,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/66,60,70,n cher Navez jʼai été trouver M. fillion elle a mis dans votre  comman,label,4,"PER,PER_NOM",PER,M. fillion,PER,M. fillion,PER,M. fillion,PER,M. fillion
+Ms. II 70/2/66,512,520,de locupation quels peintres  mon cher que tous ces étournaux romant,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/66,570,580,aux romantiques qui  couvrent des toiles et noircissent du papier cert,missing,1,ART_NOM,ART_NOM,des toiles,—,,—,,—,
+Ms. II 70/2/66,644,668,ne leur reprochera pas comme aux élèves de Mr.  David dʼavoir pourri dans les ateli,label,4,"PER,PER_NOM",PER_NOM,élèves de Mr.  David,PER_NOM,élèves de Mr.  David,PER,Mr.  David,PER_NOM,aux élèves de Mr.  David
+Ms. II 70/2/66,689,701,r.  David dʼavoir pourri dans les ateliers s’ils y paraissent un instant,missing,1,ART_NOM,—,,—,,ART_NOM,les ateliers,—,
+Ms. II 70/2/66,823,842,ficat qui leur fasse délivrer une carte  de musée ils pourraient même sʼéviter,missing,1,ART_NOM,ART_NOM,une carte  de musée,—,,—,,—,
+Ms. II 70/2/66,974,992,chercher à profiter de la rue des grands maîtres nous sommes infectés de leurs,missing,1,PER_NOM,PER_NOM,des grands maîtres,—,,—,,—,
+Ms. II 70/2/66,1085,1095,a plupart ne représentent que des femmes  faisant voir leur cul presqu,missing,1,PER_NOM,PER_NOM,des femmes,—,,—,,—,
+Ms. II 70/2/66,1196,1206,un négligé lascif embrassent  des hommes on dirait volontier que les p,missing,1,PER_NOM,PER_NOM,des hommes,—,,—,,—,
+Ms. II 70/2/66,1231,1243,ommes on dirait volontier que les peintres  ont juré de faire passer not,missing,1,PER_NOM,PER_NOM,les peintres,—,,—,,—,
+Ms. II 70/2/66,1362,1371,un romantique  qui se croyant un Callot nouveau a imaginé de  faire d,label+missing,3,"ART_NOM,PER",ART_NOM,un Callot,PER,Callot,PER,Callot,—,
+Ms. II 70/2/66,1400,1416,t nouveau a imaginé de  faire deux silhouettes qu'il intitule diableries le,missing,1,ART_NOM,—,,—,,ART_NOM,deux silhouettes,—,
+Ms. II 70/2/66,1432,1442,ux silhouettes qu'il intitule diableries le génie de ce présomptueux s,missing,1,ART,ART,diableries,—,,—,,—,
+Ms. II 70/2/66,1626,1637,"s l'auteur de la tentation de St. Antoine, il est bien difficile de com",missing,1,PER_NOM,PER_NOM,St. Antoine,—,,—,,—,
+Ms. II 70/2/66,1763,1790,s nos journaux  un extrait de notre opéra de la tentation c'est un  bien mauvais ouvrag,missing,1,ART,ART,notre opéra de la tentation,—,,—,,—,
+Ms. II 70/2/66,1797,1821,e opéra de la tentation c'est un  bien mauvais ouvrage tout étranger qui n'en verray,span+missing,2,ART_NOM,ART_NOM,un  bien mauvais ouvrage,ART_NOM,ouvrage,—,,—,
+Ms. II 70/2/66,2190,2201,assera désormais dans la tête des auteurs pour  tacher d’émouvoir l’âme,missing,1,PER_NOM,PER_NOM,des auteurs,—,,—,,—,
+Ms. II 70/2/66,2413,2421,is les voir  Schnetz est à la campagne chez son frère le grand  tabl,missing,1,LOC,—,,—,,LOC,campagne,—,
+Ms. II 70/2/66,2437,2454,à la campagne chez son frère le grand  tableau qu'il fait représentant la pr,span,4,ART_NOM,ART_NOM,le grand  tableau,ART_NOM,le grand  tableau,ART_NOM,grand  tableau,ART_NOM,le grand  tableau
+Ms. II 70/2/66,2479,2523,bleau qu'il fait représentant la prise de l'hotel de ville en juillet 1830 n'est pas encore terminé quoi,label+missing,2,"ART,ART_NOM",—,,ART_NOM,la prise de l'hotel de ville,ART,prise de l'hotel de ville en juillet 1830,—,
+Ms. II 70/2/66,2769,2779,st point tombé dans le défaut de Lacroix qui croyant sans doute être v,span,4,PER,PER,Lacroix,PER,Lacroix,PER,de Lacroix,PER,de Lacroix
+Ms. II 70/2/66,2932,2943,uré qu'il avait  été chercher ses modèles à la ménagerie tant ses héros,missing,1,PER_NOM,—,,—,,PER_NOM,ses modèles,—,
+Ms. II 70/2/66,3310,3330,n d'alors  qui prétendait que la liberté française était sortie  du ruisseau.  j,missing,1,PER_NOM,PER_NOM,la liberté française,—,,—,,—,
+Ms. II 70/2/66,3722,3733,ne  gagnant rien du tout avec sa peinture et découragée  au point de ne,missing,2,ART_NOM,ART_NOM,sa peinture,—,,ART_NOM,sa peinture,—,
+Ms. II 70/2/66,3971,3986,l'année dernière il avait eu un autre enfant qui   était mort peu de temps,span+missing,3,PER_NOM,PER_NOM,un autre enfant,—,,PER_NOM,autre enfant,PER_NOM,un autre enfant
+Ms. II 70/2/66,4060,4069,sance son  ménage se réduit à une femme et un enfant il  vous fait un,span+missing,3,PER_NOM,PER_NOM,une femme,—,,PER_NOM,femme,PER_NOM,une femme
+Ms. II 70/2/66,4073,4082,nage se réduit à une femme et un enfant il  vous fait un million dʼam,span+missing,3,PER_NOM,PER_NOM,un enfant,—,,PER_NOM,enfant,PER_NOM,un enfant
+Ms. II 70/2/66,4155,4170,out cœur  car il est toujours le même bon ami et grognon  il n'y a rien de,missing,1,PER_NOM,PER_NOM,le même bon ami,—,,—,,—,
+Ms. II 70/2/66,4174,4181,t toujours le même bon ami et grognon  il n'y a rien de changé dans,label+missing,2,"PER,PER_NOM",PER_NOM,grognon,—,,PER,grognon,—,
+Ms. II 70/2/66,4212,4224,il n'y a rien de changé dans cet individu là  voulez-vous savoir une an,missing,2,PER_NOM,PER_NOM,cet individu,—,,PER_NOM,cet individu,—,
+Ms. II 70/2/66,4280,4293,e anecdote scandaleuse c'est  Abel de Pu... qui en est le héros d'une par,label,4,"ART,PER",ART,Abel de Pu...,PER,Abel de Pu,PER,Abel de Pu,PER,Abel de Pu...
+Ms. II 70/2/66,4333,4340,t le héros d'une part et  mons Négeon de l’autre la femme du premie,label+missing,3,"PER,PER_NOM",PER_NOM,Négeon,—,,PER, Négeon,PER_NOM,Négeon
+Ms. II 70/2/66,4352,4371,rt et  mons Négeon de l’autre la femme du premier  a été trouvée par son mari e,span+missing,2,PER_NOM,PER_NOM,la femme du premier,—,,PER_NOM,femme du premier,—,
+Ms. II 70/2/66,4391,4399,du premier  a été trouvée par son mari en flagrant délit p4 il y ava,missing,2,PER_NOM,PER_NOM,son mari,—,,PER_NOM,son mari,—,
+Ms. II 70/2/66,4459,4474,it près de dix ans dit-on que ce petit menage là durait cette femme à près,missing,1,PER_NOM,—,,—,,—,,PER_NOM,ce petit menage
+Ms. II 70/2/66,4484,4496,que ce petit menage là durait cette femme à près de quarante ans  et vo,span,4,PER_NOM,PER_NOM,cette femme,PER_NOM,cette femme,PER_NOM,cette femme,PER_NOM, cette femme
+Ms. II 70/2/66,4640,4647,ans les premières  années que le mari ne pouvant se passer d’elle,span+missing,3,PER_NOM,PER_NOM,le mari,PER_NOM,le mari,PER_NOM,mari,—,
+Ms. II 70/2/66,4826,4839,ais il est dévoré de chagrin  le malheureux voit sa fortune et sa maison,missing,1,PER_NOM,PER_NOM,le malheureux,—,,—,,—,
+Ms. II 70/2/66,5092,5102,nourrir sa femme sa mère et  une enfant je ne parle pas d'un enfant,span+missing,3,PER_NOM,PER_NOM,une enfant,—,,PER_NOM,enfant,PER_NOM,une enfant
+Ms. II 70/2/66,5121,5130,une enfant je ne parle pas d'un enfant  métis qui a tiré à la conscr,span+missing,2,PER_NOM,PER_NOM,un enfant,—,,PER_NOM,enfant,—,
+Ms. II 70/2/66,5246,5253,suffire à lui  même  je crois mon ami qu’il est bien temps de termi,missing,2,PER_NOM,PER_NOM,mon ami,—,,—,,PER_NOM,mon ami
+Ms. II 70/2/66,5463,5491,otre ville se dispose à fêter le mariage de son  souverain puisse cet hyménée vous rendr,label+missing,3,"EVT,PER_NOM",PER_NOM,son  souverain,PER_NOM,son  souverain,—,,EVT,le mariage de son  souverain
+Ms. II 70/2/66,5642,5650,que vous ne consommez  adieu mon cher recevez lassurance bien sinci,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/66,5799,5808,e  à moi  tout à vous de cœur votre ami  noubliez pas de m’accuser la,missing,1,PER_NOM,PER_NOM,votre ami,—,,—,,—,
+Ms. II 70/2/71,0,8,tanqueux le 25 décembre  1832.  Ne sac,missing,1,LOC,LOC,tanqueux,—,,—,,—,
+Ms. II 70/2/71,52,68,e  1832.  Ne sachant pas trop mon cher  Navez si vous avez quelque chose à e,span,4,PER,PER,mon cher  Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/71,108,130,ez quelque chose à envoyer  à l'exposition prochaine je crois qu'il peut  dans tou,span,4,EVT,EVT,l'exposition prochaine,EVT,l'exposition prochaine,EVT,exposition,EVT,exposition
+Ms. II 70/2/71,360,368,n vous semblera de vous à moi mon cher   ce simple avertissement vau,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/71,559,575,ttront  et je ne plusieurs de nos amis communs Schnetz  y aura un plafond et,missing,2,PER_NOM,PER_NOM,nos amis communs,—,,—,,PER_NOM,nos amis communs
+Ms. II 70/2/71,592,602,amis communs Schnetz  y aura un plafond et un grand tableau  représen,missing,1,ART_NOM,ART_NOM,un plafond,—,,—,,—,
+Ms. II 70/2/71,606,704,Schnetz  y aura un plafond et un grand tableau  représentant la prise de lʼhôtel de ville par  les héros des mémorables journées  Robert est toujours à Venise,label,4,"ART,ART_NOM",ART_NOM,un grand tableau,ART_NOM,un grand tableau  représentant la prise de lʼhôtel de ville,ART_NOM,grand tableau,ART_NOM,grand tableau
+Ms. II 70/2/71,706,713,éros des mémorables journées  Robert est toujours à Venise où il pe,span,4,PER,PER,Robert,PER,Robert,PER,Robert ,PER,Robert
+Ms. II 70/2/71,751,766,ours à Venise où il peint  ce carnaval jadis aussi vanté que les tristes  m,missing,1,ART,—,,—,,ART,carnaval jadis ,—,
+Ms. II 70/2/71,833,839,’Amsterdam demandez  un peu à Roman et à moi ce que nous pensons,span,4,PER,PER,Roman,PER,Roman,PER,Roman ,PER,Roman
+Ms. II 70/2/71,982,992,regretter d’être allé le voir ce tableau  n’est point encore terminé e,span,4,ART_NOM,ART_NOM,ce tableau,ART_NOM,ce tableau,ART_NOM,tableau,ART_NOM,ce tableau
+Ms. II 70/2/71,1067,1080,arriver que vers le milieu de l'exposition  si le gouvernement tient la,span,4,EVT,EVT,l'exposition,EVT,l'exposition,EVT,exposition,EVT, l'exposition
+Ms. II 70/2/71,1085,1100,le milieu de l'exposition  si le gouvernement tient la main à ce quʼil  ann,span,4,ORG,ORG,le gouvernement,ORG,le gouvernement,ORG,gouvernement,ORG,le gouvernement
+Ms. II 70/2/71,1137,1159,la main à ce quʼil  annonce à toutes les expositions et toujours  jusquʼici en vai,missing,2,EVT,EVT,toutes les expositions,—,,EVT,toutes les expositions,—,
+Ms. II 70/2/71,1224,1236,n ne paraitra de lui  puisque ses tableaux ne seront point à l’ouverture,missing,2,ART_NOM,ART_NOM,ses tableaux,—,,ART_NOM,ses tableaux,—,
+Ms. II 70/2/71,1254,1266,ses tableaux ne seront point à l’ouverture  ils ne pourront arriver que,label+missing,2,"ART_NOM,EVT",ART_NOM,l’ouverture,—,,—,,EVT, l’ouverture
+Ms. II 70/2/71,1315,1327,rriver que vers le  milieu de l'exposition si même ils sont ici  à cette,span+missing,3,EVT,EVT,l'exposition,EVT,l'exposition,EVT,exposition,—,
+Ms. II 70/2/71,1365,1377,ils sont ici  à cette époque l'exposition naura lieu  que pendant deux,span+missing,3,EVT,EVT,l'exposition,EVT,l'exposition,EVT,exposition,—,
+Ms. II 70/2/71,1413,1421,lieu  que pendant deux mois  Poisson ce bon Poisson je vous le dis,span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/71,1428,1436,ant deux mois  Poisson ce bon Poisson je vous le dis entre  nous seu,span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/71,1535,1543,assé il n'a rien de fait pour le salon  tout cela ne l'empêche pas d,label+missing,2,"EVT,ORG",—,,ORG,le salon,—,,EVT,le salon
+Ms. II 70/2/71,1579,1598,cela ne l'empêche pas d'être un fort  bon garçon qualité assez insignifiante p,missing,1,PER_NOM,PER_NOM,un fort  bon garçon,—,,—,,—,
+Ms. II 70/2/71,1710,1720,ses productionsla qualité de bon garçon ne peut avoir demérité qu'aux,missing,1,PER_NOM,PER_NOM,bon garçon,—,,—,,—,
+Ms. II 70/2/71,1870,1882,siècle nest pas propice aux bons garçons  car ce pauvre Sauvé d'une na,missing,1,PER_NOM,PER_NOM,bons garçons,—,,—,,—,
+Ms. II 70/2/71,1888,1904,propice aux bons garçons  car ce pauvre Sauvé d'une nature tout  aussi bons,span,4,PER,PER,ce pauvre Sauvé,PER,Sauvé,PER,Sauvé ,PER,Sauvé
+Ms. II 70/2/71,1929,1940,auvé d'une nature tout  aussi bons enfant que l'autre est encore  plus,missing,1,PER_NOM,—,,—,,PER_NOM,bons enfant,—,
+Ms. II 70/2/71,2752,2761,pays et jusqu'à quelle point la guerre nuit à vos travaux je crains,missing,1,EVT,—,,EVT,la guerre,—,,—,
+Ms. II 70/2/71,2988,3012,tout  ce qui peut intéresser d'anciennes connaissance  et de vieux amis comme nous,missing,1,PER_NOM,PER_NOM,d'anciennes connaissance,—,,—,,—,
+Ms. II 70/2/71,3017,3030,d'anciennes connaissance  et de vieux amis comme nous savez-vous  qu'on,missing,1,PER_NOM,PER_NOM,de vieux amis,—,,—,,—,
+Ms. II 70/2/71,3349,3358,doute qu'elle ait l'espoir d'un  frère ou d'une vœur mon enfant est,missing,1,PER_NOM,PER_NOM,un  frère,—,,—,,—,
+Ms. II 70/2/71,3364,3372,ait l'espoir d'un  frère ou d'une vœur mon enfant est aussi  vivasse,missing,1,PER_NOM,PER_NOM,une vœur,—,,—,,—,
+Ms. II 70/2/71,3373,3383,oir d'un  frère ou d'une vœur mon enfant est aussi  vivasse qu'il est,missing,3,PER_NOM,PER_NOM,mon enfant,PER_NOM,mon enfant,PER_NOM,mon enfant,—,
+Ms. II 70/2/71,3421,3427,si  vivasse qu'il est donné à enfant de l'être  viendrez-vous voir,missing,1,PER_NOM,PER_NOM,enfant,—,,—,,—,
+Ms. II 70/2/71,3458,3470,de l'être  viendrez-vous voir l'exposition avec Mme. et  Mlle. Déhemptin,missing,1,EVT,EVT,l'exposition,—,,—,,—,
+Ms. II 70/2/71,3476,3501,z-vous voir l'exposition avec Mme. et  Mlle. Déhemptine adieu mon cher rappelez  moi,label,4,"PER,PER_NOM",PER,Mme.,PER_NOM,Mme.,PER_NOM,Mme,PER,Mme. et  Mlle. Déhemptine
+Ms. II 70/2/71,3508,3516,e. et  Mlle. Déhemptine adieu mon cher rappelez  moi au souvernir de,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/91,0,5,Paris le 15 décembre 1833 Vous avez,missing,3,LOC,LOC,Paris,LOC,Paris,—,,LOC,Paris
+Ms. II 70/2/91,47,61,bre 1833 Vous avez grand tort mon cher Navez de tant vous confondre en exc,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez,PER,Navez
+Ms. II 70/2/91,267,289,lons plus. je vous dirai pour l'exposition prochaine que je crois bien maintenant,span,4,EVT,EVT,l'exposition prochaine,EVT,l'exposition prochaine,EVT,exposition,EVT,l'exposition
+Ms. II 70/2/91,434,448,vous savez par expérience qu’un homme marié n'est plus guère son maître s,missing,1,PER_NOM,PER_NOM,un homme marié,—,,—,,—,
+Ms. II 70/2/91,466,476,homme marié n'est plus guère son maître surtout quand il est à peu pr,missing,3,PER_NOM,PER_NOM,son maître,PER_NOM,son maître,PER_NOM,son maître,—,
+Ms. II 70/2/91,541,561,nsi que je le suis l’ombre de ses gran- ds parents les miens bons et excellentes,missing,3,PER_NOM,PER_NOM,ses gran- ds parents,PER_NOM,ses gran- ds parents,PER_NOM,ses gran- ds parents,—,
+Ms. II 70/2/91,562,596,ombre de ses gran- ds parents les miens bons et excellentes gens sont fort inésolus[?] dans to,missing,1,PER_NOM,PER_NOM,les miens bons et excellentes gens,—,,—,,—,
+Ms. II 70/2/91,653,666,toutes leurs actions d'après le por- trait que je vous fais de leur cara,missing,1,ART_NOM,ART_NOM,le por- trait,—,,—,,—,
+Ms. II 70/2/91,777,803,dent d'adresser votre caisse à Mrs. Vallée et Bourniche je les en préviendrai vous n'a,label,4,"ORG,PER,PER_NOM",PER,Mrs. Vallée,PER,Mrs. Vallée,PER,Mrs. Vallée,PER, Mrs. Vallée
+Ms. II 70/2/91,1038,1050,traordinaire pour ne pas voir l'exposition et quand même toute la famill,span+missing,3,EVT,EVT,l'exposition,EVT,l'exposition,EVT,exposition,—,
+Ms. II 70/2/91,1065,1093,ir l'exposition et quand même toute la famille de ma femme elle même et mes enfants part,span,4,PER_NOM,PER_NOM,toute la famille de ma femme,PER_NOM,ma femme,PER_NOM,la famille de ma femme,PER_NOM, la famille de ma femme
+Ms. II 70/2/91,1094,1103,toute la famille de ma femme elle même et mes enfants partiraient po,missing,1,PER_NOM,PER_NOM,elle même,—,,—,,—,
+Ms. II 70/2/91,1406,1410,moi de me retrouver avec vous Mrs. vous avec qui j'ai passé la p,span+missing,3,PER_NOM,PER_NOM,Mrs.,PER_NOM,Mrs.,—,,PER_NOM,Mrs
+Ms. II 70/2/91,1995,2001,peut être susceptible que de Mayeux eussent été sans doute des Ap,label+missing,2,"PER,PER_NOM",PER_NOM,Mayeux,PER,Mayeux,—,,—,
+Ms. II 70/2/91,2029,2037,ux eussent été sans doute des Appollon sans les bains du collége il,label+missing,2,"PER,PER_NOM",PER_NOM,Appollon,PER,Appollon,—,,—,
+Ms. II 70/2/91,2056,2063,es Appollon sans les bains du collége il me semble que dans vos enf,missing,1,ORG,—,,ORG,collége,—,,—,
+Ms. II 70/2/91,2105,2116,e que dans vos enfants il y a des garçons et que ceux-ci sont d'âge à ê,missing,1,PER_NOM,PER_NOM,des garçons,—,,—,,—,
+Ms. II 70/2/91,2217,2231,mmence moi-même à y soumettre ma fille ainée mais à la vérité peu de temps,span,4,PER_NOM,PER_NOM,ma fille,PER_NOM,ma fille,PER_NOM,ma fille ainée,PER_NOM,ma fille
+Ms. II 70/2/91,2327,2335,cinq ans et demie vous voyez mon cher que tout en man- dissant pour,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/91,2576,2593,nous sommes dans un siècle ou les connaissances sont la première et la plus s,missing,1,PER_NOM,PER_NOM,les connaissances,—,,—,,—,
+Ms. II 70/2/91,2655,2665,e des distinctions et quoique les femmes ne brillent ordinairement que,missing,1,PER_NOM,PER_NOM,les femmes,—,,—,,—,
+Ms. II 70/2/91,2854,2862,i fait tous vos compliments à nos amis ils sont bien sensibles à vot,missing,1,PER_NOM,PER_NOM,nos amis,—,,—,,—,
+Ms. II 70/2/91,2909,2917,nsibles à votre bon souvenir. Schnetz travaille beaucoup dans ce mom,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/91,2985,3031,vient de terminer sur muraille deux petits tableaux de quatre figures chaque ils sont dans la même chapell,span,4,ART_NOM,ART_NOM,deux petits tableaux de quatre figures,ART_NOM,deux petits tableaux,ART_NOM,deux petits tableaux de quatre figures,ART_NOM, deux petits tableaux de quatre figures chaque
+Ms. II 70/2/91,3046,3084,figures chaque ils sont dans la même chapelle Notre-Dame de-Lorette où je crois vous avoir déjà d,span+missing,3,LOC,LOC,la même chapelle Notre-Dame de-Lorette,LOC,chapelle Notre-Dame de-Lorette,—,,LOC,chapelle Notre-Dame de-Lorette
+Ms. II 70/2/91,3167,3184,alement toujours sur muraille quatre pendentifs ces énormes figures isolées s,missing,1,ART_NOM,—,,—,,—,,ART_NOM,quatre pendentifs
+Ms. II 70/2/91,3235,3254,isolées sont quatre prophètes cette petite église est une vraie bonbonniere cop,missing,1,LOC,—,,LOC,cette petite église,—,,—,
+Ms. II 70/2/91,3390,3411,es ici tout se fait à l'huile un des tableaux finis qui me plait le plus est le m,span+missing,3,ART_NOM,ART_NOM,un des tableaux,ART_NOM,un des tableaux finis,ART_NOM,des tableaux finis,—,
+Ms. II 70/2/91,3468,3477,e mariage de la St. Vierge par Langlois Schnetz fait dans ce moment u,span,4,PER,PER,Langlois,PER,Langlois,PER,Langlois,PER, Langlois
+Ms. II 70/2/91,3478,3486,de la St. Vierge par Langlois Schnetz fait dans ce moment un tableau,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/91,3506,3565,s Schnetz fait dans ce moment un tableau de dix sept pieds environ sur quatorze ou quinze il devrait être à l'expositio,span,4,ART_NOM,ART_NOM,un tableau,ART_NOM,un tableau de dix sept pieds environ sur quatorze ou quinze,ART_NOM,tableau de dix sept pieds environ sur quatorze ou quinze,ART_NOM,un tableau de dix sept pieds
+Ms. II 70/2/91,3584,3611,e ou quinze il devrait être à l'exposition de cette année mais cela me parait impossi-,span,4,EVT,EVT,l'exposition de cette année,EVT,l'exposition de cette année,EVT,exposition de cette année,EVT,exposition de cette année
+Ms. II 70/2/91,3758,3766,ivée sous la première race de nos rois[?] les têtes sont toutes à so,missing,1,PER_NOM,PER_NOM,nos rois,—,,—,,—,
+Ms. II 70/2/91,3808,3851,s sont toutes à son choix car les portraits des héros de ces faits d'arme ne sont point parvenus jusqu',span+missing,3,ART_NOM,ART_NOM,les portraits des héros,ART_NOM,les portraits des héros de ces faits d'arme,ART_NOM,les portraits des héros,—,
+Ms. II 70/2/91,3887,3898,nt point parvenus jusqu'a nous ce tableau et quatre portrait en pied de,span,4,ART_NOM,ART_NOM,ce tableau,ART_NOM,ce tableau,ART_NOM, ce tableau,ART_NOM,ce tableau
+Ms. II 70/2/91,3902,3972,us jusqu'a nous ce tableau et quatre portrait en pied de maréch- aux de france du temps de Louis XIV (ces derniers sont livrés) ce,label,4,"ART_NOM,LOC,PER,PER_NOM",ART_NOM,quatre portrait en pied,ART_NOM,quatre portrait en pied de maréch- aux de france du temps de Louis XIV,ART_NOM,quatre portrait en pied de maréch- aux de france du temps de Louis XIV,ART_NOM,quatre portrait
+Ms. II 70/2/91,4000,4015,IV (ces derniers sont livrés) ces cinq objets sont pour Versailles le Roi a,missing,2,ART_NOM,ART_NOM,ces cinq objets,—,,ART_NOM,ces cinq objets,—,
+Ms. II 70/2/91,4037,4044,q objets sont pour Versailles le Roi a [?] dépensé plus de quatre m,span+missing,3,PER_NOM,PER_NOM,le Roi,—,,PER_NOM,Roi ,PER_NOM,le Roi
+Ms. II 70/2/91,4201,4208,autant à Rome car il a chargé Lemoine de lui renvoyer tous ses effe,label,4,"PER,PER_NOM",PER,Lemoine,PER,Lemoine,PER,Lemoine,PER,Lemoine
+Ms. II 70/2/91,4242,4250,lui renvoyer tous ses effets. Poisson sauf douze mois de plus par an,span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/91,4344,4387,diocre existence s'il a perdu l'até- lier des élèves de feu Gros Laroche en se chargeant de l'éducation,label,4,"ORG,PER,PER_NOM",ORG,l'até- lier des élèves de feu Gros Laroche,PER_NOM,des élèves de feu Gros Laroche,PER_NOM, élèves de feu Gros ,PER,Gros Laroche
+Ms. II 70/2/91,4452,4459,élèves du défunt a conservé à son ami l'ad- ministration de cet ate,missing,1,PER_NOM,PER_NOM,son ami,—,,—,,—,
+Ms. II 70/2/91,4460,4478,u défunt a conservé à son ami l'ad- ministration de cet atelier aux mêmes cond,missing,3,ORG,ORG,l'ad- ministration,ORG,l'ad- ministration,ORG,l'ad- ministration,—,
+Ms. II 70/2/91,4482,4493,son ami l'ad- ministration de cet atelier aux mêmes conditions Sauvé s',missing,2,ORG,ORG,cet atelier,ORG,cet atelier,—,,—,
+Ms. II 70/2/91,4515,4521,atelier aux mêmes conditions Sauvé s'occupe beaucoup de la garde,span,4,PER,PER,Sauvé,PER,Sauvé,PER,Sauvé ,PER,Sauvé
+Ms. II 70/2/91,4542,4560,ns Sauvé s'occupe beaucoup de la garde nationale il y a dans l'état major une,label,4,"ART,ORG",ART,la garde nationale,ORG,la garde nationale,ORG,garde nationale,ORG,garde nationale
+Ms. II 70/2/91,4575,4585,garde nationale il y a dans l'état major une petite place à appointeme,missing,1,ORG,—,,—,,ORG,état major,—,
+Ms. II 70/2/91,4742,4748,velle carrière je suppose que Dupré fait un tableau voila plusieur,span,4,PER,PER,Dupré,PER,Dupré,PER,Dupré ,PER,Dupré
+Ms. II 70/2/91,4753,4764,ère je suppose que Dupré fait un tableau voila plusieurs fois que je va,span,4,ART_NOM,ART_NOM,un tableau,ART_NOM,un tableau,ART_NOM,tableau ,ART_NOM,un tableau
+Ms. II 70/2/91,4867,4884,sais que sa santé est bonne. ces Mrs. du musée m’ont dit ce matin même qu'il,label,4,"ORG,PER_NOM",PER_NOM,ces Mrs. du musée,PER_NOM,ces Mrs. du musée,PER_NOM,ces Mrs. du musée,PER_NOM,ces Mrs. du musée
+Ms. II 70/2/91,4957,4970,de leur envoyer la notice de vos tableaux au plus tard le quinze janvier,span,4,ART_NOM,ART_NOM,vos tableaux,ART_NOM,vos tableaux,ART_NOM,vos tableaux ,ART_NOM,vos tableaux
+Ms. II 70/2/91,5022,5030,janvier faites la moi passer mon cher et je la leur porterai il fau,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/91,5077,5089,rterai il faut absolument que vos tableaux eux soient rendus le dix févr,missing,3,ART_NOM,ART_NOM,vos tableaux,—,,ART_NOM,vos tableaux,ART_NOM,vos tableaux
+Ms. II 70/2/91,5170,5185,n’admet plus personne recevez mon cher Navez mes compliments de bonne année,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/91,5378,5391,hommages et respects à toutes votre famille,missing,3,PER_NOM,PER_NOM,votre famille,—,,PER_NOM,votre famille,PER_NOM,votre famille
+Ms. II 70/2/93,40,52,14 juin 1836 Je vous prévienS mon chez ami que je suis sur le point de q,missing,2,PER_NOM,PER_NOM,mon chez ami,—,,—,,PER_NOM,mon chez ami
+Ms. II 70/2/93,329,349,terre les tout situé dans le village d'Hauteville canton de St. Rémy en  Bouzem,span,4,LOC,LOC,Hauteville,LOC,Hauteville,LOC,village d'Hauteville,LOC,Hauteville
+Ms. II 70/2/93,350,381,dans le village d'Hauteville canton de St. Rémy en  Bouzemon par Vitry le François départe,span,4,LOC,LOC,St. Rémy,LOC,St. Rémy,LOC,canton de St. Rémy,LOC,St. Rémy en  Bouzemon
+Ms. II 70/2/93,386,427,de St. Rémy en  Bouzemon par Vitry le François département de la Marne voilà j'espère une adresse ét,span,4,LOC,LOC,Vitry,LOC,Vitry,LOC,Vitry,LOC,Vitry le François
+Ms. II 70/2/93,641,647,s royons à cinquante lieux de Paris dans un lieu ou ma femme ne mo,span,4,LOC,LOC,Paris,LOC,Paris,LOC,Paris ,LOC,Paris
+Ms. II 70/2/93,690,698,ou ma femme ne moi n'avons de parents ce village situé sur les bords,missing,1,PER_NOM,—,,—,,PER_NOM,parents ,—,
+Ms. II 70/2/93,735,740,age situé sur les bords de la marne n'est point d'un aspect désag,missing,3,LOC,LOC,marne,LOC,marne,LOC,marne,—,
+Ms. II 70/2/93,783,791,d'un aspect désagréable comme Adeline et moi nous jugeons plus avant,span,4,PER,PER,Adeline,PER,Adeline,PER,Adeline ,PER,Adeline
+Ms. II 70/2/93,832,843,jugeons plus avantageux pour nos enfants de conserver cette propriété,missing,3,PER_NOM,PER_NOM,nos enfants,PER_NOM,nos enfants,—,,PER_NOM,nos enfants
+Ms. II 70/2/93,1018,1024,ieux m'adresser vos lettres à Paris le portier là saura toujours o,span,4,LOC,LOC,Paris,LOC,Paris,LOC,Paris ,LOC,Paris
+Ms. II 70/2/93,1111,1135,ans ma lettre la quittance de Mrs. Vallé et Bourniche la petite note que jʼai écrite,label,4,"ORG,PER",PER,Mrs. Vallé,PER,Mrs. Vallé,ORG,Mrs. Vallé et Bourniche,PER,Mrs. Vallé
+Ms. II 70/2/93,1211,1220,vous expliquer l'exigence de la douane elle a prétendu que ses plomb,missing,1,ORG,—,,—,,ORG,la douane,—,
+Ms. II 70/2/93,1318,1327,ait empaillée et recouverte dʼune toile il a fallu comme vous le pens,missing,2,ART_NOM,ART_NOM,une toile,—,,—,,ART_NOM,une toile
+Ms. II 70/2/93,1395,1413,spère céder à cette volonté d'une administration impérieuse et cela quelque pe,missing,1,ORG,ORG,une administration,—,,—,,—,
+Ms. II 70/2/93,1451,1460,use et cela quelque peine que ces Mrs. aient prise pour lui faire com,span+missing,2,PER_NOM,PER_NOM,ces Mrs.,—,,—,,PER_NOM,ces Mrs. 
+Ms. II 70/2/93,1533,1541,l'absurdité de son exigence. Schnetz me charge de vous faire ses am,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/93,1908,1916,tôt qu'il le sera il ira chez sa nièce rafraichir ses idées et repos,missing,3,PER_NOM,PER_NOM,sa nièce,—,,PER_NOM,sa nièce,PER_NOM,sa nièce
+Ms. II 70/2/93,2008,2024,uis près d'une année toujours les mêmes objets sous la vue à son retour il c,missing,1,ART_NOM,ART_NOM,les mêmes objets,—,,—,,—,
+Ms. II 70/2/93,2070,2097,on retour il compte commencer son tableau de la madeleine lon dit que cette église sera,label,4,"ART,ART_NOM",ART_NOM,son tableau de la madeleine,ART_NOM,son tableau de la madeleine,ART_NOM,son tableau de la madeleine,ART,on tableau de la madeleine
+Ms. II 70/2/93,2098,2101,r son tableau de la madeleine lon dit que cette église sera une,missing,1,PER,—,,PER,lon,—,,—,
+Ms. II 70/2/93,2168,2176,lles fabriques de notre ville ces Mrs. ne vous semblent-ils pas heur,missing,2,PER_NOM,PER_NOM,ces Mrs.,—,,—,,PER_NOM,ces Mrs.
+Ms. II 70/2/93,2249,2264,réputation dans un moment ou le gouvernement leur donne la facilité de pla,span,4,ORG,ORG,le gouvernement,ORG,le gouvernement,ORG,gouvernement,ORG,gouvernement
+Ms. II 70/2/93,2327,2336,leurs noms sur de semblables monuments je suis bien de votre avis mo,missing,1,ART_NOM,ART_NOM,monuments,—,,—,,—,
+Ms. II 70/2/93,2364,2372,ts je suis bien de votre avis mon cher quand vous nous disiez que no,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/93,2458,2483,faisions pas assez de cas de l'homme qui nous gouverne les qualités supérieures de P,span+missing,2,PER_NOM,PER_NOM,l'homme,—,,PER_NOM,homme qui nous gouverne,—,
+Ms. II 70/2/93,2561,2593,à percer et il me semble que ce chef d’une nouvelle dynastie occupera une place dans lʼhist,label+missing,3,"ORG,PER_NOM",PER_NOM,ce chef,PER_NOM,ce chef d’une nouvelle dynastie,ORG,dynastie ,—,
+Ms. II 70/2/93,2638,2649,ace dans lʼhistoire et puisse ses enfants occuper le trône après lui no,missing,3,PER_NOM,PER_NOM,ses enfants,PER_NOM,ses enfants,—,,PER_NOM,ses enfants
+Ms. II 70/2/93,2884,2912,gent dans ces bouleversements les détracteurs de Philippe prétendent que son amour des a,label,4,"PER,PER_NOM",PER,Philippe,PER_NOM,les détracteurs de Philippe,PER,Philippe ,PER,Philippe
+Ms. II 70/2/93,3088,3099,"au fond le motif qui l'anime nos enfants ne jouiront-ils pas toujours,",missing,2,PER_NOM,PER_NOM,nos enfants,—,,PER_NOM,nos enfants,—,
+Ms. II 70/2/93,3162,3168,résultat de nos déboursés et Paris va devenir de plus en plus une,span,4,LOC,LOC,Paris,LOC,Paris,LOC,Paris ,LOC,Paris
+Ms. II 70/2/93,3224,3230,une des plus belles villes dʼEurope et celle que les étrangers re,missing,3,LOC,LOC,Europe,—,,LOC,Europe,LOC,Europe
+Ms. II 70/2/93,3366,3384,ur propre nation à part que l'unémité  française contribue aussi pour beaucoup,missing,1,ORG,—,,—,,ORG,unémité  française,—,
+Ms. II 70/2/93,3533,3536,rgent à leurs menus plaisirs. lon m’a dit que ce pauvre Sauvé d,missing,1,PER,—,,PER,lon,—,,—,
+Ms. II 70/2/93,3549,3565,nus plaisirs. lon m’a dit que ce pauvre Sauvé d’obtenait à continuer ses lit,span,4,PER,PER,ce pauvre Sauvé,PER,Sauvé,PER,Sauvé ,PER,Sauvé
+Ms. II 70/2/93,3588,3624,Sauvé d’obtenait à continuer ses litographies d'après les dessins qu'il avait fait à Rome il va,span,4,ART_NOM,ART_NOM,les dessins,ART_NOM,les dessins,ART_NOM,litographies d'après les dessins,ART_NOM,ses litographies
+Ms. II 70/2/93,3667,3679,fait à Rome il va consommer à cette œuvre informe le peu dʼargent qu'il,span+missing,2,ART_NOM,ART_NOM,cette œuvre,—,,ART_NOM,œuvre ,—,
+Ms. II 70/2/93,3718,3728,e peu dʼargent qu'il a encore les hommes de petit jugements sont terri,missing,1,PER_NOM,PER_NOM,les hommes,—,,—,,—,
+Ms. II 70/2/93,3892,3900,une idée comme sans jugement Poisson va bien maintenant adieu mon c,span,4,PER,PER,Poisson,PER,Poisson,PER,Poisson ,PER,Poisson
+Ms. II 70/2/93,3925,3933,sson va bien maintenant adieu mon cher tous vos amis vous font mille,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/93,3939,3947,aintenant adieu mon cher tous vos amis vous font mille amitiés mette,missing,2,PER_NOM,PER_NOM,vos amis,—,,—,,PER_NOM,vos amis
+Ms. II 70/2/93,4031,4045,pelez moi au souvenir de tous vos bruxellois qui veulent encore bien pense,label+missing,3,"LOC,PER_NOM",PER_NOM,vos bruxellois,—,,LOC,bruxellois,PER_NOM,vos bruxellois
+Ms. II 70/2/93,4105,4124,"r à moi. tout à vous de coeur votre ami, Beauvoir",span,4,PER,PER,"votre ami, Beauvoir",PER,Beauvoir,PER,Beauvoir,PER,Beauvoir
+Ms. II 70/2/95,0,5,Paris le 20 juillet 1836 Avant de q,missing,3,LOC,LOC,Paris,LOC,Paris,—,,LOC,Paris
+Ms. II 70/2/95,48,63,t 1836 Avant de quitter Paris mon cher Navez et cette fois-ci cest pour de,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/95,353,364,vous avez reçus pour elle car son ouvrage est reellement terminé puisqu,span,4,ART_NOM,ART_NOM,son ouvrage,ART_NOM,son ouvrage,ART_NOM,son ouvrage,ART_NOM,ouvrage
+Ms. II 70/2/95,545,559,i depuis trois moins au moins le litterateur lui manque de parole ce retar,missing,1,ART_NOM,—,,ART_NOM,le litterateur,—,,—,
+Ms. II 70/2/95,643,663,préjudiciable aux intérêts de cette jeune personne. vous avez confondu mon cher,label,4,"ART_NOM,PER_NOM",PER_NOM,cette jeune personne,ART_NOM,cette jeune personne,PER_NOM,cette jeune personne,PER_NOM,cette jeune personne
+Ms. II 70/2/95,684,692,personne. vous avez confondu mon cher la quittance du 10 février 18,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/95,764,783,75c a bien été payée par moi à Mr. Vallée et Crie mais vous me l'avez remboursé,label,4,"ORG,PER",PER,Mr. Vallée,PER,Mr. Vallée,PER,Mr. Vallée,PER, Mr. Vallée
+Ms. II 70/2/95,945,960,us l'envoyez avec l'argent de Mlle. Willemin elle sera obligée de me le gar,span,4,PER,PER,Mlle. Willemin,PER,Mlle. Willemin,PER,Mlle. Willemin ,PER,Mlle. Willemin
+Ms. II 70/2/95,1120,1131,rue de  Choiseul N.o 8 c'est un receveur de rentes qui est chargé de q,missing,1,PER_NOM,—,,PER_NOM,un receveur,—,,—,
+Ms. II 70/2/95,1407,1419,jours bien amen. je vous fais mon cher ami mes compli- ments sur vos 5/6,missing,3,PER_NOM,PER_NOM,mon cher ami,PER_NOM,mon cher ami,—,,PER_NOM,mon cher ami
+Ms. II 70/2/95,1728,1753,i les concerne bien entendu à Mrs. Valleé et Bourniche ils paraissent avoir un peu ou,label,4,"LOC,ORG,PER,PER_NOM",LOC,Mrs. Valleé,PER_NOM,Mrs. Valleé,PER,Mrs. Valleé,PER_NOM,Mrs. Valleé
+Ms. II 70/2/95,1861,1888,t que c’est en leur renvoyant la bordure de votre tableau ils la reprendrai volontier a,label,4,"ART_NOM,PER_NOM",PER_NOM,la bordure de votre tableau,ART_NOM,votre tableau,ART_NOM,votre tableau,ART_NOM, votre tableau
+Ms. II 70/2/95,1997,2003,inévitables que ces sortes d'objets reçoivent à l'exposition je m,missing,1,ART_NOM,ART_NOM,objets,—,,—,,—,
+Ms. II 70/2/95,2016,2028,s sortes d'objets reçoivent à l'exposition je m'y suis engagé pour vous,span,4,EVT,EVT,l'exposition,EVT,l'exposition,EVT,exposition,EVT,exposition
+Ms. II 70/2/95,2110,2118,aient plus la revendre. adieu mon cher excusez si je ne vous en écri,missing,2,PER_NOM,PER_NOM,mon cher,—,,—,,PER_NOM,mon cher
+Ms. II 70/2/95,2289,2298,opos j'ai l'autre jour trouvé De Potter aux tuilleries il y promenait,span,4,PER,PER,Potter,PER,De Potter,PER,De Potter,PER,De Potter
+Ms. II 70/2/95,2303,2313,tre jour trouvé De Potter aux tuilleries il y promenait ses enfants co,missing,2,LOC,—,,LOC,tuilleries,LOC,tuilleries,—,
+Ms. II 70/2/95,2329,2340,aux tuilleries il y promenait ses enfants comme moi les miens pendant q,missing,3,PER_NOM,PER_NOM,ses enfants,PER_NOM,ses enfants,—,,PER_NOM,ses enfants
+Ms. II 70/2/95,2351,2360,omenait ses enfants comme moi les miens pendant que les mioches jouai,missing,1,PER_NOM,PER_NOM,les miens,—,,—,,—,
+Ms. II 70/2/95,2373,2384,mme moi les miens pendant que les mioches jouaient ensemble nous avons,missing,1,PER_NOM,PER_NOM,les mioches,—,,—,,—,
+Ms. II 70/2/95,2461,2499,t longtemps ensemble et comme une vieille connaissance de dix années il m'a dit qu'il était occupé,span+missing,2,PER_NOM,PER_NOM,une vieille connaissance,PER_NOM,une vieille connaissance de dix années,—,,—,
+Ms. II 70/2/95,2547,2583,était occupé à faire imprimer un ouvrage sur ou contre la religion il paraît que ce diable d'hom,span,4,ART_NOM,ART_NOM,un ouvrage,ART_NOM,un ouvrage,ART_NOM,ouvrage sur ou contre la religion,ART_NOM,ouvrage
+Ms. II 70/2/95,2598,2615,tre la religion il paraît que ce diable d'homme à jure une haine à mort au di,missing,1,PER_NOM,PER_NOM,ce diable d'homme,—,,—,,—,
+Ms. II 70/2/95,2841,2854,eds à Rome bien convainçu que les ministres de son enemi lui feraient un,missing,1,PER_NOM,PER_NOM,les ministres,—,,—,,—,
+Ms. II 70/2/96,70,85,puis hier matin je mʼempresse mon cher Navez de vous prévenir que me voici,span,4,PER,PER,mon cher Navez,PER,Navez,PER,Navez ,PER,Navez
+Ms. II 70/2/96,207,219,ion dʼenvoyer quelque chose à lʼexposition vous pouvez disposer de moi c,span,4,EVT,EVT,lʼexposition,EVT,lʼexposition,EVT,exposition,EVT,lʼexposition
+Ms. II 70/2/96,303,312,us dirai peu de chose de tous ces Mrs. n’ayant point encore eu le tem,span+missing,2,PER_NOM,PER_NOM,ces Mrs.,—,,—,,PER_NOM,ces Mrs. 
+Ms. II 70/2/96,462,477,afflection il a failli perdre sa fille unique d'une maladie inflaminatoire,span,4,PER_NOM,PER_NOM,sa fille unique,PER_NOM,sa fille unique,PER_NOM,sa fille,PER_NOM,sa fille
+Ms. II 70/2/96,512,532,e maladie inflaminatoire dont cette jeune personne ne sera pas parfaitement réta,missing,3,PER_NOM,PER_NOM,cette jeune personne,PER_NOM,cette jeune personne,PER_NOM,cette jeune personne,—,
+Ms. II 70/2/96,761,769,ière et de plus il ne peut en bon père s’empêcher par une foule de p,missing,2,PER_NOM,PER_NOM,bon père,—,,PER_NOM,bon père,—,
+Ms. II 70/2/96,864,881,chercher à charmer l'ennui d'un pauvre enfant forcé de passer tristement une,span+missing,2,PER_NOM,PER_NOM,un pauvre enfant,—,,PER_NOM,pauvre enfant ,—,
+Ms. II 70/2/96,956,964,journées au lit je ne sais si Schnetz sera plus heureux dans ses vis,span,4,PER,PER,Schnetz,PER,Schnetz,PER,Schnetz ,PER,Schnetz
+Ms. II 70/2/96,1013,1023,ans ses visites pour entrer à l’institut il a bien de la peine à y arr,span,4,ORG,ORG,l’institut,ORG,l’institut,ORG,institut,ORG,institut
+Ms. II 70/2/96,1099,1111,t il en a un vif desir. adieu mon cher ami présentez je vous prie mes ho,missing,2,PER_NOM,PER_NOM,mon cher ami,—,,—,,PER_NOM,mon cher ami
+Ms. II 70/2/96,1162,1166,ie mes hommages respectueux à Mme et à toute votre famille et cr,span,4,PER_NOM,PER_NOM,Mme,PER_NOM,Mme,PER_NOM,Mme ,PER_NOM,Mme
+Ms. II 70/2/96,1171,1190,mmages respectueux à Mme et à toute votre famille et croyez que cette nouvelle,missing,3,PER_NOM,PER_NOM,toute votre famille,—,,PER_NOM,toute votre famille,PER_NOM,toute votre famille

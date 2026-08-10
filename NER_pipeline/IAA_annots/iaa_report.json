@@ -1,0 +1,1424 @@
+[
+  {
+    "A": "project-72_u22",
+    "B": "project-76_u23",
+    "n_common": 20,
+    "strict": {
+      "P": 0.7250922509225092,
+      "R": 0.5558698727015559,
+      "F1": 0.6293034427542034,
+      "TP": 393,
+      "FP": 149,
+      "FN": 314
+    },
+    "lenient": {
+      "P": 0.8597785977859779,
+      "R": 0.6591230551626591,
+      "F1": 0.7461969575660529,
+      "TP": 466,
+      "FP": 76,
+      "FN": 241
+    },
+    "per_letter": [
+      {
+        "letter_id": "Ms. II 70/1/100",
+        "spans_A": 34,
+        "spans_B": 32,
+        "strict_F1": 0.697,
+        "lenient_F1": 0.788
+      },
+      {
+        "letter_id": "Ms. II 70/1/101",
+        "spans_A": 10,
+        "spans_B": 14,
+        "strict_F1": 0.583,
+        "lenient_F1": 0.75
+      },
+      {
+        "letter_id": "Ms. II 70/1/116",
+        "spans_A": 9,
+        "spans_B": 8,
+        "strict_F1": 0.824,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/1/164",
+        "spans_A": 9,
+        "spans_B": 6,
+        "strict_F1": 0.533,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/172",
+        "spans_A": 10,
+        "spans_B": 6,
+        "strict_F1": 0.375,
+        "lenient_F1": 0.75
+      },
+      {
+        "letter_id": "Ms. II 70/1/200",
+        "spans_A": 28,
+        "spans_B": 26,
+        "strict_F1": 0.778,
+        "lenient_F1": 0.852
+      },
+      {
+        "letter_id": "Ms. II 70/2/100",
+        "spans_A": 32,
+        "spans_B": 31,
+        "strict_F1": 0.635,
+        "lenient_F1": 0.825
+      },
+      {
+        "letter_id": "Ms. II 70/2/106",
+        "spans_A": 41,
+        "spans_B": 38,
+        "strict_F1": 0.608,
+        "lenient_F1": 0.734
+      },
+      {
+        "letter_id": "Ms. II 70/2/107",
+        "spans_A": 93,
+        "spans_B": 66,
+        "strict_F1": 0.541,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/2/108",
+        "spans_A": 49,
+        "spans_B": 34,
+        "strict_F1": 0.675,
+        "lenient_F1": 0.747
+      },
+      {
+        "letter_id": "Ms. II 70/2/109",
+        "spans_A": 36,
+        "spans_B": 23,
+        "strict_F1": 0.576,
+        "lenient_F1": 0.678
+      },
+      {
+        "letter_id": "Ms. II 70/2/113",
+        "spans_A": 34,
+        "spans_B": 29,
+        "strict_F1": 0.635,
+        "lenient_F1": 0.825
+      },
+      {
+        "letter_id": "Ms. II 70/2/50",
+        "spans_A": 13,
+        "spans_B": 10,
+        "strict_F1": 0.609,
+        "lenient_F1": 0.87
+      },
+      {
+        "letter_id": "Ms. II 70/2/64",
+        "spans_A": 35,
+        "spans_B": 26,
+        "strict_F1": 0.623,
+        "lenient_F1": 0.754
+      },
+      {
+        "letter_id": "Ms. II 70/2/66",
+        "spans_A": 55,
+        "spans_B": 28,
+        "strict_F1": 0.554,
+        "lenient_F1": 0.602
+      },
+      {
+        "letter_id": "Ms. II 70/2/71",
+        "spans_A": 44,
+        "spans_B": 29,
+        "strict_F1": 0.603,
+        "lenient_F1": 0.685
+      },
+      {
+        "letter_id": "Ms. II 70/2/91",
+        "spans_A": 69,
+        "spans_B": 55,
+        "strict_F1": 0.629,
+        "lenient_F1": 0.774
+      },
+      {
+        "letter_id": "Ms. II 70/2/93",
+        "spans_A": 54,
+        "spans_B": 39,
+        "strict_F1": 0.71,
+        "lenient_F1": 0.774
+      },
+      {
+        "letter_id": "Ms. II 70/2/95",
+        "spans_A": 37,
+        "spans_B": 32,
+        "strict_F1": 0.696,
+        "lenient_F1": 0.783
+      },
+      {
+        "letter_id": "Ms. II 70/2/96",
+        "spans_A": 15,
+        "spans_B": 10,
+        "strict_F1": 0.72,
+        "lenient_F1": 0.8
+      }
+    ],
+    "per_label_strict": {
+      "PER_NOM": [
+        96,
+        35,
+        153
+      ],
+      "PER": [
+        139,
+        43,
+        40
+      ],
+      "ART_NOM": [
+        46,
+        38,
+        72
+      ],
+      "ORG": [
+        13,
+        7,
+        8
+      ],
+      "LOC": [
+        77,
+        10,
+        17
+      ],
+      "ART": [
+        3,
+        7,
+        9
+      ],
+      "EVT": [
+        19,
+        9,
+        15
+      ]
+    },
+    "per_label_lenient": {
+      "LOC": [
+        82,
+        5,
+        12
+      ],
+      "PER_NOM": [
+        103,
+        28,
+        146
+      ],
+      "PER": [
+        168,
+        14,
+        11
+      ],
+      "EVT": [
+        27,
+        1,
+        7
+      ],
+      "ART_NOM": [
+        68,
+        16,
+        50
+      ],
+      "ORG": [
+        15,
+        5,
+        6
+      ],
+      "ART": [
+        3,
+        7,
+        9
+      ]
+    }
+  },
+  {
+    "A": "project-72_u22",
+    "B": "project-77_u24",
+    "n_common": 20,
+    "strict": {
+      "P": 0.4763458401305057,
+      "R": 0.413012729844413,
+      "F1": 0.44242424242424244,
+      "TP": 292,
+      "FP": 321,
+      "FN": 415
+    },
+    "lenient": {
+      "P": 0.7601957585644372,
+      "R": 0.6591230551626591,
+      "F1": 0.706060606060606,
+      "TP": 466,
+      "FP": 147,
+      "FN": 241
+    },
+    "per_letter": [
+      {
+        "letter_id": "Ms. II 70/1/100",
+        "spans_A": 34,
+        "spans_B": 32,
+        "strict_F1": 0.606,
+        "lenient_F1": 0.758
+      },
+      {
+        "letter_id": "Ms. II 70/1/101",
+        "spans_A": 10,
+        "spans_B": 11,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.762
+      },
+      {
+        "letter_id": "Ms. II 70/1/116",
+        "spans_A": 9,
+        "spans_B": 7,
+        "strict_F1": 0.625,
+        "lenient_F1": 0.625
+      },
+      {
+        "letter_id": "Ms. II 70/1/164",
+        "spans_A": 9,
+        "spans_B": 8,
+        "strict_F1": 0.706,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/1/172",
+        "spans_A": 10,
+        "spans_B": 12,
+        "strict_F1": 0.727,
+        "lenient_F1": 0.909
+      },
+      {
+        "letter_id": "Ms. II 70/1/200",
+        "spans_A": 28,
+        "spans_B": 33,
+        "strict_F1": 0.525,
+        "lenient_F1": 0.721
+      },
+      {
+        "letter_id": "Ms. II 70/2/100",
+        "spans_A": 32,
+        "spans_B": 41,
+        "strict_F1": 0.329,
+        "lenient_F1": 0.603
+      },
+      {
+        "letter_id": "Ms. II 70/2/106",
+        "spans_A": 41,
+        "spans_B": 42,
+        "strict_F1": 0.53,
+        "lenient_F1": 0.771
+      },
+      {
+        "letter_id": "Ms. II 70/2/107",
+        "spans_A": 93,
+        "spans_B": 92,
+        "strict_F1": 0.314,
+        "lenient_F1": 0.551
+      },
+      {
+        "letter_id": "Ms. II 70/2/108",
+        "spans_A": 49,
+        "spans_B": 41,
+        "strict_F1": 0.444,
+        "lenient_F1": 0.689
+      },
+      {
+        "letter_id": "Ms. II 70/2/109",
+        "spans_A": 36,
+        "spans_B": 26,
+        "strict_F1": 0.355,
+        "lenient_F1": 0.71
+      },
+      {
+        "letter_id": "Ms. II 70/2/113",
+        "spans_A": 34,
+        "spans_B": 27,
+        "strict_F1": 0.328,
+        "lenient_F1": 0.754
+      },
+      {
+        "letter_id": "Ms. II 70/2/50",
+        "spans_A": 13,
+        "spans_B": 10,
+        "strict_F1": 0.609,
+        "lenient_F1": 0.783
+      },
+      {
+        "letter_id": "Ms. II 70/2/64",
+        "spans_A": 35,
+        "spans_B": 25,
+        "strict_F1": 0.533,
+        "lenient_F1": 0.7
+      },
+      {
+        "letter_id": "Ms. II 70/2/66",
+        "spans_A": 55,
+        "spans_B": 39,
+        "strict_F1": 0.426,
+        "lenient_F1": 0.638
+      },
+      {
+        "letter_id": "Ms. II 70/2/71",
+        "spans_A": 44,
+        "spans_B": 32,
+        "strict_F1": 0.395,
+        "lenient_F1": 0.737
+      },
+      {
+        "letter_id": "Ms. II 70/2/91",
+        "spans_A": 69,
+        "spans_B": 51,
+        "strict_F1": 0.433,
+        "lenient_F1": 0.767
+      },
+      {
+        "letter_id": "Ms. II 70/2/93",
+        "spans_A": 54,
+        "spans_B": 45,
+        "strict_F1": 0.404,
+        "lenient_F1": 0.768
+      },
+      {
+        "letter_id": "Ms. II 70/2/95",
+        "spans_A": 37,
+        "spans_B": 26,
+        "strict_F1": 0.54,
+        "lenient_F1": 0.73
+      },
+      {
+        "letter_id": "Ms. II 70/2/96",
+        "spans_A": 15,
+        "spans_B": 13,
+        "strict_F1": 0.429,
+        "lenient_F1": 0.929
+      }
+    ],
+    "per_label_strict": {
+      "PER_NOM": [
+        89,
+        72,
+        160
+      ],
+      "PER": [
+        91,
+        87,
+        88
+      ],
+      "ART_NOM": [
+        29,
+        71,
+        89
+      ],
+      "ORG": [
+        9,
+        18,
+        12
+      ],
+      "EVT": [
+        9,
+        23,
+        25
+      ],
+      "LOC": [
+        64,
+        24,
+        30
+      ],
+      "ART": [
+        1,
+        26,
+        11
+      ]
+    },
+    "per_label_lenient": {
+      "PER_NOM": [
+        115,
+        46,
+        134
+      ],
+      "PER": [
+        160,
+        18,
+        19
+      ],
+      "LOC": [
+        81,
+        7,
+        13
+      ],
+      "EVT": [
+        28,
+        4,
+        6
+      ],
+      "ART_NOM": [
+        64,
+        36,
+        54
+      ],
+      "ORG": [
+        16,
+        11,
+        5
+      ],
+      "ART": [
+        2,
+        25,
+        10
+      ]
+    }
+  },
+  {
+    "A": "project-72_u22",
+    "B": "project-79_u26",
+    "n_common": 20,
+    "strict": {
+      "P": 0.697196261682243,
+      "R": 0.5275813295615276,
+      "F1": 0.6006441223832528,
+      "TP": 373,
+      "FP": 162,
+      "FN": 334
+    },
+    "lenient": {
+      "P": 0.8897196261682243,
+      "R": 0.6732673267326733,
+      "F1": 0.7665056360708534,
+      "TP": 476,
+      "FP": 59,
+      "FN": 231
+    },
+    "per_letter": [
+      {
+        "letter_id": "Ms. II 70/1/100",
+        "spans_A": 34,
+        "spans_B": 35,
+        "strict_F1": 0.696,
+        "lenient_F1": 0.783
+      },
+      {
+        "letter_id": "Ms. II 70/1/101",
+        "spans_A": 10,
+        "spans_B": 13,
+        "strict_F1": 0.609,
+        "lenient_F1": 0.783
+      },
+      {
+        "letter_id": "Ms. II 70/1/116",
+        "spans_A": 9,
+        "spans_B": 6,
+        "strict_F1": 0.533,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/164",
+        "spans_A": 9,
+        "spans_B": 6,
+        "strict_F1": 0.267,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/1/172",
+        "spans_A": 10,
+        "spans_B": 6,
+        "strict_F1": 0.375,
+        "lenient_F1": 0.75
+      },
+      {
+        "letter_id": "Ms. II 70/1/200",
+        "spans_A": 28,
+        "spans_B": 28,
+        "strict_F1": 0.786,
+        "lenient_F1": 0.821
+      },
+      {
+        "letter_id": "Ms. II 70/2/100",
+        "spans_A": 32,
+        "spans_B": 31,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.794
+      },
+      {
+        "letter_id": "Ms. II 70/2/106",
+        "spans_A": 41,
+        "spans_B": 39,
+        "strict_F1": 0.7,
+        "lenient_F1": 0.85
+      },
+      {
+        "letter_id": "Ms. II 70/2/107",
+        "spans_A": 93,
+        "spans_B": 53,
+        "strict_F1": 0.438,
+        "lenient_F1": 0.603
+      },
+      {
+        "letter_id": "Ms. II 70/2/108",
+        "spans_A": 49,
+        "spans_B": 31,
+        "strict_F1": 0.525,
+        "lenient_F1": 0.675
+      },
+      {
+        "letter_id": "Ms. II 70/2/109",
+        "spans_A": 36,
+        "spans_B": 29,
+        "strict_F1": 0.646,
+        "lenient_F1": 0.862
+      },
+      {
+        "letter_id": "Ms. II 70/2/113",
+        "spans_A": 34,
+        "spans_B": 30,
+        "strict_F1": 0.719,
+        "lenient_F1": 0.812
+      },
+      {
+        "letter_id": "Ms. II 70/2/50",
+        "spans_A": 13,
+        "spans_B": 11,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.917
+      },
+      {
+        "letter_id": "Ms. II 70/2/64",
+        "spans_A": 35,
+        "spans_B": 25,
+        "strict_F1": 0.633,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/2/66",
+        "spans_A": 55,
+        "spans_B": 32,
+        "strict_F1": 0.575,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/2/71",
+        "spans_A": 44,
+        "spans_B": 28,
+        "strict_F1": 0.556,
+        "lenient_F1": 0.722
+      },
+      {
+        "letter_id": "Ms. II 70/2/91",
+        "spans_A": 69,
+        "spans_B": 46,
+        "strict_F1": 0.557,
+        "lenient_F1": 0.765
+      },
+      {
+        "letter_id": "Ms. II 70/2/93",
+        "spans_A": 54,
+        "spans_B": 44,
+        "strict_F1": 0.714,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/2/95",
+        "spans_A": 37,
+        "spans_B": 30,
+        "strict_F1": 0.627,
+        "lenient_F1": 0.836
+      },
+      {
+        "letter_id": "Ms. II 70/2/96",
+        "spans_A": 15,
+        "spans_B": 12,
+        "strict_F1": 0.593,
+        "lenient_F1": 0.889
+      }
+    ],
+    "per_label_strict": {
+      "PER_NOM": [
+        113,
+        36,
+        136
+      ],
+      "PER": [
+        126,
+        49,
+        53
+      ],
+      "EVT": [
+        13,
+        17,
+        21
+      ],
+      "ORG": [
+        10,
+        7,
+        11
+      ],
+      "LOC": [
+        78,
+        14,
+        16
+      ],
+      "ART_NOM": [
+        32,
+        31,
+        86
+      ],
+      "ART": [
+        1,
+        8,
+        11
+      ]
+    },
+    "per_label_lenient": {
+      "LOC": [
+        84,
+        8,
+        10
+      ],
+      "PER_NOM": [
+        131,
+        18,
+        118
+      ],
+      "PER": [
+        169,
+        6,
+        10
+      ],
+      "EVT": [
+        24,
+        6,
+        10
+      ],
+      "ORG": [
+        14,
+        3,
+        7
+      ],
+      "ART_NOM": [
+        53,
+        10,
+        65
+      ],
+      "ART": [
+        1,
+        8,
+        11
+      ]
+    }
+  },
+  {
+    "A": "project-76_u23",
+    "B": "project-77_u24",
+    "n_common": 20,
+    "strict": {
+      "P": 0.4469820554649266,
+      "R": 0.5055350553505535,
+      "F1": 0.47445887445887447,
+      "TP": 274,
+      "FP": 339,
+      "FN": 268
+    },
+    "lenient": {
+      "P": 0.7079934747145188,
+      "R": 0.8007380073800738,
+      "F1": 0.7515151515151516,
+      "TP": 434,
+      "FP": 179,
+      "FN": 108
+    },
+    "per_letter": [
+      {
+        "letter_id": "Ms. II 70/1/100",
+        "spans_A": 32,
+        "spans_B": 32,
+        "strict_F1": 0.719,
+        "lenient_F1": 0.875
+      },
+      {
+        "letter_id": "Ms. II 70/1/101",
+        "spans_A": 14,
+        "spans_B": 11,
+        "strict_F1": 0.64,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/116",
+        "spans_A": 8,
+        "spans_B": 7,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.8
+      },
+      {
+        "letter_id": "Ms. II 70/1/164",
+        "spans_A": 6,
+        "spans_B": 8,
+        "strict_F1": 0.714,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/1/172",
+        "spans_A": 6,
+        "spans_B": 12,
+        "strict_F1": 0.333,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/1/200",
+        "spans_A": 26,
+        "spans_B": 33,
+        "strict_F1": 0.475,
+        "lenient_F1": 0.678
+      },
+      {
+        "letter_id": "Ms. II 70/2/100",
+        "spans_A": 31,
+        "spans_B": 41,
+        "strict_F1": 0.25,
+        "lenient_F1": 0.583
+      },
+      {
+        "letter_id": "Ms. II 70/2/106",
+        "spans_A": 38,
+        "spans_B": 42,
+        "strict_F1": 0.525,
+        "lenient_F1": 0.825
+      },
+      {
+        "letter_id": "Ms. II 70/2/107",
+        "spans_A": 66,
+        "spans_B": 92,
+        "strict_F1": 0.342,
+        "lenient_F1": 0.608
+      },
+      {
+        "letter_id": "Ms. II 70/2/108",
+        "spans_A": 34,
+        "spans_B": 41,
+        "strict_F1": 0.533,
+        "lenient_F1": 0.747
+      },
+      {
+        "letter_id": "Ms. II 70/2/109",
+        "spans_A": 23,
+        "spans_B": 26,
+        "strict_F1": 0.531,
+        "lenient_F1": 0.735
+      },
+      {
+        "letter_id": "Ms. II 70/2/113",
+        "spans_A": 29,
+        "spans_B": 27,
+        "strict_F1": 0.393,
+        "lenient_F1": 0.821
+      },
+      {
+        "letter_id": "Ms. II 70/2/50",
+        "spans_A": 10,
+        "spans_B": 10,
+        "strict_F1": 0.6,
+        "lenient_F1": 0.9
+      },
+      {
+        "letter_id": "Ms. II 70/2/64",
+        "spans_A": 26,
+        "spans_B": 25,
+        "strict_F1": 0.588,
+        "lenient_F1": 0.745
+      },
+      {
+        "letter_id": "Ms. II 70/2/66",
+        "spans_A": 28,
+        "spans_B": 39,
+        "strict_F1": 0.567,
+        "lenient_F1": 0.687
+      },
+      {
+        "letter_id": "Ms. II 70/2/71",
+        "spans_A": 29,
+        "spans_B": 32,
+        "strict_F1": 0.393,
+        "lenient_F1": 0.852
+      },
+      {
+        "letter_id": "Ms. II 70/2/91",
+        "spans_A": 55,
+        "spans_B": 51,
+        "strict_F1": 0.434,
+        "lenient_F1": 0.83
+      },
+      {
+        "letter_id": "Ms. II 70/2/93",
+        "spans_A": 39,
+        "spans_B": 45,
+        "strict_F1": 0.429,
+        "lenient_F1": 0.786
+      },
+      {
+        "letter_id": "Ms. II 70/2/95",
+        "spans_A": 32,
+        "spans_B": 26,
+        "strict_F1": 0.621,
+        "lenient_F1": 0.793
+      },
+      {
+        "letter_id": "Ms. II 70/2/96",
+        "spans_A": 10,
+        "spans_B": 13,
+        "strict_F1": 0.348,
+        "lenient_F1": 0.87
+      }
+    ],
+    "per_label_strict": {
+      "PER_NOM": [
+        74,
+        87,
+        57
+      ],
+      "PER": [
+        102,
+        76,
+        80
+      ],
+      "ART_NOM": [
+        21,
+        79,
+        63
+      ],
+      "ORG": [
+        7,
+        20,
+        13
+      ],
+      "EVT": [
+        7,
+        25,
+        21
+      ],
+      "ART": [
+        3,
+        24,
+        7
+      ],
+      "LOC": [
+        60,
+        28,
+        27
+      ]
+    },
+    "per_label_lenient": {
+      "PER_NOM": [
+        92,
+        69,
+        39
+      ],
+      "PER": [
+        163,
+        15,
+        19
+      ],
+      "LOC": [
+        75,
+        13,
+        12
+      ],
+      "EVT": [
+        26,
+        6,
+        2
+      ],
+      "ART_NOM": [
+        58,
+        42,
+        26
+      ],
+      "ORG": [
+        15,
+        12,
+        5
+      ],
+      "ART": [
+        5,
+        22,
+        5
+      ]
+    }
+  },
+  {
+    "A": "project-76_u23",
+    "B": "project-79_u26",
+    "n_common": 20,
+    "strict": {
+      "P": 0.6392523364485981,
+      "R": 0.6309963099630996,
+      "F1": 0.6350974930362117,
+      "TP": 342,
+      "FP": 193,
+      "FN": 200
+    },
+    "lenient": {
+      "P": 0.7831775700934579,
+      "R": 0.7730627306273062,
+      "F1": 0.7780872794800371,
+      "TP": 419,
+      "FP": 116,
+      "FN": 123
+    },
+    "per_letter": [
+      {
+        "letter_id": "Ms. II 70/1/100",
+        "spans_A": 32,
+        "spans_B": 35,
+        "strict_F1": 0.687,
+        "lenient_F1": 0.866
+      },
+      {
+        "letter_id": "Ms. II 70/1/101",
+        "spans_A": 14,
+        "spans_B": 13,
+        "strict_F1": 0.519,
+        "lenient_F1": 0.741
+      },
+      {
+        "letter_id": "Ms. II 70/1/116",
+        "spans_A": 8,
+        "spans_B": 6,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/1/164",
+        "spans_A": 6,
+        "spans_B": 6,
+        "strict_F1": 0.333,
+        "lenient_F1": 0.833
+      },
+      {
+        "letter_id": "Ms. II 70/1/172",
+        "spans_A": 6,
+        "spans_B": 6,
+        "strict_F1": 0.5,
+        "lenient_F1": 1.0
+      },
+      {
+        "letter_id": "Ms. II 70/1/200",
+        "spans_A": 26,
+        "spans_B": 28,
+        "strict_F1": 0.704,
+        "lenient_F1": 0.741
+      },
+      {
+        "letter_id": "Ms. II 70/2/100",
+        "spans_A": 31,
+        "spans_B": 31,
+        "strict_F1": 0.581,
+        "lenient_F1": 0.774
+      },
+      {
+        "letter_id": "Ms. II 70/2/106",
+        "spans_A": 38,
+        "spans_B": 39,
+        "strict_F1": 0.649,
+        "lenient_F1": 0.779
+      },
+      {
+        "letter_id": "Ms. II 70/2/107",
+        "spans_A": 66,
+        "spans_B": 53,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.672
+      },
+      {
+        "letter_id": "Ms. II 70/2/108",
+        "spans_A": 34,
+        "spans_B": 31,
+        "strict_F1": 0.585,
+        "lenient_F1": 0.708
+      },
+      {
+        "letter_id": "Ms. II 70/2/109",
+        "spans_A": 23,
+        "spans_B": 29,
+        "strict_F1": 0.692,
+        "lenient_F1": 0.731
+      },
+      {
+        "letter_id": "Ms. II 70/2/113",
+        "spans_A": 29,
+        "spans_B": 30,
+        "strict_F1": 0.678,
+        "lenient_F1": 0.847
+      },
+      {
+        "letter_id": "Ms. II 70/2/50",
+        "spans_A": 10,
+        "spans_B": 11,
+        "strict_F1": 0.762,
+        "lenient_F1": 0.952
+      },
+      {
+        "letter_id": "Ms. II 70/2/64",
+        "spans_A": 26,
+        "spans_B": 25,
+        "strict_F1": 0.745,
+        "lenient_F1": 0.824
+      },
+      {
+        "letter_id": "Ms. II 70/2/66",
+        "spans_A": 28,
+        "spans_B": 32,
+        "strict_F1": 0.6,
+        "lenient_F1": 0.733
+      },
+      {
+        "letter_id": "Ms. II 70/2/71",
+        "spans_A": 29,
+        "spans_B": 28,
+        "strict_F1": 0.667,
+        "lenient_F1": 0.772
+      },
+      {
+        "letter_id": "Ms. II 70/2/91",
+        "spans_A": 55,
+        "spans_B": 46,
+        "strict_F1": 0.594,
+        "lenient_F1": 0.792
+      },
+      {
+        "letter_id": "Ms. II 70/2/93",
+        "spans_A": 39,
+        "spans_B": 44,
+        "strict_F1": 0.675,
+        "lenient_F1": 0.771
+      },
+      {
+        "letter_id": "Ms. II 70/2/95",
+        "spans_A": 32,
+        "spans_B": 30,
+        "strict_F1": 0.677,
+        "lenient_F1": 0.839
+      },
+      {
+        "letter_id": "Ms. II 70/2/96",
+        "spans_A": 10,
+        "spans_B": 12,
+        "strict_F1": 0.636,
+        "lenient_F1": 0.818
+      }
+    ],
+    "per_label_strict": {
+      "PER_NOM": [
+        65,
+        84,
+        66
+      ],
+      "PER": [
+        153,
+        22,
+        29
+      ],
+      "ART_NOM": [
+        31,
+        32,
+        53
+      ],
+      "ORG": [
+        9,
+        8,
+        11
+      ],
+      "LOC": [
+        75,
+        17,
+        12
+      ],
+      "ART": [
+        2,
+        7,
+        8
+      ],
+      "EVT": [
+        7,
+        23,
+        21
+      ]
+    },
+    "per_label_lenient": {
+      "LOC": [
+        81,
+        11,
+        6
+      ],
+      "PER_NOM": [
+        79,
+        70,
+        52
+      ],
+      "PER": [
+        169,
+        6,
+        13
+      ],
+      "EVT": [
+        22,
+        8,
+        6
+      ],
+      "ORG": [
+        14,
+        3,
+        6
+      ],
+      "ART_NOM": [
+        50,
+        13,
+        34
+      ],
+      "ART": [
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "A": "project-77_u24",
+    "B": "project-79_u26",
+    "n_common": 20,
+    "strict": {
+      "P": 0.48785046728971965,
+      "R": 0.4257748776508972,
+      "F1": 0.4547038327526132,
+      "TP": 261,
+      "FP": 274,
+      "FN": 352
+    },
+    "lenient": {
+      "P": 0.77196261682243,
+      "R": 0.6737357259380098,
+      "F1": 0.7195121951219513,
+      "TP": 413,
+      "FP": 122,
+      "FN": 200
+    },
+    "per_letter": [
+      {
+        "letter_id": "Ms. II 70/1/100",
+        "spans_A": 32,
+        "spans_B": 35,
+        "strict_F1": 0.597,
+        "lenient_F1": 0.806
+      },
+      {
+        "letter_id": "Ms. II 70/1/101",
+        "spans_A": 11,
+        "spans_B": 13,
+        "strict_F1": 0.333,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/1/116",
+        "spans_A": 7,
+        "spans_B": 6,
+        "strict_F1": 0.615,
+        "lenient_F1": 0.769
+      },
+      {
+        "letter_id": "Ms. II 70/1/164",
+        "spans_A": 8,
+        "spans_B": 6,
+        "strict_F1": 0.286,
+        "lenient_F1": 0.714
+      },
+      {
+        "letter_id": "Ms. II 70/1/172",
+        "spans_A": 12,
+        "spans_B": 6,
+        "strict_F1": 0.444,
+        "lenient_F1": 0.667
+      },
+      {
+        "letter_id": "Ms. II 70/1/200",
+        "spans_A": 33,
+        "spans_B": 28,
+        "strict_F1": 0.59,
+        "lenient_F1": 0.721
+      },
+      {
+        "letter_id": "Ms. II 70/2/100",
+        "spans_A": 41,
+        "spans_B": 31,
+        "strict_F1": 0.361,
+        "lenient_F1": 0.611
+      },
+      {
+        "letter_id": "Ms. II 70/2/106",
+        "spans_A": 42,
+        "spans_B": 39,
+        "strict_F1": 0.519,
+        "lenient_F1": 0.79
+      },
+      {
+        "letter_id": "Ms. II 70/2/107",
+        "spans_A": 92,
+        "spans_B": 53,
+        "strict_F1": 0.276,
+        "lenient_F1": 0.524
+      },
+      {
+        "letter_id": "Ms. II 70/2/108",
+        "spans_A": 41,
+        "spans_B": 31,
+        "strict_F1": 0.389,
+        "lenient_F1": 0.639
+      },
+      {
+        "letter_id": "Ms. II 70/2/109",
+        "spans_A": 26,
+        "spans_B": 29,
+        "strict_F1": 0.509,
+        "lenient_F1": 0.727
+      },
+      {
+        "letter_id": "Ms. II 70/2/113",
+        "spans_A": 27,
+        "spans_B": 30,
+        "strict_F1": 0.456,
+        "lenient_F1": 0.807
+      },
+      {
+        "letter_id": "Ms. II 70/2/50",
+        "spans_A": 10,
+        "spans_B": 11,
+        "strict_F1": 0.571,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/2/64",
+        "spans_A": 25,
+        "spans_B": 25,
+        "strict_F1": 0.68,
+        "lenient_F1": 0.76
+      },
+      {
+        "letter_id": "Ms. II 70/2/66",
+        "spans_A": 39,
+        "spans_B": 32,
+        "strict_F1": 0.479,
+        "lenient_F1": 0.704
+      },
+      {
+        "letter_id": "Ms. II 70/2/71",
+        "spans_A": 32,
+        "spans_B": 28,
+        "strict_F1": 0.433,
+        "lenient_F1": 0.767
+      },
+      {
+        "letter_id": "Ms. II 70/2/91",
+        "spans_A": 51,
+        "spans_B": 46,
+        "strict_F1": 0.433,
+        "lenient_F1": 0.825
+      },
+      {
+        "letter_id": "Ms. II 70/2/93",
+        "spans_A": 45,
+        "spans_B": 44,
+        "strict_F1": 0.382,
+        "lenient_F1": 0.719
+      },
+      {
+        "letter_id": "Ms. II 70/2/95",
+        "spans_A": 26,
+        "spans_B": 30,
+        "strict_F1": 0.607,
+        "lenient_F1": 0.857
+      },
+      {
+        "letter_id": "Ms. II 70/2/96",
+        "spans_A": 13,
+        "spans_B": 12,
+        "strict_F1": 0.48,
+        "lenient_F1": 0.8
+      }
+    ],
+    "per_label_strict": {
+      "PER_NOM": [
+        66,
+        83,
+        95
+      ],
+      "PER": [
+        97,
+        78,
+        81
+      ],
+      "ART_NOM": [
+        14,
+        49,
+        86
+      ],
+      "ORG": [
+        10,
+        7,
+        17
+      ],
+      "EVT": [
+        12,
+        18,
+        20
+      ],
+      "ART": [
+        2,
+        7,
+        25
+      ],
+      "LOC": [
+        60,
+        32,
+        28
+      ]
+    },
+    "per_label_lenient": {
+      "PER_NOM": [
+        88,
+        61,
+        73
+      ],
+      "PER": [
+        163,
+        12,
+        15
+      ],
+      "LOC": [
+        78,
+        14,
+        10
+      ],
+      "EVT": [
+        22,
+        8,
+        10
+      ],
+      "ORG": [
+        16,
+        1,
+        11
+      ],
+      "ART_NOM": [
+        42,
+        21,
+        58
+      ],
+      "ART": [
+        4,
+        5,
+        23
+      ]
+    }
+  }
+]

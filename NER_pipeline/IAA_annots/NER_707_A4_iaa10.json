@@ -1,0 +1,4438 @@
+[
+  {
+    "id": 20997,
+    "annotations": [
+      {
+        "id": 12013,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "Zbr4XoYvK4",
+            "type": "labels",
+            "value": {
+              "end": 710,
+              "text": "Madou",
+              "start": 705,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Vvi46iWVGp",
+            "type": "labels",
+            "value": {
+              "end": 80,
+              "text": "Mlle Ferin",
+              "start": 70,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Ucf_tPE2K8",
+            "type": "labels",
+            "value": {
+              "end": 409,
+              "text": "Mr Thierenain",
+              "start": 396,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "ShBDHC1F-n",
+            "type": "labels",
+            "value": {
+              "end": 259,
+              "text": "Ministre",
+              "start": 251,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "zLWbundTBz",
+            "type": "labels",
+            "value": {
+              "end": 38,
+              "text": "ministre",
+              "start": 30,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "BP2WxTp90k",
+            "type": "labels",
+            "value": {
+              "end": 442,
+              "text": "bibliothèque",
+              "start": 430,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T08:31:26.532602Z",
+        "updated_at": "2026-07-03T08:31:26.532613Z",
+        "draft_created_at": "2026-07-03T08:30:40.575900Z",
+        "lead_time": 51.273,
+        "prediction": {
+          "id": 12747,
+          "task": 20997,
+          "model": null,
+          "score": 0.6321,
+          "result": [
+            {
+              "id": "8bc0c5f933",
+              "type": "labels",
+              "score": 0.666,
+              "value": {
+                "end": 80,
+                "text": "Mlle Ferin",
+                "start": 70,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "f54eb7c0d2",
+              "type": "labels",
+              "score": 0.5688,
+              "value": {
+                "end": 409,
+                "text": "Mr Thierenain",
+                "start": 396,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "9135c7ece6",
+              "type": "labels",
+              "score": 0.6614,
+              "value": {
+                "end": 710,
+                "text": "Madou",
+                "start": 705,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502254Z",
+          "updated_at": "2026-07-02T11:19:03.502257Z",
+          "created_ago": "21 hours, 12 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 6,
+        "unique_id": "63d17a03-1769-40bc-86c3-d4fd7ceea57d",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 20997,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12747,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12747
+    ],
+    "data": {
+      "text": "Mon cher navez,\n J’ai reçu du ministre l'avis, que sur notre demande, Mlle Ferin, avait obtenu 300 pour par arrêté royal du 20 8bre, elle pourra toucher cette somme quand elle le voudra.\nSupposant que vous ne serez pas grécédement a lire la lettre du Ministre Je me suis borné\nà vous trouver ces quelques mots à son sujet, qui resument son contenu.\nJ’ai à vous dire bien des choses de la part de Mr Thierenain, qui m’a donné à la bibliothèque. toutes les [?fautées] que je pourais demander.\nVoila aussi le Catalogue que vous m’aviez demandé.\nJe n’a pas eu jusqu’à ce moment, le tems de vous dire toutes les choses la. veuillez m’en excuser et me ame d’auejours\nVotre ami tout [?dirant]\nle 2 Nov bre 1827\nMadou",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/1/143",
+      "meta_date": "1837-11-02",
+      "assignment": "IAA",
+      "meta_sender": "Jean Baptiste Madou (1796-1877)",
+      "nodegoat_id": "17121559",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414757Z",
+    "updated_at": "2026-07-03T08:31:26.693615Z",
+    "allow_skip": true,
+    "inner_id": 182,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 20998,
+    "annotations": [
+      {
+        "id": 12014,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "gUhhXobmqn",
+            "type": "labels",
+            "value": {
+              "end": 55,
+              "text": "deux gravures",
+              "start": 42,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Az8yM9MuIF",
+            "type": "labels",
+            "value": {
+              "end": 14,
+              "text": "Navez",
+              "start": 9,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "iEP5MhYtcm",
+            "type": "labels",
+            "value": {
+              "end": 22,
+              "text": "Adolphe",
+              "start": 15,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "_4toxxUbBT",
+            "type": "labels",
+            "value": {
+              "end": 209,
+              "text": "Decoene",
+              "start": 202,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "y4VWBl303q",
+            "type": "labels",
+            "value": {
+              "end": 512,
+              "text": "academie",
+              "start": 504,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "vrwo-NmsgL",
+            "type": "labels",
+            "value": {
+              "end": 623,
+              "text": "Madou",
+              "start": 618,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T08:39:37.908234Z",
+        "updated_at": "2026-07-03T08:39:37.908244Z",
+        "draft_created_at": "2026-07-03T08:38:07.492243Z",
+        "lead_time": 486.331,
+        "prediction": {
+          "id": 12748,
+          "task": 20998,
+          "model": null,
+          "score": 0.614,
+          "result": [
+            {
+              "id": "45eb4a5606",
+              "type": "labels",
+              "score": 0.5549,
+              "value": {
+                "end": 22,
+                "text": "Navez\nAdolphe",
+                "start": 9,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "b91aa44819",
+              "type": "labels",
+              "score": 0.5453,
+              "value": {
+                "end": 55,
+                "text": "gravures",
+                "start": 47,
+                "labels": [
+                  "ART"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "5ae2cd2cbd",
+              "type": "labels",
+              "score": 0.7419,
+              "value": {
+                "end": 623,
+                "text": "Madou",
+                "start": 618,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502272Z",
+          "updated_at": "2026-07-02T11:19:03.502276Z",
+          "created_ago": "21 hours, 20 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 6,
+        "unique_id": "728fcbb6-8147-41a2-85bb-8a505338792f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 20998,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12748,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12748
+    ],
+    "data": {
+      "text": "Mon cher Navez\nAdolphe, vous remettra les deux gravures que vous avez bien voulu lui prêter en même tems qu'il vous montrera les copiers qu'il en a fuites. comme il desire entrer dans la classe de mons Decoene pour dessinerdes academies si cela ne souffre pas de difficultés. afin qu’il puisse s’y préparer, serief vous assez bon pour voir,\nsi vous  n'avez pas dans vos portefeuille l’etude d’une figure  d’après nature que je lui ferai dessiner [depuis] ici pendant sa racaines. Si avant sa rentrée a l’academie il pouvait en dessinsune couple, cela lui ferait de bien. et vous obligeriez beaucoup  votre tout devoué\nMadou",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/1/147",
+      "meta_date": "",
+      "assignment": "IAA",
+      "meta_sender": "Jean Baptiste Madou (1796-1877)",
+      "nodegoat_id": "17121703",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414789Z",
+    "updated_at": "2026-07-03T08:39:38.053688Z",
+    "allow_skip": true,
+    "inner_id": 183,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 20999,
+    "annotations": [
+      {
+        "id": 12017,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "25e134cb4b",
+            "type": "labels",
+            "score": 0.9938,
+            "value": {
+              "end": 5,
+              "text": "Paris",
+              "start": 0,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "db7557519a",
+            "type": "labels",
+            "score": 0.9603,
+            "value": {
+              "end": 171,
+              "text": "Académie Royale des beaux arts de Bruxelles",
+              "start": 128,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "4ecaea2c87",
+            "type": "labels",
+            "score": 0.6826,
+            "value": {
+              "end": 171,
+              "text": "Bruxelles",
+              "start": 162,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "e1e9361d81",
+            "type": "labels",
+            "score": 0.887,
+            "value": {
+              "end": 1065,
+              "text": "Gouvernement",
+              "start": 1053,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "prediction-changed",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "zHNWky_lQ2",
+            "type": "labels",
+            "value": {
+              "end": 1427,
+              "text": "C Michot",
+              "start": 1419,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "eYb45zAfWz",
+            "type": "labels",
+            "value": {
+              "end": 356,
+              "text": "Mr De Potter",
+              "start": 344,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "4YrY6esvHW",
+            "type": "labels",
+            "value": {
+              "end": 656,
+              "text": "attelierde la Capitala",
+              "start": 634,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "4YrY6esvHW",
+            "type": "choices",
+            "value": {
+              "end": 656,
+              "text": "attelierde la Capitala",
+              "start": 634,
+              "choices": [
+                "severe OCR error"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "flags"
+          },
+          {
+            "id": "OqOnKygVZr",
+            "type": "labels",
+            "value": {
+              "end": 1440,
+              "text": "[rue condois",
+              "start": 1428,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "qiI270rJdB",
+            "type": "labels",
+            "value": {
+              "end": 679,
+              "text": "professeurss",
+              "start": 667,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T08:55:06.218895Z",
+        "updated_at": "2026-07-03T08:55:06.218905Z",
+        "draft_created_at": "2026-07-03T08:53:37.999661Z",
+        "lead_time": 94.742,
+        "prediction": {
+          "id": 12749,
+          "task": 20999,
+          "model": null,
+          "score": 0.8809,
+          "result": [
+            {
+              "id": "25e134cb4b",
+              "type": "labels",
+              "score": 0.9938,
+              "value": {
+                "end": 5,
+                "text": "Paris",
+                "start": 0,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "db7557519a",
+              "type": "labels",
+              "score": 0.9603,
+              "value": {
+                "end": 171,
+                "text": "Académie Royale des beaux arts de Bruxelles",
+                "start": 128,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "4ecaea2c87",
+              "type": "labels",
+              "score": 0.6826,
+              "value": {
+                "end": 171,
+                "text": "Bruxelles",
+                "start": 162,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "e1e9361d81",
+              "type": "labels",
+              "score": 0.887,
+              "value": {
+                "end": 1065,
+                "text": "le Gouvernement",
+                "start": 1050,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502291Z",
+          "updated_at": "2026-07-02T11:19:03.502294Z",
+          "created_ago": "21 hours, 36 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 9,
+        "unique_id": "2aa9e7ee-d43e-4aad-9c8c-5069123c53d7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 20999,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12749,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12749
+    ],
+    "data": {
+      "text": "Paris le 6 Novembre 1845\nMonsieur.\nSi les sages leçons que j'ai reçu de vous pendant que je faisoit mes\netudes artistiques, à l’Académie Royale des beaux arts de Bruxelles,\nsous votre digne direction. m’ont gravé une reconnoissance eternel [sic]t\ndans mon cœur, combien cette zèle ne redouble s'il pas de jour\nenjour Monsieur; en apprenant par Mr De Potter les innombrables\npeines que vous vous donnez et l’interêt que vous portez vers\nl'élève que vous à deja tant d'obligations, Oui Monsieur si jamais\nje puis acquérir un rang distingué, c'est bien à vous, qui je le dois,\nles soins que vous m'avez prodigué de me mettre ici dans 1e\nattelierde la Capitala. sous des professeurss digne de toute estime\nqui prennent comme vous l'intérêt de leurs élèves au cœur, est\ncerte un des plus grands bonheur qu'on peut avoir en fait d'art\net à àvenir, comment pourrois je vous exprimer Monsieur les\nsentiments de reconnaissance et d'estime que j'éprouve que nonobstant\nCette grand avantage que vous m'avez procurer Vous assurez mon avenue\npar des efforts pres le Gouvernement afin qu'il m'acorde un commande,\nse sont la sorte les plus belles espérances qu’un jeune artiste\npeut espère ou il ne laisseroit rien dependre de lui pour en sortir\navec honneur.\nAgréez donc Monsieur mes sincère remerciements et la\nreconnaissance d’un obligation qui est et sera toujours gravé dans mon Cœur.\nVotre tres humble et très ouvrée serviteur.\nC Michot\n[rue condois 1]",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/1/154",
+      "meta_date": "1845-11-06",
+      "assignment": "IAA",
+      "meta_sender": "C. Michot",
+      "nodegoat_id": "17130007",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414821Z",
+    "updated_at": "2026-07-03T08:55:06.369875Z",
+    "allow_skip": true,
+    "inner_id": 184,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 21000,
+    "annotations": [
+      {
+        "id": 12018,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "98839cfecf",
+            "type": "labels",
+            "score": 0.6422,
+            "value": {
+              "end": 143,
+              "text": "reunion du dîner d’artistes",
+              "start": 116,
+              "labels": [
+                "EVT"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "fb86ea17e7",
+            "type": "labels",
+            "score": 0.8497,
+            "value": {
+              "end": 255,
+              "text": "Bruxelle",
+              "start": 247,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "64pyhRV3jS",
+            "type": "labels",
+            "value": {
+              "end": 12,
+              "text": "Mr. Paelinck",
+              "start": 0,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "n1JmU04n3i",
+            "type": "labels",
+            "value": {
+              "end": 245,
+              "text": " ces messieurs",
+              "start": 231,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "beMOdcjKQ0",
+            "type": "labels",
+            "value": {
+              "end": 167,
+              "text": "Monsieur Navez",
+              "start": 153,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T08:55:39.832065Z",
+        "updated_at": "2026-07-03T08:55:39.832075Z",
+        "draft_created_at": "2026-07-03T08:55:16.003636Z",
+        "lead_time": 28.959,
+        "prediction": {
+          "id": 12750,
+          "task": 21000,
+          "model": null,
+          "score": 0.7459,
+          "result": [
+            {
+              "id": "98839cfecf",
+              "type": "labels",
+              "score": 0.6422,
+              "value": {
+                "end": 143,
+                "text": "reunion du dîner d’artistes",
+                "start": 116,
+                "labels": [
+                  "EVT"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "fb86ea17e7",
+              "type": "labels",
+              "score": 0.8497,
+              "value": {
+                "end": 255,
+                "text": "Bruxelle",
+                "start": 247,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502309Z",
+          "updated_at": "2026-07-02T11:19:03.502312Z",
+          "created_ago": "21 hours, 36 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 5,
+        "unique_id": "d500d4d0-dea3-49bd-bdf5-0c82decfd97c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21000,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12750,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12750
+    ],
+    "data": {
+      "text": "Mr. Paelinck allant s'absenter pour plusieurs mois, regrette bien sincerement de se voir privé aussi longtems de la reunion du dîner d’artistes. il prie Monsieur Navez d’en recevoir ses regrets et de vouloir bien les faire agreer à ces messieurs.\nBruxelle le 25 Juin 1834.",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/1/167",
+      "meta_date": "1834-06-25",
+      "assignment": "IAA",
+      "meta_sender": "Joseph Paelinck (1781-1839)",
+      "nodegoat_id": "17132899",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414854Z",
+    "updated_at": "2026-07-03T08:55:39.980985Z",
+    "allow_skip": true,
+    "inner_id": 185,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 21001,
+    "annotations": [
+      {
+        "id": 12019,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "2uIE2PrwEb",
+            "type": "labels",
+            "value": {
+              "end": 13,
+              "text": "Rom",
+              "start": 10,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "aU2reYEOp0",
+            "type": "labels",
+            "value": {
+              "end": 6,
+              "text": "Robert",
+              "start": 0,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "U30l6744Sg",
+            "type": "labels",
+            "value": {
+              "end": 433,
+              "text": "mon tableau",
+              "start": 422,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "kN0hR7Px_X",
+            "type": "labels",
+            "value": {
+              "end": 908,
+              "text": "Bonn",
+              "start": 904,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "5szErzi1Bx",
+            "type": "labels",
+            "value": {
+              "end": 903,
+              "text": "Rrobert",
+              "start": 896,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "QGDgmyMGua",
+            "type": "labels",
+            "value": {
+              "end": 875,
+              "text": " Madame Navez",
+              "start": 862,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "fizwit_2bI",
+            "type": "labels",
+            "value": {
+              "end": 194,
+              "text": " Madame Navez",
+              "start": 181,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "RyPJfY-Fh7",
+            "type": "labels",
+            "value": {
+              "end": 210,
+              "text": "Portaels",
+              "start": 202,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "VPXKLfB-ru",
+            "type": "labels",
+            "value": {
+              "end": 94,
+              "text": "Portaels",
+              "start": 86,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T08:57:06.037717Z",
+        "updated_at": "2026-07-03T08:57:06.037728Z",
+        "draft_created_at": "2026-07-03T08:55:52.289270Z",
+        "lead_time": 81.614,
+        "prediction": {
+          "id": 12751,
+          "task": 21001,
+          "model": null,
+          "score": 0.6341,
+          "result": [
+            {
+              "id": "3fef78910b",
+              "type": "labels",
+              "score": 0.6216,
+              "value": {
+                "end": 21,
+                "text": "Robert de Rom Ao. 186",
+                "start": 0,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "b79088fa82",
+              "type": "labels",
+              "score": 0.6091,
+              "value": {
+                "end": 433,
+                "text": "tableau",
+                "start": 426,
+                "labels": [
+                  "ART"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "71824f1792",
+              "type": "labels",
+              "score": 0.6716,
+              "value": {
+                "end": 908,
+                "text": "Rrobert\nBonn",
+                "start": 896,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502327Z",
+          "updated_at": "2026-07-02T11:19:03.502330Z",
+          "created_ago": "21 hours, 38 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 9,
+        "unique_id": "c6727971-6011-45f4-a5cf-2a356222266a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21001,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12751,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12751
+    ],
+    "data": {
+      "text": "Robert de Rom Ao. 186 de Vous\nMon cher Maitre,\n  Je profite de l'occasion de mon ami, Portaels pour vous écrire quelques mots pour me rappeler à votre bon souvenir ainsi qu'à celui, Madame Navez. Comme Portaels pourra vous tenir au courant de ce qui se passe ici, j'ai cru inutile d’entrer dans des détails. Je l’ai chargé de vous exprimer mes sentiments affectueux.\nVous me feriez bien plaisir en lui confiant le sort de mon tableau, c'est à dire en lui faisant connaitre sa destination. Je vous serais bien reconnaissant si vous employez votre influence pour qu'il obtienne S\nun bon placement. Dans le cas qu’il soit encore encaissé je pense qu’il serait prudent de l’en retirer pour éviter qu’il j’aunisse. Vous m'excuserez de vous parler aussi librement.\nAdieu  mon cher Maitre, pensez quelquefois à moi s’il vous plait, et veuillez presenter mes hommages en Madame Navez.\nVotre dévoué élève Rrobert\nBonn le 20 Mai 1840",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/1/189",
+      "meta_date": "184-05-20",
+      "assignment": "IAA",
+      "meta_sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "nodegoat_id": "17136571",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414885Z",
+    "updated_at": "2026-07-03T08:57:06.219106Z",
+    "allow_skip": true,
+    "inner_id": 186,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 21002,
+    "annotations": [
+      {
+        "id": 12020,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "49d6f00859",
+            "type": "labels",
+            "score": 0.693,
+            "value": {
+              "end": 243,
+              "text": "Commission d'Exposition",
+              "start": 220,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "11440b18a9",
+            "type": "labels",
+            "score": 0.9962,
+            "value": {
+              "end": 679,
+              "text": "Paris",
+              "start": 674,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "djU7vQ1O8q",
+            "type": "labels",
+            "value": {
+              "end": 656,
+              "text": "Amélie Champein",
+              "start": 641,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "YFu6Rs8khz",
+            "type": "labels",
+            "value": {
+              "end": 8,
+              "text": "Champein",
+              "start": 0,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "WMAa48P7ji",
+            "type": "labels",
+            "value": {
+              "end": 673,
+              "text": "rue du Cisque",
+              "start": 660,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "0rFzes53QC",
+            "type": "labels",
+            "value": {
+              "end": 347,
+              "text": "Exposition",
+              "start": 337,
+              "labels": [
+                "EVT"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "GIcrgzA3xy",
+            "type": "labels",
+            "value": {
+              "end": 313,
+              "text": "Mme Lauters",
+              "start": 302,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T08:58:10.469808Z",
+        "updated_at": "2026-07-03T08:58:10.469820Z",
+        "draft_created_at": "2026-07-03T08:57:18.924315Z",
+        "lead_time": 58.963,
+        "prediction": {
+          "id": 12752,
+          "task": 21002,
+          "model": null,
+          "score": 0.6954,
+          "result": [
+            {
+              "id": "c35999bea7",
+              "type": "labels",
+              "score": 0.6325,
+              "value": {
+                "end": 8,
+                "text": "Champein",
+                "start": 0,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "49d6f00859",
+              "type": "labels",
+              "score": 0.693,
+              "value": {
+                "end": 243,
+                "text": "Commission d'Exposition",
+                "start": 220,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "edd3992326",
+              "type": "labels",
+              "score": 0.5131,
+              "value": {
+                "end": 494,
+                "text": "Monsieur",
+                "start": 486,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "b36e7f8633",
+              "type": "labels",
+              "score": 0.6421,
+              "value": {
+                "end": 656,
+                "text": "Amélie Champein",
+                "start": 641,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "11440b18a9",
+              "type": "labels",
+              "score": 0.9962,
+              "value": {
+                "end": 679,
+                "text": "Paris",
+                "start": 674,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502345Z",
+          "updated_at": "2026-07-02T11:19:03.502348Z",
+          "created_ago": "21 hours, 39 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 7,
+        "unique_id": "89dfb849-36bf-46d2-8066-4c091f307a9f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21002,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12752,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12752
+    ],
+    "data": {
+      "text": "Champein\nMonsieur\nPermettez-moi de me rappeler à votre souvenir et de solliciter même auprès de vous. Pensant que Vous avez votre mot à dire ou plutôt que vous serez le Membre le plus influent et le mieux écouté dans la Commission d'Exposition, je m'adresse à vous pour vous recommander le portrait de\nMme Lauters que j'ai envoyé pour l'Exposition. Je serais bien désireuse pour elle et pour moi qu'il eut une place tout, a fait apparente et confortable C'est tout vous dire. Je saisis Monsieur cette occasion de vous témoigner tous mes sentiments bien sympathiques. Veuillez les accueillir avec l'assurance de ma considération distinguée.\n Amélie Champein\n18 rue du Cisque\nParis, 6 Aout 1857.",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/1/27",
+      "meta_date": "1857-08-06",
+      "assignment": "IAA",
+      "meta_sender": "Amélie Champein (1812-1898)",
+      "nodegoat_id": "17104444",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414916Z",
+    "updated_at": "2026-07-03T08:58:10.627284Z",
+    "allow_skip": true,
+    "inner_id": 187,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 21003,
+    "annotations": [
+      {
+        "id": 11968,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "69ad1a5776",
+            "type": "labels",
+            "score": 0.9948,
+            "value": {
+              "end": 5,
+              "text": "Paris",
+              "start": 0,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "a5ed5b7113",
+            "type": "labels",
+            "score": 0.5913,
+            "value": {
+              "end": 619,
+              "text": "ouvrage",
+              "start": 612,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "544cec593c",
+            "type": "labels",
+            "score": 0.9802,
+            "value": {
+              "end": 1721,
+              "text": "Italie",
+              "start": 1715,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "a4292a70d1",
+            "type": "labels",
+            "score": 0.7995,
+            "value": {
+              "end": 1832,
+              "text": "ministère",
+              "start": 1823,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "9c15da9c67",
+            "type": "labels",
+            "score": 0.9973,
+            "value": {
+              "end": 2089,
+              "text": "Rome",
+              "start": 2085,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "366a883826",
+            "type": "labels",
+            "score": 0.7689,
+            "value": {
+              "end": 5005,
+              "text": "ouvrage",
+              "start": 4998,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "c85146d82c",
+            "type": "labels",
+            "score": 0.9976,
+            "value": {
+              "end": 5864,
+              "text": "Rome",
+              "start": 5860,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "iWwVbwD6GY",
+            "type": "labels",
+            "value": {
+              "end": 81,
+              "text": "M. Feuillet",
+              "start": 70,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "ZfGAK9fgGb",
+            "type": "labels",
+            "value": {
+              "end": 294,
+              "text": " M. Feuillet",
+              "start": 282,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "5yQtNGDq3U",
+            "type": "labels",
+            "value": {
+              "end": 241,
+              "text": " Duv-\\nal-le-Camus",
+              "start": 224,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "d6YD7wkeiX",
+            "type": "labels",
+            "value": {
+              "end": 394,
+              "text": "Léopold Bobert",
+              "start": 380,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "78AU65KdRz",
+            "type": "labels",
+            "value": {
+              "end": 738,
+              "text": "Léopold.",
+              "start": 730,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "yiI971pppT",
+            "type": "labels",
+            "value": {
+              "end": 798,
+              "text": "Pousin ",
+              "start": 791,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "gRqKZMeWMp",
+            "type": "labels",
+            "value": {
+              "end": 750,
+              "text": "ouvrage",
+              "start": 743,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "N5DXJwlcvg",
+            "type": "labels",
+            "value": {
+              "end": 842,
+              "text": "Mr. Feuillet",
+              "start": 830,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "tqVtMMZXi-",
+            "type": "labels",
+            "value": {
+              "end": 1104,
+              "text": "Robert",
+              "start": 1098,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "ylCAUGgw92",
+            "type": "labels",
+            "value": {
+              "end": 1125,
+              "text": "Mr. Feuillet",
+              "start": 1113,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "-NlrXxkeL-",
+            "type": "labels",
+            "value": {
+              "end": 1517,
+              "text": "Mr. Feuillet",
+              "start": 1505,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "11zFqyus6O",
+            "type": "labels",
+            "value": {
+              "end": 1600,
+              "text": "Robert",
+              "start": 1594,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "q0qS8_cv8u",
+            "type": "labels",
+            "value": {
+              "end": 130,
+              "text": "ministères",
+              "start": 120,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "T0UZDbzcxR",
+            "type": "labels",
+            "value": {
+              "end": 1936,
+              "text": "Robert",
+              "start": 1930,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "llODv9aOiU",
+            "type": "labels",
+            "value": {
+              "end": 2067,
+              "text": "Mr. feuillet",
+              "start": 2055,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "b3iP_KLH4b",
+            "type": "labels",
+            "value": {
+              "end": 2033,
+              "text": "Schnetz",
+              "start": 2026,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "xITAemvReE",
+            "type": "labels",
+            "value": {
+              "end": 2674,
+              "text": "Robert",
+              "start": 2668,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "6T4PFl9LGV",
+            "type": "labels",
+            "value": {
+              "end": 3275,
+              "text": "Mr. Feuillet",
+              "start": 3263,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "r0IJCk2HMi",
+            "type": "labels",
+            "value": {
+              "end": 3345,
+              "text": "Champagne",
+              "start": 3336,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "rlzIxA5cnB",
+            "type": "labels",
+            "value": {
+              "end": 3588,
+              "text": "Robert",
+              "start": 3582,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "vf2k0WiVzJ",
+            "type": "labels",
+            "value": {
+              "end": 3840,
+              "text": "Carigot",
+              "start": 3833,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "FNFqTPncYm",
+            "type": "labels",
+            "value": {
+              "end": 4023,
+              "text": "Mr. Feuillet",
+              "start": 4011,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "rbWLxLy9Bj",
+            "type": "labels",
+            "value": {
+              "end": 4185,
+              "text": "Léopold",
+              "start": 4178,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "MjiZcv7rUX",
+            "type": "labels",
+            "value": {
+              "end": 4423,
+              "text": "Robert",
+              "start": 4417,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "_TGL0q7YMo",
+            "type": "labels",
+            "value": {
+              "end": 4347,
+              "text": "Schnetz",
+              "start": 4340,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "7XH6UE9MPm",
+            "type": "labels",
+            "value": {
+              "end": 4365,
+              "text": "Sauvé",
+              "start": 4360,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "aKnVA1cgTB",
+            "type": "labels",
+            "value": {
+              "end": 4634,
+              "text": "tableaux",
+              "start": 4626,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "QGeibpdUo-",
+            "type": "labels",
+            "value": {
+              "end": 4977,
+              "text": "Mr. Feuillet",
+              "start": 4965,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "B3pawckyuv",
+            "type": "labels",
+            "value": {
+              "end": 5276,
+              "text": " son frère",
+              "start": 5266,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "CSNN3VMDAO",
+            "type": "labels",
+            "value": {
+              "end": 5266,
+              "text": " Robert",
+              "start": 5259,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "NZ2aWVeIIi",
+            "type": "labels",
+            "value": {
+              "end": 5526,
+              "text": "Sc[h]netz",
+              "start": 5517,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "HMFrAoXry7",
+            "type": "labels",
+            "value": {
+              "end": 5503,
+              "text": "Alaux",
+              "start": 5498,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "y2M04Vwa5M",
+            "type": "labels",
+            "value": {
+              "end": 5935,
+              "text": "Poisson",
+              "start": 5928,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Ci1CZsRunt",
+            "type": "labels",
+            "value": {
+              "end": 5537,
+              "text": "villa",
+              "start": 5532,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "-YhwmQURxf",
+            "type": "labels",
+            "value": {
+              "end": 5976,
+              "text": "Sauvé",
+              "start": 5971,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "-5YfCJq8uy",
+            "type": "labels",
+            "value": {
+              "end": 6557,
+              "text": "sauvé",
+              "start": 6552,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "siBCaCiRKH",
+            "type": "labels",
+            "value": {
+              "end": 6855,
+              "text": "votre famille",
+              "start": 6842,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "ntQKU1SmYk",
+            "type": "labels",
+            "value": {
+              "end": 7165,
+              "text": "Beauvoir",
+              "start": 7157,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "HoU687v5B5",
+            "type": "labels",
+            "value": {
+              "end": 7140,
+              "text": "Navez ",
+              "start": 7134,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Ba3kyfARAk",
+            "type": "labels",
+            "value": {
+              "end": 6996,
+              "text": "Mr. Déhemptine ",
+              "start": 6981,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "LMUh33blAr",
+            "type": "labels",
+            "value": {
+              "end": 5472,
+              "text": "frère",
+              "start": 5467,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "c5qUqiCw9o",
+            "type": "labels",
+            "value": {
+              "end": 5610,
+              "text": "administration",
+              "start": 5596,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "CR3u-Xv8xv",
+            "type": "labels",
+            "value": {
+              "end": 5642,
+              "text": "ministre",
+              "start": 5634,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "yOyJGEEodX",
+            "type": "labels",
+            "value": {
+              "end": 5806,
+              "text": "plusieurs tableaux",
+              "start": 5788,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "PeN1vB0jH9",
+            "type": "labels",
+            "value": {
+              "end": 6103,
+              "text": "garde nationale",
+              "start": 6088,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "mEQrSUmxFt",
+            "type": "labels",
+            "value": {
+              "end": 6165,
+              "text": "ordre de la légion d'honneur",
+              "start": 6137,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "M13OSmjMHw",
+            "type": "labels",
+            "value": {
+              "end": 4592,
+              "text": "moissonneurs pêcheurs",
+              "start": 4571,
+              "labels": [
+                "ART"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "vWf8iUxUwP",
+            "type": "labels",
+            "value": {
+              "end": 3743,
+              "text": "maîtresses ",
+              "start": 3732,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-02T13:01:25.822811Z",
+        "updated_at": "2026-07-02T13:01:25.822822Z",
+        "draft_created_at": "2026-07-02T12:53:02.533843Z",
+        "lead_time": 511.019,
+        "prediction": {
+          "id": 12753,
+          "task": 21003,
+          "model": null,
+          "score": 0.6697,
+          "result": [
+            {
+              "id": "69ad1a5776",
+              "type": "labels",
+              "score": 0.9948,
+              "value": {
+                "end": 5,
+                "text": "Paris",
+                "start": 0,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "9c5171eefb",
+              "type": "labels",
+              "score": 0.6185,
+              "value": {
+                "end": 40,
+                "text": "Navez",
+                "start": 35,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "a725904ff1",
+              "type": "labels",
+              "score": 0.7485,
+              "value": {
+                "end": 81,
+                "text": "M. Feuillet",
+                "start": 70,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "fe97bed475",
+              "type": "labels",
+              "score": 0.6339,
+              "value": {
+                "end": 241,
+                "text": "Duv-\nal-le-Camus",
+                "start": 225,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "c6b23ee979",
+              "type": "labels",
+              "score": 0.6608,
+              "value": {
+                "end": 394,
+                "text": "Léopold Bobert",
+                "start": 380,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "00006d34f0",
+              "type": "labels",
+              "score": 0.5874,
+              "value": {
+                "end": 619,
+                "text": "ouvrage",
+                "start": 612,
+                "labels": [
+                  "ART"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "a5ed5b7113",
+              "type": "labels",
+              "score": 0.5913,
+              "value": {
+                "end": 619,
+                "text": "ouvrage",
+                "start": 612,
+                "labels": [
+                  "ART_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "ea0d286513",
+              "type": "labels",
+              "score": 0.6869,
+              "value": {
+                "end": 1104,
+                "text": "Robert",
+                "start": 1098,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "23f55704e5",
+              "type": "labels",
+              "score": 0.8514,
+              "value": {
+                "end": 1600,
+                "text": "Robert",
+                "start": 1594,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "544cec593c",
+              "type": "labels",
+              "score": 0.9802,
+              "value": {
+                "end": 1721,
+                "text": "Italie",
+                "start": 1715,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "a4292a70d1",
+              "type": "labels",
+              "score": 0.7995,
+              "value": {
+                "end": 1832,
+                "text": "ministère",
+                "start": 1823,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "5a42c572a9",
+              "type": "labels",
+              "score": 0.4817,
+              "value": {
+                "end": 2033,
+                "text": "Schnetz",
+                "start": 2026,
+                "labels": [
+                  "PER"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "01502473d0",
+              "type": "labels",
+              "score": 0.6142,
+              "value": {
+                "end": 2033,
+                "text": "Schnetz",
+                "start": 2026,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "e7a056a83a",
+              "type": "labels",
+              "score": 0.5542,
+              "value": {
+                "end": 2067,
+                "text": "Mr. feuillet",
+                "start": 2055,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "9c15da9c67",
+              "type": "labels",
+              "score": 0.9973,
+              "value": {
+                "end": 2089,
+                "text": "Rome",
+                "start": 2085,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "0c7b7b1ff7",
+              "type": "labels",
+              "score": 0.6943,
+              "value": {
+                "end": 4185,
+                "text": "Léopold",
+                "start": 4178,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "cd9280c5b4",
+              "type": "labels",
+              "score": 0.4632,
+              "value": {
+                "end": 4347,
+                "text": "Schnetz",
+                "start": 4340,
+                "labels": [
+                  "PER"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "70d046d090",
+              "type": "labels",
+              "score": 0.7245,
+              "value": {
+                "end": 4347,
+                "text": "Schnetz",
+                "start": 4340,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "8b7e419123",
+              "type": "labels",
+              "score": 0.4594,
+              "value": {
+                "end": 4365,
+                "text": "Sauvé",
+                "start": 4360,
+                "labels": [
+                  "PER"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "1a19ed6ae4",
+              "type": "labels",
+              "score": 0.6928,
+              "value": {
+                "end": 4365,
+                "text": "Sauvé",
+                "start": 4360,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "62ef894a0b",
+              "type": "labels",
+              "score": 0.6896,
+              "value": {
+                "end": 4423,
+                "text": "Robert",
+                "start": 4417,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "1c288d88c1",
+              "type": "labels",
+              "score": 0.5497,
+              "value": {
+                "end": 4583,
+                "text": "moissonneurs",
+                "start": 4571,
+                "labels": [
+                  "ART"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "58af743098",
+              "type": "labels",
+              "score": 0.5474,
+              "value": {
+                "end": 4977,
+                "text": "Mr. Feuillet",
+                "start": 4965,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "331492e0ca",
+              "type": "labels",
+              "score": 0.7027,
+              "value": {
+                "end": 5005,
+                "text": "ouvrage",
+                "start": 4998,
+                "labels": [
+                  "ART"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "366a883826",
+              "type": "labels",
+              "score": 0.7689,
+              "value": {
+                "end": 5005,
+                "text": "ouvrage",
+                "start": 4998,
+                "labels": [
+                  "ART_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "a04ab5d86a",
+              "type": "labels",
+              "score": 0.6129,
+              "value": {
+                "end": 5266,
+                "text": "Robert",
+                "start": 5260,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "1e0cbfdec4",
+              "type": "labels",
+              "score": 0.477,
+              "value": {
+                "end": 5503,
+                "text": "Alaux",
+                "start": 5498,
+                "labels": [
+                  "PER"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "a8081be22b",
+              "type": "labels",
+              "score": 0.6609,
+              "value": {
+                "end": 5503,
+                "text": "Alaux",
+                "start": 5498,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "2a9e2c6e5c",
+              "type": "labels",
+              "score": 0.6412,
+              "value": {
+                "end": 5526,
+                "text": "Sc[h]netz",
+                "start": 5517,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "c85146d82c",
+              "type": "labels",
+              "score": 0.9976,
+              "value": {
+                "end": 5864,
+                "text": "Rome",
+                "start": 5860,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "3bde6b15b4",
+              "type": "labels",
+              "score": 0.6299,
+              "value": {
+                "end": 6557,
+                "text": "sauvé",
+                "start": 6552,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "e2214194e8",
+              "type": "labels",
+              "score": 0.5008,
+              "value": {
+                "end": 6995,
+                "text": "Mr. Déhemptine",
+                "start": 6981,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "1ca2e00f39",
+              "type": "labels",
+              "score": 0.5127,
+              "value": {
+                "end": 7139,
+                "text": "Navez",
+                "start": 7134,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "526999f809",
+              "type": "labels",
+              "score": 0.6439,
+              "value": {
+                "end": 7165,
+                "text": "Beauvoir",
+                "start": 7157,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502363Z",
+          "updated_at": "2026-07-02T11:19:03.502366Z",
+          "created_ago": "1 hour, 42 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 55,
+        "unique_id": "62c8f543-f029-4a34-91c3-10d2db792f8b",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21003,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12753,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12753
+    ],
+    "data": {
+      "text": "Paris le 15 décembre 1846\nMon cher Navez\nIl y a environ un mois qu’un M. Feuillet chef de bureaux\nattaché à l'un de nos ministères, je ne sais plus lequel mais la\nchose importe fort peu à ce qui va suivre, me fut adressé par Duv-\nal-le-Camus [?] dont le désir était que je remisse à M. Feuillet\nque gros comme le bras il nomme son cher et intime ami, toute\nma correspondance avec Léopold Bobert dont celui-ci veut écrire et pu\nblier la vie. L'idée actuel je dis actuel parceque cet historien ne me\nparait pas avoir des idées très arrétées sur ce qu'il se propose de\nfaire lidée actuel donc serait de composer un ouvrage en dex vol-\numes l'un contiendrait les faits et gestes l'autre des lettres on\nportions de lettres écrites par Léopold. Cet ouvrage formerait\ncomme un pendant à une vie du Pousin écrite ainsi. dʼap-\nrès ce plan Mr. Feuillet ne saurait avoir une trop grande\nquantité de lettres autographes n'importe à qui elles ont été adressé, je vous avou-\nrai, mon cher, que j'ai une répugnance extrême à confier à un\ninconnu et par suite au public tout ce qu'il y a pu avoir\nd'intimité entre Robert et moi. Mr. Feuillet a eu l'extrème\nbonté de me lire la plus grande partie de ce qu'il a déjà\ncomposé je crois en vérité que cette lecture a bien duré une\ndemi heure j'en souffrais pour lui et d'autant plus qu'il n'a\npas atteint, il s'en faut, son but car si  cette audition a modifié un peu\nma manière d'envisager la publicité de ma correspondance elle\nest loin d'avoir dissipé toute ma répugnance. Mr. Feuillet\ndésigné quatre personnes comme ayant été les plus avants dans\nl'intimité de Robert il met en première ligne. Mr... jai oublié son nom mais\ncʼest un vieillard qui sous lʼempire avait été employé en Italie\net je crois dans les eaux et foréts. dans cette administration\nil a été employé longtemps et dans ce ministère où il est parvenu jusqu'au grade\nd'administrateur, vous avez dû entendre parler\nde ce monsieur à Robert qui a été toute sa vien en corres-\npondance avec lui les trois autres intimes sont vous, Schnetz et\nmoi. Le projet de Mr. feuillet serait d’aller à Rome y puiser des\nnotions certaines sur la vie du peintre ce projet n'est encore qu'à\nl'état de rélleité [?] dans la tête de mon homme qui m'a paru tout\nflottant dans mille idées assez vagues tant d'hésitation ma donnée\nune médiore confiance, dans ce qu'il fera il m'a paru un\nhomme d'esprit mais l'un caractère indécis si je l'avais vu ent-\nouré de matériaux bien authentiques j'aurais été plus disposé peut\nêtre à me prêter à ses desirs, mais toujours avec réserve. je lui\nai conseillé de s'adresser surtout à vous qui devez avoir une très grande\nquantité de lettres de la main de Robert votre correspondance\ndoit être beaucoup plus intéressante que la mienne surtout\nsous le rapport artistique en s'entretenant avec vous il savait parfai-\ntement qu'il parlait comme on dit vulgairement à un homme du\nmétier qui pouvait le comprendre mais avec moi il connaissait trop\npeu d'acquis dans son art pour ne pas juger que je ne pouvais être à\nla hauteur de ses idées: votre correspondance a toujours du être toute\naffectueuse n'ayant jamais eu la moindre discution avec lui je\nvous aurais prévenu beaucoup plutôt de la possibilité de cette visite\nou de la demande de vos lettres si Mr. Feuillet ne fut venu me\ntrouver au moment ou j'allais partir pour la Champagne j'aurais désiré\npouvoir vous donner quelques nations sur cet homme mais je n’ai trouv-\nvé personne dans le cercle étroit de mes connaissances qui le connaisse\ndirectement ou indirectement, je ne sais où cet original a été découvrir\nque Robert se livrait avec quelque assiduité à la masturbation je\nvous avoue que j'aurais été à mille lieux de penser que lui auquel\nj'ai connu plusieurs maîtresses serait retourné à une manipulation\nsi misérable aux yeux de quiconque s'est vautre à tire-Carigot sur\ndes femmes à moins cependant que les coups de pieds de Venus qu'il avait reçus\nne l'eussent dégouté non de la chose mais des femmes dont il avait tant\nà se plaindre. Mr. Feuillet tient beaucoup à faire connaître cette turpi-\ntude au public et il croit y avoir réussi en disant que son héros était\nhypochondriac si vraiment le pauvre Léopold était retombé dans des\nhabitudes collégiennes, elles ce vice me donnerait l'explication des bira-\nrreries dont ses dernières années ont pu été entachées. Schnetz, au dire de\nSauvé, expliquer aussi à sa manière la cause du guide de Robert.\nce jugement est basé sur l'immense amour propre qu'il lui avait\nreconnu dit-il il croit que voyant d'après toute la peine que lui\navait donné ses moissonneurs pêcheurs évidemment inférieurs\nà d'autres tableaux de lui, les moissonneurs qui sont je crois son\nchef-d'œuvre, il avait conclu qu'il ne pourrait plus que d'écroitre et\nque ce pauvre garçon ne pouvant voir sa carrière arrêtée dans un âge,\nou la majeur partie des artistes continuent à augmenter leur repu-\ntations alors il aurait mieux aime mettre fin à sa vie. l'amour dont parle\nMr. Feuillet dans la fini de son ouvrage n'aurait-il pas eu une part\naussi grande que l'on l'a prétendu dans le moment ou arriva ici.\nla nouvelle de cet événement pour moi je vous avaurai qu’il me serait\nimpossible d'avoir aucune opinion à cet égart j'avais depuis trop longs-\nemps perdu de vue Robert son frère doit être plus que tout autre à\nmême de savoir la vérité mais il m'a toujours fait l'effet d'un être fort\ndissimulé et capable de ne composer la version la plus utile pour\nla mémoire de son frère\nVous savez sans doute qu'Alaux va remplacer Sc[h]netz à la villa\nil parait que ce dernier s'était tout à fait consacré à l'administration\nde la pension aussi le ministre se loue beaucoup de lui et néanmoins\nil n'a pas voulu lui laisser le directorat pendant une année de plus\nainsi qu'il l'avait demandé comme il a plusieurs tableaux qui\nne sont pas finis il veut prolonger son séjour à Rome et ne reviendra\nque l'année prochaine 1828 m'a-t-on dit\nLe bon Poisson vous fait mille tendres amitiés et Sauvé vous faire\naussi bien des compliments ce dernier depuis longtemps capitaine.\nadjudant dans la 10e légion de la garde nationale vient d'être fait\nchevalier de l'ordre de la légion d'honneur cette distinction est de cel-\nles que je nomme distinction de position mais non de mérite tout\nporte habit c'est-à-dire mannéquin employé pendant quelques\nannées sous ce grade doit arriver là et s'il y a quelque chose de sur\nprenant c'est que son uniforme ait été aussi longtemps sans cet\nespèce de fourniment il était à peu près le seul de ce grade qui en\nfut privé croyez-vous que si sauvé lisait le cas que je fais de la décora-\ntion dont on vient de charger sa poitrine il en fut infiniment flatte\nvous pensez bien que ce n'est pas la décoration que je blame mais\nl'emploi\nmoi et les miens nous\nvous prions d'agréer et de faire agréer\nnos compliments de bonne ans à toute votre famille ainsi que tous les vœux que\nnous ne cessons de faire pour que l'année qui va s'écouler voit plus\nheureuse pour vous, et pour Mr. Déhemptine que celle qui finit\nrecevez en mon particulier l'assurance d'une amitié que les\nannées ne font qu’augmenter.\ntout à vous de cœur mon cher Navez votre\nancien ami Beauvoir",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/2/112",
+      "meta_date": "1846-12-15",
+      "assignment": "IAA",
+      "meta_sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "nodegoat_id": "17415319",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414949Z",
+    "updated_at": "2026-07-02T13:01:25.990708Z",
+    "allow_skip": true,
+    "inner_id": 188,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 21004,
+    "annotations": [
+      {
+        "id": 12021,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "hagZQeNRTG",
+            "type": "labels",
+            "value": {
+              "end": 592,
+              "text": "Annette Marotte ",
+              "start": 576,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "3qlMKpfUeI",
+            "type": "labels",
+            "value": {
+              "end": 313,
+              "text": "portrait",
+              "start": 305,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T08:59:04.347820Z",
+        "updated_at": "2026-07-03T08:59:04.347831Z",
+        "draft_created_at": "2026-07-03T08:58:26.128996Z",
+        "lead_time": 46.259,
+        "prediction": {
+          "id": 12754,
+          "task": 21004,
+          "model": null,
+          "score": 0.7116,
+          "result": [
+            {
+              "id": "2e5ecca56f",
+              "type": "labels",
+              "score": 0.7116,
+              "value": {
+                "end": 591,
+                "text": "Annette Marotte",
+                "start": 576,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502381Z",
+          "updated_at": "2026-07-02T11:19:03.502384Z",
+          "created_ago": "21 hours, 40 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 2,
+        "unique_id": "a28dcd07-4406-4f8e-915e-3bb849f0543a",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21004,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12754,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12754
+    ],
+    "data": {
+      "text": "Monsieur,\nJe vous écris d’abord pour vous remercier et pour vous dire que J'envoie de suite l'exemplaire a son adresse je profite aussi de cette ocasion pour vous prier de vouloir bien me faire savoir si je n'ai pas oublié de joindre à votre Exemplaire la planche 111 qui doit se trouver avec le titre au portrait si comme Je le pense je ne vous l'ai pas remise Veuillez me la demander à la prochaine ocasion qui le présentera\nJe vous prie Monsieur de recevoir mes salutations respectueuses et l'assurance de la parfaite consideration avec la quelle je suis votre très humble Annette Marotte ce 4 decembre 1840",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/2/12",
+      "meta_date": "1840-12-04",
+      "assignment": "IAA",
+      "meta_sender": "Annette Marotte",
+      "nodegoat_id": "17402684",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.414980Z",
+    "updated_at": "2026-07-03T08:59:04.505016Z",
+    "allow_skip": true,
+    "inner_id": 189,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 21005,
+    "annotations": [
+      {
+        "id": 12022,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "5b331ef91d",
+            "type": "labels",
+            "score": 0.8032,
+            "value": {
+              "end": 162,
+              "text": "tableau des moines du mont St Bernard",
+              "start": 125,
+              "labels": [
+                "ART"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "66d1a0409e",
+            "type": "labels",
+            "score": 0.9939,
+            "value": {
+              "end": 412,
+              "text": "Paris",
+              "start": 407,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "00e3088b27",
+            "type": "labels",
+            "score": 0.9938,
+            "value": {
+              "end": 707,
+              "text": "Bruxelles",
+              "start": 698,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "CEtwMWsBw6",
+            "type": "labels",
+            "value": {
+              "end": 643,
+              "text": "J. Beaume",
+              "start": 634,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "6KTBbIAab8",
+            "type": "labels",
+            "value": {
+              "end": 475,
+              "text": "granet",
+              "start": 469,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "rLUnncsJS2",
+            "type": "labels",
+            "value": {
+              "end": 660,
+              "text": "rue d'enghien",
+              "start": 647,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "xrGo736PZx",
+            "type": "labels",
+            "value": {
+              "end": 683,
+              "text": "Nos artistes",
+              "start": 671,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "BG9fconRVL",
+            "type": "labels",
+            "value": {
+              "end": 720,
+              "text": " fête",
+              "start": 715,
+              "labels": [
+                "EVT"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "DE5_qgY56a",
+            "type": "labels",
+            "value": {
+              "end": 900,
+              "text": "exposition",
+              "start": 890,
+              "labels": [
+                "EVT"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "uRvo3LgD5x",
+            "type": "labels",
+            "value": {
+              "end": 939,
+              "text": "ouvrages des [artistres?]Belges",
+              "start": 908,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-03T09:00:31.507758Z",
+        "updated_at": "2026-07-03T09:00:31.507769Z",
+        "draft_created_at": "2026-07-03T08:59:26.138952Z",
+        "lead_time": 82.821,
+        "prediction": {
+          "id": 12755,
+          "task": 21005,
+          "model": null,
+          "score": 0.8172,
+          "result": [
+            {
+              "id": "5b331ef91d",
+              "type": "labels",
+              "score": 0.8032,
+              "value": {
+                "end": 162,
+                "text": "tableau des moines du mont St Bernard",
+                "start": 125,
+                "labels": [
+                  "ART"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "66d1a0409e",
+              "type": "labels",
+              "score": 0.9939,
+              "value": {
+                "end": 412,
+                "text": "Paris",
+                "start": 407,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "7cb67530a3",
+              "type": "labels",
+              "score": 0.5838,
+              "value": {
+                "end": 475,
+                "text": "granet",
+                "start": 469,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "38e9db116d",
+              "type": "labels",
+              "score": 0.7111,
+              "value": {
+                "end": 643,
+                "text": "J. Beaume",
+                "start": 634,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "00e3088b27",
+              "type": "labels",
+              "score": 0.9938,
+              "value": {
+                "end": 707,
+                "text": "Bruxelles",
+                "start": 698,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502399Z",
+          "updated_at": "2026-07-02T11:19:03.502402Z",
+          "created_ago": "21 hours, 41 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 10,
+        "unique_id": "bbf6849b-1c4d-4faf-af8e-5149d6d8be20",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21005,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12755,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12755
+    ],
+    "data": {
+      "text": "Monsieur et ami\nJe m'empresse de vous annoncer réception des trois mille francs que vous m'avez adressés pour le prix de mon tableau des moines du mont St Bernard. Je ne puis quant à présent que vous remercier de toutes les peines que vous avez bien voulu prendre dans cette affaire, je n'attendais pas moins de votre obligeance aussi j'espère que vous voudrez bien m’employer si l’occasion s’en présente à Paris ne m'épargny pas je suis entièrement  à vous.\nnotre ami granet auquel j’ai fait part de votre affectueux souvenir me charge de vous faire mille amitiés agréz aussi la nouvelle assurance des sentimens que Je vous ai voué.\nJ. Beaume\n10 rue d'enghien\nP S. tous Nos artistes qui ont été à Bruxelles\nPour la fête que se les artistes belges avaient donnée ont été enchantés de l’accueil qui leur a été fait; j'ai d'autant plus régretté de n'avoir pu y assister, que feusse pu voir d'exposition et les ouvrages des [artistres?]Belges, parmi les quels les vôtre soutenaient dignement les bons principes de l'arte dans vôtre pays, et qui seront toujours appreciés, par ceux qui compriment noblement les Arts.\n<+signe a bkala>",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/2/16",
+      "meta_date": "",
+      "assignment": "IAA",
+      "meta_sender": "Joseph Beaume (1796-1885)",
+      "nodegoat_id": "17404869",
+      "meta_receiver": "François-Joseph Navez (1787-1869)",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.415012Z",
+    "updated_at": "2026-07-03T09:00:31.682552Z",
+    "allow_skip": true,
+    "inner_id": 190,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  },
+  {
+    "id": 21006,
+    "annotations": [
+      {
+        "id": 11975,
+        "completed_by": 26,
+        "result": [
+          {
+            "id": "01b906c49c",
+            "type": "labels",
+            "score": 0.881,
+            "value": {
+              "end": 345,
+              "text": "gouvernement",
+              "start": 333,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "65583e862e",
+            "type": "labels",
+            "score": 0.6666,
+            "value": {
+              "end": 1441,
+              "text": "europe",
+              "start": 1435,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "9ccd87f439",
+            "type": "labels",
+            "score": 0.9808,
+            "value": {
+              "end": 2383,
+              "text": "Bruxelles",
+              "start": 2374,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "8c199b34f2",
+            "type": "labels",
+            "score": 0.5976,
+            "value": {
+              "end": 3554,
+              "text": "Madame",
+              "start": 3548,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "274e6dc106",
+            "type": "labels",
+            "score": 0.9957,
+            "value": {
+              "end": 4132,
+              "text": "Paris",
+              "start": 4127,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "dbe550425f",
+            "type": "labels",
+            "score": 0.6335,
+            "value": {
+              "end": 4253,
+              "text": "louvre",
+              "start": 4247,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "d3f098cd44",
+            "type": "labels",
+            "score": 0.9996,
+            "value": {
+              "end": 4492,
+              "text": "Rome",
+              "start": 4488,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "1ef2361fd8",
+            "type": "labels",
+            "score": 0.5768,
+            "value": {
+              "end": 4710,
+              "text": "Frascati",
+              "start": 4702,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "f0d4a76333",
+            "type": "labels",
+            "score": 0.9992,
+            "value": {
+              "end": 5212,
+              "text": "Paris",
+              "start": 5207,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "7339282be2",
+            "type": "labels",
+            "score": 0.9026,
+            "value": {
+              "end": 5348,
+              "text": "garde nationale",
+              "start": 5333,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "9f6472cac5",
+            "type": "labels",
+            "score": 0.9927,
+            "value": {
+              "end": 6173,
+              "text": "paris",
+              "start": 6168,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "38c28941d7",
+            "type": "labels",
+            "score": 0.5552,
+            "value": {
+              "end": 6466,
+              "text": "Bron",
+              "start": 6462,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "a3d213d8f4",
+            "type": "labels",
+            "score": 0.732,
+            "value": {
+              "end": 6493,
+              "text": "eure et loir",
+              "start": 6481,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "prediction",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Gq2R2EHlxt",
+            "type": "labels",
+            "value": {
+              "end": 5,
+              "text": "Frazé",
+              "start": 0,
+              "labels": [
+                "LOC"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "H5F_lCk44g",
+            "type": "labels",
+            "value": {
+              "end": 253,
+              "text": " &c.",
+              "start": 249,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "cYETW1ogAS",
+            "type": "labels",
+            "value": {
+              "end": 205,
+              "text": " Navez",
+              "start": 199,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "cWcc1qdVCu",
+            "type": "labels",
+            "value": {
+              "end": 240,
+              "text": "Roma",
+              "start": 236,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "tNIlczxnvo",
+            "type": "labels",
+            "value": {
+              "end": 249,
+              "text": "Schnetz",
+              "start": 242,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "unzi527Ns2",
+            "type": "labels",
+            "value": {
+              "end": 241,
+              "text": "n",
+              "start": 240,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "vO6PTIk-JD",
+            "type": "labels",
+            "value": {
+              "end": 441,
+              "text": "toute votre famille",
+              "start": 422,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "hTNw24V0SD",
+            "type": "labels",
+            "value": {
+              "end": 1007,
+              "text": "Charles IX",
+              "start": 997,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "j4yNS_frvc",
+            "type": "labels",
+            "value": {
+              "end": 1029,
+              "text": "sa famille",
+              "start": 1019,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "ahmR754IUn",
+            "type": "labels",
+            "value": {
+              "end": 1063,
+              "text": "royaume",
+              "start": 1056,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "4R9uC7Y_bR",
+            "type": "labels",
+            "value": {
+              "end": 912,
+              "text": "dynastie",
+              "start": 904,
+              "labels": [
+                "ORG"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "3yJXa3GHAo",
+            "type": "labels",
+            "value": {
+              "end": 1412,
+              "text": " Charles X",
+              "start": 1402,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "5sEAkRIj3V",
+            "type": "labels",
+            "value": {
+              "end": 1403,
+              "text": "leurs ancêtres ",
+              "start": 1388,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "jo7TwYrvR4",
+            "type": "labels",
+            "value": {
+              "end": 1779,
+              "text": " pèr",
+              "start": 1775,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "k0nKx5oihX",
+            "type": "labels",
+            "value": {
+              "end": 1791,
+              "text": "fils",
+              "start": 1787,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "crTDWVn0eq",
+            "type": "labels",
+            "value": {
+              "end": 1963,
+              "text": "prêtres",
+              "start": 1956,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "b795ihFkaB",
+            "type": "labels",
+            "value": {
+              "end": 2041,
+              "text": "cette famille",
+              "start": 2028,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "RGjAmepEF5",
+            "type": "labels",
+            "value": {
+              "end": 2257,
+              "text": "votre maison",
+              "start": 2245,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "u_JvZPYOkl",
+            "type": "labels",
+            "value": {
+              "end": 2808,
+              "text": "Messieurs",
+              "start": 2799,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "pJsTmT3OPl",
+            "type": "labels",
+            "value": {
+              "end": 2672,
+              "text": "artistes",
+              "start": 2664,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "jg7z0MM-aW",
+            "type": "labels",
+            "value": {
+              "end": 3324,
+              "text": "Depotter",
+              "start": 3316,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "dXWYDK4iHY",
+            "type": "labels",
+            "value": {
+              "end": 3845,
+              "text": " vos\\ndeux efants",
+              "start": 3829,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "3m98va8KDr",
+            "type": "labels",
+            "value": {
+              "end": 4037,
+              "text": "Dehemptinne",
+              "start": 4026,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "7IGOfwIPKr",
+            "type": "labels",
+            "value": {
+              "end": 4037,
+              "text": "famille Dehemptinne",
+              "start": 4018,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "_bUDIIFbAX",
+            "type": "labels",
+            "value": {
+              "end": 4169,
+              "text": "Schnetz",
+              "start": 4162,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "4LYkAJiBK_",
+            "type": "labels",
+            "value": {
+              "end": 4310,
+              "text": " tableau ",
+              "start": 4301,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "8LM2im83D7",
+            "type": "labels",
+            "value": {
+              "end": 4681,
+              "text": " Robert",
+              "start": 4674,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "dh0gGaU9gX",
+            "type": "labels",
+            "value": {
+              "end": 4774,
+              "text": " tableau",
+              "start": 4766,
+              "labels": [
+                "ART_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "GbIEjO-VlS",
+            "type": "labels",
+            "value": {
+              "end": 5118,
+              "text": "Sauvé",
+              "start": 5113,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "K66prc5-xf",
+            "type": "labels",
+            "value": {
+              "end": 5126,
+              "text": "Poisson",
+              "start": 5119,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "NgG4Kr7pCy",
+            "type": "labels",
+            "value": {
+              "end": 5132,
+              "text": "Roman",
+              "start": 5127,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "Y4IfpeQRlJ",
+            "type": "labels",
+            "value": {
+              "end": 5657,
+              "text": "Poisson",
+              "start": 5650,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "jsLZN88GVk",
+            "type": "labels",
+            "value": {
+              "end": 5694,
+              "text": "Poisson",
+              "start": 5687,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "BhOIgr_LS6",
+            "type": "labels",
+            "value": {
+              "end": 6147,
+              "text": "Beauvoir J.",
+              "start": 6136,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "39LkgPZHZC",
+            "type": "labels",
+            "value": {
+              "end": 6517,
+              "text": "ma petite famille",
+              "start": 6500,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "WyhhiRXDjN",
+            "type": "labels",
+            "value": {
+              "end": 6548,
+              "text": "seul enfant",
+              "start": 6537,
+              "labels": [
+                "PER_NOM"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "rOebTVfxqc",
+            "type": "labels",
+            "value": {
+              "end": 5953,
+              "text": "poisson",
+              "start": 5946,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          },
+          {
+            "id": "gX68U9rlfk",
+            "type": "labels",
+            "value": {
+              "end": 5969,
+              "text": " hornice",
+              "start": 5961,
+              "labels": [
+                "PER"
+              ]
+            },
+            "origin": "manual",
+            "to_name": "text",
+            "from_name": "label"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-07-02T13:53:37.375453Z",
+        "updated_at": "2026-07-02T13:53:37.375464Z",
+        "draft_created_at": "2026-07-02T13:47:42.478139Z",
+        "lead_time": 360.492,
+        "prediction": {
+          "id": 12756,
+          "task": 21006,
+          "model": null,
+          "score": 0.7584,
+          "result": [
+            {
+              "id": "66c0a438dc",
+              "type": "labels",
+              "score": 0.6679,
+              "value": {
+                "end": 205,
+                "text": "Navez",
+                "start": 200,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "640b460c86",
+              "type": "labels",
+              "score": 0.5411,
+              "value": {
+                "end": 249,
+                "text": "Roman Schnetz",
+                "start": 236,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "01b906c49c",
+              "type": "labels",
+              "score": 0.881,
+              "value": {
+                "end": 345,
+                "text": "gouvernement",
+                "start": 333,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "4bf33e9415",
+              "type": "labels",
+              "score": 0.8828,
+              "value": {
+                "end": 703,
+                "text": "fet",
+                "start": 700,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "e86b674006",
+              "type": "labels",
+              "score": 0.7524,
+              "value": {
+                "end": 1007,
+                "text": "Charles IX",
+                "start": 997,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "da86f51eeb",
+              "type": "labels",
+              "score": 0.7728,
+              "value": {
+                "end": 1412,
+                "text": "Charles X",
+                "start": 1403,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "65583e862e",
+              "type": "labels",
+              "score": 0.6666,
+              "value": {
+                "end": 1441,
+                "text": "europe",
+                "start": 1435,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "9ccd87f439",
+              "type": "labels",
+              "score": 0.9808,
+              "value": {
+                "end": 2383,
+                "text": "Bruxelles",
+                "start": 2374,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "8c199b34f2",
+              "type": "labels",
+              "score": 0.5976,
+              "value": {
+                "end": 3554,
+                "text": "Madame",
+                "start": 3548,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "a61c89c641",
+              "type": "labels",
+              "score": 0.5203,
+              "value": {
+                "end": 4037,
+                "text": "Dehemptinne",
+                "start": 4026,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "274e6dc106",
+              "type": "labels",
+              "score": 0.9957,
+              "value": {
+                "end": 4132,
+                "text": "Paris",
+                "start": 4127,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "7d63f40f47",
+              "type": "labels",
+              "score": 0.7121,
+              "value": {
+                "end": 4169,
+                "text": "Schnetz",
+                "start": 4162,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "dbe550425f",
+              "type": "labels",
+              "score": 0.6335,
+              "value": {
+                "end": 4253,
+                "text": "louvre",
+                "start": 4247,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "d3f098cd44",
+              "type": "labels",
+              "score": 0.9996,
+              "value": {
+                "end": 4492,
+                "text": "Rome",
+                "start": 4488,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "5f4f84a822",
+              "type": "labels",
+              "score": 0.7709,
+              "value": {
+                "end": 4681,
+                "text": "Robert",
+                "start": 4675,
+                "labels": [
+                  "PER_NOM"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "1ef2361fd8",
+              "type": "labels",
+              "score": 0.5768,
+              "value": {
+                "end": 4710,
+                "text": "Frascati",
+                "start": 4702,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "60be5c8e95",
+              "type": "labels",
+              "score": 0.5512,
+              "value": {
+                "end": 4774,
+                "text": "tableau",
+                "start": 4767,
+                "labels": [
+                  "ART"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "f0d4a76333",
+              "type": "labels",
+              "score": 0.9992,
+              "value": {
+                "end": 5212,
+                "text": "Paris",
+                "start": 5207,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "7339282be2",
+              "type": "labels",
+              "score": 0.9026,
+              "value": {
+                "end": 5348,
+                "text": "garde nationale",
+                "start": 5333,
+                "labels": [
+                  "ORG"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "9f6472cac5",
+              "type": "labels",
+              "score": 0.9927,
+              "value": {
+                "end": 6173,
+                "text": "paris",
+                "start": 6168,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "38c28941d7",
+              "type": "labels",
+              "score": 0.5552,
+              "value": {
+                "end": 6466,
+                "text": "Bron",
+                "start": 6462,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            },
+            {
+              "id": "a3d213d8f4",
+              "type": "labels",
+              "score": 0.732,
+              "value": {
+                "end": 6493,
+                "text": "eure et loir",
+                "start": 6481,
+                "labels": [
+                  "LOC"
+                ]
+              },
+              "to_name": "text",
+              "from_name": "label"
+            }
+          ],
+          "cluster": null,
+          "project": 79,
+          "model_run": null,
+          "neighbors": null,
+          "created_at": "2026-07-02T11:19:03.502417Z",
+          "updated_at": "2026-07-02T11:19:03.502420Z",
+          "created_ago": "2 hours, 34 minutes",
+          "mislabeling": 0.0,
+          "model_version": "gliner2-zeroshot::fastino/gliner2-multi-v1"
+        },
+        "result_count": 51,
+        "unique_id": "5e5e5a6d-a1aa-43cd-940c-6e453b900aec",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21006,
+        "project": 79,
+        "updated_by": 26,
+        "parent_prediction": 12756,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "505c4a43-NER_manual_batch2_A4.json",
+    "drafts": [],
+    "predictions": [
+      12756
+    ],
+    "data": {
+      "text": "Frazé 28 décembre 1830\nje ne sais plus trop comment vous adresser ma\nlettre et j'ai pris le parti de l'envoyer comme autrefois\npensant qu’elle arriverait plus surement\nDepuis un temps infini mon cher Navez je demande\nà tous vos intimes Roman Schnetz &c. s'ils ont de vos\nnouvelles et tous me répondent que depuis votre changement\nde gouvernement ils n'ont point entendu parler de vous inquiet de votre sort et de celui de toute votre famille\n je me décide malgré le peu d'intérêt que pourra vous\noffrir cette lettre a vous écrire pour savoir enfin ce que\nvous êtes devenu et jusqu’à quel point vous avez pu être\ncompromis dans le boulversement de votre gouvernement\nbouleversement affreux qui par le fet doit être beaucoup\nplus désastreux pour vous tous que le nôtre n'a été jusqu'à prés\n eut j'ai de la peine à croire que tout soit fini là pour\nnous connaissez-vous rien de drôle comme un changement\nde dynastie qui s'effectue en trois jours et le passage sans\nnulle opposition pour ou contre de Charles IX avec toute\nsa famille au milieu dʼune partie du royaume même\nde celle qu'il croyait lui être la plus dévouée il faut convenir\nqu'il nous gouvernait bien bêtement de ces trois générations\nde rois parties ensemble la moins stupide est je crois la\ndernière s’ils ont encore un peu d’âme ils doivent être\nbien humilié de quitter ainsi un trône qu'ont occupé pendant\nplusieurs siècles leurs ancêtres Charles X passera aux\nyeux de l’europe et de la postérité pour un roi parjure\nvous allez peut être me répondre que pour les têtes couronnées\nle parjure n'est ignominieux que quand il nest pas couronné du succes soit mais vous conviendrez\nau moins qu’il est bien triste de se voir le dernier couronné\nde sa race je dis le dernier car après la réputation de\nstupidité que le père et le fils laissent après eux il me parait physiquement\nweder geprochen sont nous être praesoros quam\nimpossible qu’une telle race occupe un trône quelconque je crois\nque les prêtres doivent avoir sur la conscience une grande\npartie des fautes de cette famille ici je m’arrête tout court car vous savez\nqu'autrefois j'étais intarissable sur le compte de ces fourbes\net un homme marié doit éviter tout ce qui provoquer chez lui\nles retours de jeunesse.\nConnaissant votre maison je pense que sa situation lʼaura\nexposée à recevoir maint et maint boulets pendant les\ncombats que la population de Bruxelles a eu à soutenir\ncontre les hollandais êtes vous un peu tranquils dans\nce moment et entrevoyez-vous un terme à cette lutte\nsanglante qui doit arrêter tout commerce et toute industrie\nque de gens ruinés pour quelques personnes qui sʼenricheront\net certe ce ne sera pas vous car les artistes ne\npeuvent faire quʼune triste figure au milieu des combats\nà moins d'y être là pour admirer des ruines sans cela vous\ny êtes Messieurs moins utiles et moins prisés que les déchireurs\nde cartouches acteurs obligés de semblables drames avant de\nfaire peindre eux ou leurs exploits ces héros de guerre civile\ndoivent avoir leur pain sur la planche comme nous disions à\nl'atelier et être dans une position assez  arrêtée pour n’être\npas dégoté de gloire et d'argent avant dʼavoir pu reconnaître convenablement la peine que l'on aura prise pour faire passer\nà la postérité la plus reculée leur visage plus ou moins\ngrotesque qu'est donc devenu de Depotter les journaux ne nous\nen parlent plus serait-il donc déjà dans les dégotés\nil naurait pas joui longtemps de l'enthousiasme  et de la\npopularité que son proces lui avait attiré dans votre dernière vous me disiez mon cher que Madame\nétait et devait rester longtemps encore souffrante des\nsuites d'une fausse couche toutes les inquiétudes qu'elle\naura eues  et dont je doute quelle soit tirée n'aurons\npas peu contribué à les entretenir comment se trouven-t-elle\nmaintenant présentez lui mes hommages quand à vos\ndeux efants [sic] je suis bien tranquil sur leur compte à leur\nage on ou ne sait pas ce que c'est que la crainte et les combats ne\nsont qu'un aliment de plus à leur jeune curiosité la\nfamille Dehemptinne a-t-elle éprouvé des malheurs rappelez\nmoi à son souvenir\ndans un voyage que j'ai fait à Paris il y a quelque temps\nj'ai vu Schnetz il s'occupait ou plutôt il allait s'occuper du\nplafond qu'il doit peindre au louvre les journaux on dit\ndernièrement qu'il avait un tableau de circonstance à faire\nce n'est pas la première fois qu'ils annoncent cela\npeut être la chose n’est pas plus vraie\nque la première fois il médite je crois encore de retourner à\nRome rien ne l'arrochera à ce séjour du reste il se porte\nbien et je n'ai remarqué de changement en lui que celui qui\nle temps fait sur nous.\nj'ai reçu il y a quelque temps une lettre de Robert il\ns'était retiré à Frascati avec son frère là il faisait en\ncachette un assez grand tableau il veut voir ce qu’il\nest capable de faire à l'insu de tout le monde et privé de\ntout conseil il prétend juger par là ce qu'il pourra pro [...]\nquand loin de tout artiste il sera retiré dans la vallée\nou il est né je doute que ce raisonnement soit bien\njuste mais il y tient beaucoup car voila plusieurs fois\nqu’il m’écrit la même chose.\nSauvé Poisson Roman et tout le très de sculpteurs se\nportait à merveille quand je suis allé à Paris il a quelques\nmois le premier était le seul qui eut tiré dans les trois joursnées\naussi a-t-il obtenu un grande dans la garde nationale\nil en eut eu un beaucoup plus marquant s'il avait\nvoulu ou plutôt s'il n’eut pas craint qu'il ne l'entrainat\ndans trop de dépense je doute que ses affaires pecunières\nsoient dans un état prospère le commerce est mort et\ndepuis longtemps et il n'a jamais été dans une position\nà mettre de côté quand à Poisson ce bon et assez insignifiant\nPoisson il traine toujours a peu près de même son\nexistence chez lui les affaires n'augmentent ni ne diminuent\nsa petite fortune il vit au jour le jour et je dout qu’il puisse jamais mettre quelque chose de cote et cependant je crois qu’ils vivent simplement poisson née pas hornice a faire de folles depenses et en cela ik a toujours montré un grand jugement.\nadieu mon cher recevez l’assurance de ma sinceres amitié tout a vous de coeur votre ami Beauvoir J.\nje ne serai guère a paris que dans les premiers jours de fevreier a moins que quelque bouleversment politique.\nne force à changer cet projet si alors je puis vous etre bon a quelques chose dans cette ville vous m’ecrivez mais d’a la je vous prie de me donner de vous nouvelles voici mon adress mr poste restante a Bron departement d’eure et loir toute ma petite famille qui se reduit a un seul enfant qui pousse comme un petit champion se porte en merveille.",
+      "batch": "NER_manual_batch2",
+      "image_url": "",
+      "letter_id": "Ms. II 70/2/65",
+      "meta_date": "1830-12-28",
+      "assignment": "IAA",
+      "meta_sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "nodegoat_id": "17412138",
+      "meta_receiver": "Auguste-Donat de Hemptinne",
+      "source_folder": "manually_transcribed_letters"
+    },
+    "meta": {},
+    "created_at": "2026-07-02T11:19:03.415043Z",
+    "updated_at": "2026-07-02T13:53:37.723775Z",
+    "allow_skip": true,
+    "inner_id": 191,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 79,
+    "updated_by": 26,
+    "comment_authors": []
+  }
+]

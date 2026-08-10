@@ -1,0 +1,5621 @@
+{
+  "seed": 42,
+  "n_folds": 5,
+  "stratification": "sender x decade (with singleton fallback)",
+  "label_merge_map": {
+    "ART_NOM": "ART",
+    "ART": "ART"
+  },
+  "letters": [
+    {
+      "letter_id": "10163407",
+      "annotator": "A3",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 900,
+      "n_gold_spans": 22,
+      "fold": 4
+    },
+    {
+      "letter_id": "17524382",
+      "annotator": "A3",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2751,
+      "n_gold_spans": 7,
+      "fold": 3
+    },
+    {
+      "letter_id": "17524392",
+      "annotator": "A4",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 407,
+      "n_gold_spans": 5,
+      "fold": 0
+    },
+    {
+      "letter_id": "21361043",
+      "annotator": "A4",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 776,
+      "n_gold_spans": 9,
+      "fold": 3
+    },
+    {
+      "letter_id": "IDN_17513259",
+      "annotator": "A4",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1087,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "IDN_17554187",
+      "annotator": "A2",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 791,
+      "n_gold_spans": 16,
+      "fold": 0
+    },
+    {
+      "letter_id": "IDN_17554615",
+      "annotator": "A4",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 422,
+      "n_gold_spans": 4,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/1",
+      "annotator": "A1",
+      "sender": "Jos Bal",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 1177,
+      "n_gold_spans": 13,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/10",
+      "annotator": "A1",
+      "sender": "Henry Brown (1816-1870)",
+      "year": 1857,
+      "decade": "1850s",
+      "text_length": 569,
+      "n_gold_spans": 9,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/100",
+      "annotator": "A2",
+      "sender": "Félix Jean Ferdinand Heyndrickx (1799-1833)",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 2471,
+      "n_gold_spans": 32,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/101",
+      "annotator": "A2",
+      "sender": "Félix Jean Ferdinand Heyndrickx (1799-1833)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1134,
+      "n_gold_spans": 11,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/102",
+      "annotator": "A1",
+      "sender": "Félix Jean Ferdinand Heyndrickx (1799-1833)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 525,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/103",
+      "annotator": "A1",
+      "sender": "Félix Jean Ferdinand Heyndrickx (1799-1833)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 769,
+      "n_gold_spans": 10,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/104",
+      "annotator": "A4",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2259,
+      "n_gold_spans": 15,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/105",
+      "annotator": "A4",
+      "sender": "Louis Jéhotte (1803-1884)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 2189,
+      "n_gold_spans": 15,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/106",
+      "annotator": "A1",
+      "sender": "Louis Jéhotte (1803-1884)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 478,
+      "n_gold_spans": 10,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/107",
+      "annotator": "A3",
+      "sender": "Louis Jéhotte (1803-1884)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 2154,
+      "n_gold_spans": 20,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/108",
+      "annotator": "A4",
+      "sender": "Louis Jéhotte (1803-1884)",
+      "year": 1858,
+      "decade": "1850s",
+      "text_length": 1244,
+      "n_gold_spans": 19,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/109",
+      "annotator": "A3",
+      "sender": "Adolphe Roberts-Jones (1806-1874)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1538,
+      "n_gold_spans": 14,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/11",
+      "annotator": "A1",
+      "sender": "Théodore-Joseph Canneel (1817-1892)",
+      "year": 1857,
+      "decade": "1850s",
+      "text_length": 635,
+      "n_gold_spans": 3,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/110",
+      "annotator": "A4",
+      "sender": "Adolphe Jouvenel (1798-1867)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 405,
+      "n_gold_spans": 3,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/111",
+      "annotator": "A1",
+      "sender": "Adolphe Jouvenel (1798-1867)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 576,
+      "n_gold_spans": 9,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/112",
+      "annotator": "A4",
+      "sender": "Jouvenel, pere",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 577,
+      "n_gold_spans": 7,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/114",
+      "annotator": "A4",
+      "sender": "Adèle Kindt (1804-1884)",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 894,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/115",
+      "annotator": "A4",
+      "sender": "Adèle Kindt (1804-1884)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 1725,
+      "n_gold_spans": 19,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/116",
+      "annotator": "A2",
+      "sender": "Adèle Kindt (1804-1884)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 549,
+      "n_gold_spans": 7,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/117",
+      "annotator": "A3",
+      "sender": "Adèle Kindt (1804-1884)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 471,
+      "n_gold_spans": 4,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/118",
+      "annotator": "A4",
+      "sender": "Adèle Kindt (1804-1884)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 519,
+      "n_gold_spans": 3,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/119",
+      "annotator": "A2",
+      "sender": "Adèle Kindt (1804-1884)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 682,
+      "n_gold_spans": 7,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/12",
+      "annotator": "A1",
+      "sender": "Josephus-Gislenus Canneel (1821-1888)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 2608,
+      "n_gold_spans": 32,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/120",
+      "annotator": "A3",
+      "sender": "Peter Ludwig Kühnen (1812-1877)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 984,
+      "n_gold_spans": 4,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/121",
+      "annotator": "A3",
+      "sender": "Henri Cattoir-Tiberghien",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 326,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/122",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 1316,
+      "n_gold_spans": 19,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/123",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 1721,
+      "n_gold_spans": 18,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/124",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 2206,
+      "n_gold_spans": 24,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/125",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 1228,
+      "n_gold_spans": 16,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/126",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2855,
+      "n_gold_spans": 33,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/127",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 2844,
+      "n_gold_spans": 31,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/128",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1469,
+      "n_gold_spans": 23,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/129",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste De Landtsheer (1797-1874)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 2663,
+      "n_gold_spans": 41,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/13",
+      "annotator": "A1",
+      "sender": "Josephus-Gislenus Canneel (1821-1888)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 2600,
+      "n_gold_spans": 33,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/130",
+      "annotator": "A1",
+      "sender": "Mr. Latteur",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 1827,
+      "n_gold_spans": 20,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/131",
+      "annotator": "A2",
+      "sender": "Abel Warocqué (1805-1864)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 703,
+      "n_gold_spans": 7,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/132",
+      "annotator": "A2",
+      "sender": "Alexandre Gendebien (1789-1869)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 633,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/133",
+      "annotator": "A2",
+      "sender": "B. Lyon",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1076,
+      "n_gold_spans": 13,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/133bis",
+      "annotator": "A1",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 938,
+      "n_gold_spans": 13,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/134",
+      "annotator": "A2",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 926,
+      "n_gold_spans": 3,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/134bis",
+      "annotator": "A2",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 2914,
+      "n_gold_spans": 23,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/135",
+      "annotator": "A2",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1847,
+      "decade": "1840s",
+      "text_length": 3069,
+      "n_gold_spans": 14,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/135bis",
+      "annotator": "A1",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1847,
+      "decade": "1840s",
+      "text_length": 2035,
+      "n_gold_spans": 22,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/136",
+      "annotator": "A3",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2349,
+      "n_gold_spans": 7,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/136bis",
+      "annotator": "A4",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 1391,
+      "n_gold_spans": 3,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/137",
+      "annotator": "A1",
+      "sender": "Dessain/Bousaine?",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 2366,
+      "n_gold_spans": 39,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/138",
+      "annotator": "A2",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 460,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/139",
+      "annotator": "A3",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 578,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/14",
+      "annotator": "A1",
+      "sender": "Josephus-Gislenus Canneel (1821-1888)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 2193,
+      "n_gold_spans": 17,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/140",
+      "annotator": "A3",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 839,
+      "n_gold_spans": 12,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/141",
+      "annotator": "A3",
+      "sender": "Émile-Carolus Leclercq (1827-1907)",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 1393,
+      "n_gold_spans": 7,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/142",
+      "annotator": "A3",
+      "sender": "G. De Freur?",
+      "year": 1815,
+      "decade": "1810s",
+      "text_length": 3801,
+      "n_gold_spans": 37,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/143",
+      "annotator": "A2",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 710,
+      "n_gold_spans": 7,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/144",
+      "annotator": "A2",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1847,
+      "decade": "1840s",
+      "text_length": 538,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/145",
+      "annotator": "A2",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 441,
+      "n_gold_spans": 11,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/146",
+      "annotator": "A4",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 822,
+      "n_gold_spans": 11,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/147",
+      "annotator": "A2",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 623,
+      "n_gold_spans": 9,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/148",
+      "annotator": "A4",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 764,
+      "n_gold_spans": 7,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/149",
+      "annotator": "A3",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 1684,
+      "n_gold_spans": 15,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/15",
+      "annotator": "A1",
+      "sender": "Marie Canneel",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 1000,
+      "n_gold_spans": 11,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/150",
+      "annotator": "A1",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 385,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/151",
+      "annotator": "A3",
+      "sender": "Jean Baptiste Madou (1796-1877)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 501,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/152",
+      "annotator": "A3",
+      "sender": "Ferdinand Marinus (1808-1890)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 773,
+      "n_gold_spans": 9,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/153",
+      "annotator": "A2",
+      "sender": "Gustaaf Wappers (1803-1874)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 1968,
+      "n_gold_spans": 33,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/154",
+      "annotator": "A2",
+      "sender": "C. Michot",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 1443,
+      "n_gold_spans": 10,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/155",
+      "annotator": "A3",
+      "sender": "Joseph Denis Odevaere (1775-1830)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1100,
+      "n_gold_spans": 8,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/156",
+      "annotator": "A2",
+      "sender": "Joseph Denis Odevaere (1775-1830)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 261,
+      "n_gold_spans": 4,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/157",
+      "annotator": "A4",
+      "sender": "Sylvie de la Rue-Odevaere",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 535,
+      "n_gold_spans": 7,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/159",
+      "annotator": "A2",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 569,
+      "n_gold_spans": 13,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/16",
+      "annotator": "A1",
+      "sender": "Marie Canneel",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 1539,
+      "n_gold_spans": 17,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/160",
+      "annotator": "A1",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1001,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/162",
+      "annotator": "A4",
+      "sender": "Société royale pour l'encouragement des Beaux-arts",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 1146,
+      "n_gold_spans": 14,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/163",
+      "annotator": "A1",
+      "sender": "",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 809,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/164",
+      "annotator": "A2",
+      "sender": "Joseph Paelinck (1781-1839)",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 933,
+      "n_gold_spans": 8,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/165",
+      "annotator": "A1",
+      "sender": "Joseph Paelinck (1781-1839)",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 314,
+      "n_gold_spans": 5,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/166",
+      "annotator": "A4",
+      "sender": "Joseph Paelinck (1781-1839)",
+      "year": 1834,
+      "decade": "1830s",
+      "text_length": 234,
+      "n_gold_spans": 4,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/167",
+      "annotator": "A2",
+      "sender": "Joseph Paelinck (1781-1839)",
+      "year": 1834,
+      "decade": "1830s",
+      "text_length": 272,
+      "n_gold_spans": 6,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/168",
+      "annotator": "A4",
+      "sender": "Louise Thérèse Françoise Elisabeth (Fanny) Paelinck-Horgnies (Regensburg, 1805 - Brussel, 9 februari 1887)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 374,
+      "n_gold_spans": 4,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/169",
+      "annotator": "A2",
+      "sender": "Joseph Paelinck (1781-1839)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1207,
+      "n_gold_spans": 11,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/17",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste Capronnier (1814-1891)",
+      "year": 1858,
+      "decade": "1850s",
+      "text_length": 860,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/170",
+      "annotator": "A3",
+      "sender": "Mr. Partoes",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 410,
+      "n_gold_spans": 4,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/171",
+      "annotator": "A1",
+      "sender": "E. Philipkin (leerling atelier Navez)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 450,
+      "n_gold_spans": 5,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/172",
+      "annotator": "A2",
+      "sender": "Charles Picqué (1799-1869)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 406,
+      "n_gold_spans": 12,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/173",
+      "annotator": "A3",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1215,
+      "n_gold_spans": 5,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/174",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 4289,
+      "n_gold_spans": 48,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/175",
+      "annotator": "A3",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 851,
+      "n_gold_spans": 10,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/176",
+      "annotator": "A4",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 1310,
+      "n_gold_spans": 9,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/177",
+      "annotator": "A2",
+      "sender": "Jean François Portaels (1818-1895)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 7764,
+      "n_gold_spans": 101,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/178",
+      "annotator": "A4",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 1915,
+      "n_gold_spans": 16,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/179",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 10764,
+      "n_gold_spans": 148,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/18",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste Capronnier (1814-1891)",
+      "year": 1863,
+      "decade": "1860s",
+      "text_length": 500,
+      "n_gold_spans": 5,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/180",
+      "annotator": "A2",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 6573,
+      "n_gold_spans": 57,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/181",
+      "annotator": "A1",
+      "sender": "Jean François Portaels (1818-1895) / Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 1261,
+      "n_gold_spans": 15,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/182",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 5187,
+      "n_gold_spans": 60,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/183",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 5958,
+      "n_gold_spans": 66,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/184",
+      "annotator": "A4",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 4538,
+      "n_gold_spans": 56,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/185",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 4527,
+      "n_gold_spans": 40,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/186",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 5267,
+      "n_gold_spans": 61,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/187",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 6068,
+      "n_gold_spans": 67,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/188",
+      "annotator": "A4",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 4144,
+      "n_gold_spans": 33,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/189",
+      "annotator": "A2",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 923,
+      "n_gold_spans": 9,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/19",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste Capronnier (1814-1891)",
+      "year": 1863,
+      "decade": "1860s",
+      "text_length": 552,
+      "n_gold_spans": 11,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/190",
+      "annotator": "A1",
+      "sender": "Alexandre Nestor Nicolas Robert (1817-1890) (1817-1890)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 6071,
+      "n_gold_spans": 64,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/191",
+      "annotator": "A4",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 1753,
+      "n_gold_spans": 15,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/192",
+      "annotator": "A1",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 2095,
+      "n_gold_spans": 17,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/193",
+      "annotator": "A1",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1021,
+      "n_gold_spans": 8,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/194",
+      "annotator": "A1",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 1933,
+      "n_gold_spans": 21,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/195",
+      "annotator": "A4",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 1863,
+      "n_gold_spans": 15,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/196",
+      "annotator": "A4",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 2570,
+      "n_gold_spans": 36,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/197",
+      "annotator": "A3",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 3407,
+      "n_gold_spans": 46,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/198",
+      "annotator": "A4",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 2810,
+      "n_gold_spans": 17,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/199",
+      "annotator": "A1",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 1461,
+      "n_gold_spans": 21,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/2",
+      "annotator": "A1",
+      "sender": "Battaille",
+      "year": 1872,
+      "decade": "1870s",
+      "text_length": 1686,
+      "n_gold_spans": 22,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/20",
+      "annotator": "A1",
+      "sender": "Charles Coumont (1822-1889)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 2237,
+      "n_gold_spans": 32,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/200",
+      "annotator": "A2",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1974,
+      "n_gold_spans": 33,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/201",
+      "annotator": "A3",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1270,
+      "n_gold_spans": 20,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/202",
+      "annotator": "A4",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1715,
+      "n_gold_spans": 20,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/204",
+      "annotator": "A1",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 2106,
+      "n_gold_spans": 34,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/205",
+      "annotator": "A1",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1100,
+      "n_gold_spans": 16,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/240",
+      "annotator": "A4",
+      "sender": "Albert Roberti (1811-1864)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 1167,
+      "n_gold_spans": 9,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/25",
+      "annotator": "A3",
+      "sender": "Amélie Champein (1812-1898)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 575,
+      "n_gold_spans": 5,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/26",
+      "annotator": "A4",
+      "sender": "Amélie Champein (1812-1898)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 816,
+      "n_gold_spans": 12,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/27",
+      "annotator": "A2",
+      "sender": "Amélie Champein (1812-1898)",
+      "year": 1857,
+      "decade": "1850s",
+      "text_length": 693,
+      "n_gold_spans": 10,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/282",
+      "annotator": "A4",
+      "sender": "Tilman-François Suys (1783-1861)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 183,
+      "n_gold_spans": 2,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/284",
+      "annotator": "A1",
+      "sender": "Tilman-François Suys (1783-1861)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1665,
+      "n_gold_spans": 13,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/3",
+      "annotator": "A4",
+      "sender": "Louis Bonet",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 623,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/31",
+      "annotator": "A4",
+      "sender": "Constantinus Fidelio Coene (1780-1841)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 409,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/330",
+      "annotator": "A3",
+      "sender": "Charles-Auguste Van den Berghe (1798–1853)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2750,
+      "n_gold_spans": 19,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/36",
+      "annotator": "A2",
+      "sender": "Erin Corr (1803-1862)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 3103,
+      "n_gold_spans": 63,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/362",
+      "annotator": "A4",
+      "sender": "Jean Baptiste van Eycken (1809-1853)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 741,
+      "n_gold_spans": 12,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/368",
+      "annotator": "A1",
+      "sender": "Victor Vanhove",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 870,
+      "n_gold_spans": 10,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/37",
+      "annotator": "A2",
+      "sender": "Erin Corr (1803-1862)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 1331,
+      "n_gold_spans": 17,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/378",
+      "annotator": "A4",
+      "sender": "Antoon Van Ysendyck (1801-1875)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1322,
+      "n_gold_spans": 24,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/38",
+      "annotator": "A4",
+      "sender": "Erin Corr (1803-1862)",
+      "year": 1853,
+      "decade": "1850s",
+      "text_length": 414,
+      "n_gold_spans": 10,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/388",
+      "annotator": "A4",
+      "sender": "Martin Verstappen (1773-1852)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 2558,
+      "n_gold_spans": 33,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/389",
+      "annotator": "A3",
+      "sender": "Martin Verstappen (1773-1852)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2807,
+      "n_gold_spans": 43,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/39",
+      "annotator": "A3",
+      "sender": "Erin Corr (1803-1862)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1102,
+      "n_gold_spans": 9,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/4",
+      "annotator": "A4",
+      "sender": "Louis Bonet",
+      "year": 1889,
+      "decade": "1880s",
+      "text_length": 771,
+      "n_gold_spans": 9,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/40",
+      "annotator": "A4",
+      "sender": "Erin Corr (1803-1862)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 331,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/41",
+      "annotator": "A3",
+      "sender": "Jacques De Braekeleer (1823-1906)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 1593,
+      "n_gold_spans": 14,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/414",
+      "annotator": "A4",
+      "sender": "Martin Verstappen (1773-1852)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 1815,
+      "n_gold_spans": 28,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/419",
+      "annotator": "A4",
+      "sender": "Martin Verstappen (1773-1852)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 2149,
+      "n_gold_spans": 32,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/42",
+      "annotator": "A3",
+      "sender": "Charles de Brouckère (1796-1860)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 462,
+      "n_gold_spans": 6,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/421",
+      "annotator": "A3",
+      "sender": "Martin Verstappen (1773-1852)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 1558,
+      "n_gold_spans": 24,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/423",
+      "annotator": "A4",
+      "sender": "Martin Verstappen (1773-1852)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 1972,
+      "n_gold_spans": 31,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/426",
+      "annotator": "A4",
+      "sender": "Martin Verstappen (1773-1852)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 2988,
+      "n_gold_spans": 40,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/43",
+      "annotator": "A4",
+      "sender": "Charles de Brouckère (1796-1860)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 664,
+      "n_gold_spans": 6,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/435",
+      "annotator": "A3",
+      "sender": "Barthélemy Vieillevoye (1798-1855)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 1694,
+      "n_gold_spans": 19,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/437",
+      "annotator": "A2",
+      "sender": "Barthélemy Vieillevoye (1798-1855)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1826,
+      "n_gold_spans": 21,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/44",
+      "annotator": "A3",
+      "sender": "Joseph Cauwer-Ronse",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 1745,
+      "n_gold_spans": 30,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/445",
+      "annotator": "A1",
+      "sender": "Clara Wulffaert (1808-1867)",
+      "year": 1860,
+      "decade": "1860s",
+      "text_length": 2546,
+      "n_gold_spans": 23,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/45",
+      "annotator": "A3",
+      "sender": "",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 1434,
+      "n_gold_spans": 12,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/46",
+      "annotator": "A4",
+      "sender": "A. Dekeyser",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 489,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/47",
+      "annotator": "A3",
+      "sender": "A. Dekeyser",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 755,
+      "n_gold_spans": 7,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/48",
+      "annotator": "A4",
+      "sender": "A. Dekeyser",
+      "year": 1862,
+      "decade": "1860s",
+      "text_length": 342,
+      "n_gold_spans": 5,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/49",
+      "annotator": "A3",
+      "sender": "P.J. Delacroix",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 1682,
+      "n_gold_spans": 20,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/5",
+      "annotator": "A3",
+      "sender": "Louis Bonet",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 796,
+      "n_gold_spans": 8,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/50",
+      "annotator": "A4",
+      "sender": "Jos. De Meulemeester",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 635,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/51",
+      "annotator": "A3",
+      "sender": "H. De Nobele",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 697,
+      "n_gold_spans": 5,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/52",
+      "annotator": "A4",
+      "sender": "H. De Nobele",
+      "year": 1858,
+      "decade": "1850s",
+      "text_length": 353,
+      "n_gold_spans": 7,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/53",
+      "annotator": "A4",
+      "sender": "Louis Joseph Antoine de Potter (1786-1859)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1867,
+      "n_gold_spans": 10,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/54",
+      "annotator": "A3",
+      "sender": "Eleuthère De Potter (1830-1854)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 3598,
+      "n_gold_spans": 37,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/55",
+      "annotator": "A4",
+      "sender": "Julien-Joseph Ducorron (1770-1848)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 899,
+      "n_gold_spans": 11,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/56",
+      "annotator": "A3",
+      "sender": "Julien-Joseph Ducorron (1770-1848)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 1710,
+      "n_gold_spans": 20,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/57",
+      "annotator": "A4",
+      "sender": "Julien-Joseph Ducorron (1770-1848)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 2384,
+      "n_gold_spans": 16,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/58",
+      "annotator": "A3",
+      "sender": "Julien-Joseph Ducorron (1770-1848)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 1108,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/59",
+      "annotator": "A3",
+      "sender": "Julien-Joseph Ducorron (1770-1848)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 1046,
+      "n_gold_spans": 10,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/6",
+      "annotator": "A3",
+      "sender": "Louis Bonet",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 1219,
+      "n_gold_spans": 16,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/60",
+      "annotator": "A3",
+      "sender": "Frédéric Théodore Faber (1782-1844)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 553,
+      "n_gold_spans": 5,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/61",
+      "annotator": "A3",
+      "sender": "Louis Sebastien Favrot",
+      "year": 1841,
+      "decade": "1840s",
+      "text_length": 1371,
+      "n_gold_spans": 13,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/62",
+      "annotator": "A3",
+      "sender": "Louis Sebastien Favrot",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 18313,
+      "n_gold_spans": 235,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/63",
+      "annotator": "A3",
+      "sender": "Louis Sebastien Favrot",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 1417,
+      "n_gold_spans": 20,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/64",
+      "annotator": "A3",
+      "sender": "Charles Auguste Fraikin (1817-1893)",
+      "year": 1841,
+      "decade": "1840s",
+      "text_length": 1085,
+      "n_gold_spans": 3,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/1/64bis",
+      "annotator": "A3",
+      "sender": "Charles Auguste Fraikin (1817-1893)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 549,
+      "n_gold_spans": 4,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/65",
+      "annotator": "A3",
+      "sender": "Joseph Franck (1825-1883)",
+      "year": 1864,
+      "decade": "1860s",
+      "text_length": 465,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/66",
+      "annotator": "A3",
+      "sender": "Pierre Joseph Célestin François (1759-1851)",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 3514,
+      "n_gold_spans": 28,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/67",
+      "annotator": "A3",
+      "sender": "Pierre Joseph Célestin François (1759-1851)",
+      "year": 1815,
+      "decade": "1810s",
+      "text_length": 1907,
+      "n_gold_spans": 23,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/68",
+      "annotator": "A3",
+      "sender": "Pierre Joseph Célestin François (1759-1851)",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 5159,
+      "n_gold_spans": 83,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/69",
+      "annotator": "A3",
+      "sender": "Pierre Joseph Célestin François (1759-1851)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 718,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/7",
+      "annotator": "A3",
+      "sender": "Louis Bonet",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 1330,
+      "n_gold_spans": 15,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/70",
+      "annotator": "A3",
+      "sender": "Pierre Joseph Célestin François (1759-1851)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 635,
+      "n_gold_spans": 2,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/71",
+      "annotator": "A3",
+      "sender": "Ange François (1800-1867)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 1046,
+      "n_gold_spans": 9,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/72",
+      "annotator": "A3",
+      "sender": "Ange François (1800-1867)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 1006,
+      "n_gold_spans": 10,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/74",
+      "annotator": "A3",
+      "sender": "Fanny Geefs (1807-1883)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 316,
+      "n_gold_spans": 8,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/75",
+      "annotator": "A3",
+      "sender": "Louis Gallait (1810-1887)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1009,
+      "n_gold_spans": 9,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/1/76",
+      "annotator": "A3",
+      "sender": "Guillaume Geefs (1805-1883)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 485,
+      "n_gold_spans": 6,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/1/77",
+      "annotator": "A3",
+      "sender": "Guillaume Geefs (1805-1883)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 543,
+      "n_gold_spans": 10,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/78",
+      "annotator": "A3",
+      "sender": "Joseph Geefs (1808-1885)",
+      "year": 1862,
+      "decade": "1860s",
+      "text_length": 672,
+      "n_gold_spans": 12,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/8",
+      "annotator": "A3",
+      "sender": "Polydore Beaufaux (1829-1905)",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 574,
+      "n_gold_spans": 4,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/80",
+      "annotator": "A3",
+      "sender": "Joseph Gérard (1821-1895)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 331,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/81",
+      "annotator": "A3",
+      "sender": "Louis-Joseph Ghémar (1819-1873)",
+      "year": 1857,
+      "decade": "1850s",
+      "text_length": 574,
+      "n_gold_spans": 8,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/1/82",
+      "annotator": "A4",
+      "sender": "Edouard Gisler (1818-1882)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 1595,
+      "n_gold_spans": 17,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/1/97",
+      "annotator": "A3",
+      "sender": "Emile Haseleer",
+      "year": 1860,
+      "decade": "1860s",
+      "text_length": 575,
+      "n_gold_spans": 2,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/1",
+      "annotator": "A1",
+      "sender": "Jean Alaux (1786-1864)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 851,
+      "n_gold_spans": 13,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/10",
+      "annotator": "A1",
+      "sender": "Marguerite Gabrielle Marotte-Willemin (1810-1866)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 1839,
+      "n_gold_spans": 19,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/100",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 5023,
+      "n_gold_spans": 41,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/101",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 2875,
+      "n_gold_spans": 18,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/102",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 3109,
+      "n_gold_spans": 24,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/103",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 6145,
+      "n_gold_spans": 51,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/104",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1841,
+      "decade": "1840s",
+      "text_length": 4722,
+      "n_gold_spans": 43,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/105",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1841,
+      "decade": "1840s",
+      "text_length": 8887,
+      "n_gold_spans": 74,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/106",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 5145,
+      "n_gold_spans": 42,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/107",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 8759,
+      "n_gold_spans": 93,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/108",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 5849,
+      "n_gold_spans": 41,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/109",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 5675,
+      "n_gold_spans": 26,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/11",
+      "annotator": "A3",
+      "sender": "Marguerite Gabrielle Marotte-Willemin (1810-1866)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1945,
+      "n_gold_spans": 21,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/110",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 8028,
+      "n_gold_spans": 57,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/111",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 3384,
+      "n_gold_spans": 29,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/112",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 7165,
+      "n_gold_spans": 61,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/113",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1847,
+      "decade": "1840s",
+      "text_length": 5613,
+      "n_gold_spans": 27,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/114",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 3602,
+      "n_gold_spans": 25,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/115",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 4322,
+      "n_gold_spans": 39,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/116",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 7425,
+      "n_gold_spans": 54,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/117",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 6824,
+      "n_gold_spans": 48,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/118",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 946,
+      "n_gold_spans": 6,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/119",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 4879,
+      "n_gold_spans": 43,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/12",
+      "annotator": "A2",
+      "sender": "Annette Marotte",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 610,
+      "n_gold_spans": 3,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/120",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 6960,
+      "n_gold_spans": 31,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/121",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 4941,
+      "n_gold_spans": 40,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/122",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 686,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/123",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 3351,
+      "n_gold_spans": 23,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/124",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 666,
+      "n_gold_spans": 6,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/125",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 6841,
+      "n_gold_spans": 31,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/126",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 4105,
+      "n_gold_spans": 30,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/127",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 8778,
+      "n_gold_spans": 77,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/128",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1853,
+      "decade": "1850s",
+      "text_length": 331,
+      "n_gold_spans": 4,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/129",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 5858,
+      "n_gold_spans": 49,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/13",
+      "annotator": "A4",
+      "sender": "Marguerite Gabrielle Marotte-Willemin (1810-1866)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 1342,
+      "n_gold_spans": 9,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/131",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1855,
+      "decade": "1850s",
+      "text_length": 4362,
+      "n_gold_spans": 26,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/132",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1855,
+      "decade": "1850s",
+      "text_length": 2272,
+      "n_gold_spans": 13,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/133",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1855,
+      "decade": "1850s",
+      "text_length": 4903,
+      "n_gold_spans": 24,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/134",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1856,
+      "decade": "1850s",
+      "text_length": 3029,
+      "n_gold_spans": 14,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/134bis",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1858,
+      "decade": "1850s",
+      "text_length": 1864,
+      "n_gold_spans": 20,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/14",
+      "annotator": "A4",
+      "sender": "Joseph Beaume (1796-1885)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2065,
+      "n_gold_spans": 22,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/147",
+      "annotator": "A4",
+      "sender": "Léon Cogniet (1794-1880)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 891,
+      "n_gold_spans": 7,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/15",
+      "annotator": "A4",
+      "sender": "Joseph Beaume (1796-1885)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1216,
+      "n_gold_spans": 14,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/158",
+      "annotator": "A3",
+      "sender": "Auguste Couder (1789-1873)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 4247,
+      "n_gold_spans": 52,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/16",
+      "annotator": "A2",
+      "sender": "Joseph Beaume (1796-1885)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1129,
+      "n_gold_spans": 10,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/17",
+      "annotator": "A1",
+      "sender": "Joseph Beaume (1796-1885)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1194,
+      "n_gold_spans": 13,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/172",
+      "annotator": "A4",
+      "sender": "Pierre-Joseph Dedreux-Dorcy (1789-1874)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 828,
+      "n_gold_spans": 18,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/173",
+      "annotator": "A4",
+      "sender": "Auguste de Forbin (1777-1841)",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 750,
+      "n_gold_spans": 5,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/18",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1819,
+      "decade": "1810s",
+      "text_length": 2145,
+      "n_gold_spans": 16,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/180",
+      "annotator": "A3",
+      "sender": "Antoine Jean-Baptiste Desplan (1790-1873)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 4042,
+      "n_gold_spans": 44,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/183",
+      "annotator": "A4",
+      "sender": "Antoine Jean-Baptiste Desplan (1790-1873)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 7423,
+      "n_gold_spans": 43,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/184",
+      "annotator": "A4",
+      "sender": "Antoine Jean-Baptiste Desplan (1790-1873)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 3120,
+      "n_gold_spans": 17,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/186",
+      "annotator": "A4",
+      "sender": "Louis-Nicolas-Marie Destouches (1788-1850)",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 5269,
+      "n_gold_spans": 75,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/193",
+      "annotator": "A4",
+      "sender": "Dimier",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2774,
+      "n_gold_spans": 40,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/2",
+      "annotator": "A4",
+      "sender": "Jean Alaux (1786-1864)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 474,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/2/176bis",
+      "annotator": "A3",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 708,
+      "n_gold_spans": 5,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/20",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1821,
+      "decade": "1820s",
+      "text_length": 10750,
+      "n_gold_spans": 75,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/200",
+      "annotator": "A2",
+      "sender": "Jean-François Ducis (1733-1816)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 1376,
+      "n_gold_spans": 20,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/203",
+      "annotator": "A4",
+      "sender": "Louis Dupré (1789-1837)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 1805,
+      "n_gold_spans": 22,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/206",
+      "annotator": "A4",
+      "sender": "Jean-Jacques Flatters (1786-1845)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 1517,
+      "n_gold_spans": 21,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/208",
+      "annotator": "A3",
+      "sender": "François Forster (1790-1872)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 1474,
+      "n_gold_spans": 12,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/21",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1821,
+      "decade": "1820s",
+      "text_length": 10913,
+      "n_gold_spans": 73,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/211",
+      "annotator": "A3",
+      "sender": "François Forster (1790-1872)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 3255,
+      "n_gold_spans": 19,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/218",
+      "annotator": "A4",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 2592,
+      "n_gold_spans": 28,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/22",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 4709,
+      "n_gold_spans": 41,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/226",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1834,
+      "decade": "1830s",
+      "text_length": 918,
+      "n_gold_spans": 11,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/229",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 330,
+      "n_gold_spans": 3,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/23",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 2855,
+      "n_gold_spans": 34,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/232",
+      "annotator": "A3",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 2960,
+      "n_gold_spans": 16,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/234",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 1581,
+      "n_gold_spans": 23,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/235",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 3592,
+      "n_gold_spans": 34,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/238",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 2081,
+      "n_gold_spans": 20,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/247",
+      "annotator": "A1",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1847,
+      "decade": "1840s",
+      "text_length": 1054,
+      "n_gold_spans": 14,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/25",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 6404,
+      "n_gold_spans": 43,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/253",
+      "annotator": "A3",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 2993,
+      "n_gold_spans": 16,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/254",
+      "annotator": "A4",
+      "sender": "Gin Martin",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 1595,
+      "n_gold_spans": 14,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/256",
+      "annotator": "A3",
+      "sender": "Antoinnette Granet",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 656,
+      "n_gold_spans": 6,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/259",
+      "annotator": "A2",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 635,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/26",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1823,
+      "decade": "1820s",
+      "text_length": 7934,
+      "n_gold_spans": 55,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/264",
+      "annotator": "A3",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 2543,
+      "n_gold_spans": 26,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/265",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 2375,
+      "n_gold_spans": 26,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/27",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1823,
+      "decade": "1820s",
+      "text_length": 5102,
+      "n_gold_spans": 32,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/271",
+      "annotator": "A1",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 2080,
+      "n_gold_spans": 26,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/275",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 2094,
+      "n_gold_spans": 16,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/276",
+      "annotator": "A3",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 2015,
+      "n_gold_spans": 15,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/28",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 10218,
+      "n_gold_spans": 46,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/281",
+      "annotator": "A4",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1841,
+      "decade": "1840s",
+      "text_length": 2087,
+      "n_gold_spans": 12,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/284",
+      "annotator": "A3",
+      "sender": "François Marius Granet (1775-1849)",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 2107,
+      "n_gold_spans": 14,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/29",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 4342,
+      "n_gold_spans": 30,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/291",
+      "annotator": "A4",
+      "sender": "Théodore Gudin (1802-1880)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 1308,
+      "n_gold_spans": 12,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/295",
+      "annotator": "A2",
+      "sender": "Théodore Gudin (1802-1880)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1968,
+      "n_gold_spans": 18,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/3",
+      "annotator": "A4",
+      "sender": "Jean-Alexandre Allais (1792-1850)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1955,
+      "n_gold_spans": 29,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/30",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 4455,
+      "n_gold_spans": 50,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/306",
+      "annotator": "A3",
+      "sender": "Didier Hanin",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 3398,
+      "n_gold_spans": 41,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/308",
+      "annotator": "A4",
+      "sender": "Philippe-Auguste Hennequin (1762-1833)",
+      "year": 1831,
+      "decade": "1830s",
+      "text_length": 1026,
+      "n_gold_spans": 13,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/310",
+      "annotator": "A3",
+      "sender": "Louis Hersent (1777-1860)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 924,
+      "n_gold_spans": 8,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/312",
+      "annotator": "A4",
+      "sender": "Jean-Auguste-Dominique Ingres (1780-1867)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 2736,
+      "n_gold_spans": 16,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/312bis",
+      "annotator": "A4",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2925,
+      "n_gold_spans": 23,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/313",
+      "annotator": "A3",
+      "sender": "Jean-Auguste-Dominique Ingres (1780-1867)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1058,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/317",
+      "annotator": "A4",
+      "sender": "Jean-Auguste-Dominique Ingres (1780-1867)",
+      "year": 1866,
+      "decade": "1860s",
+      "text_length": 1787,
+      "n_gold_spans": 9,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/32",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 2501,
+      "n_gold_spans": 25,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/326",
+      "annotator": "A3",
+      "sender": "Achille-Louis Martinet (1806-1877)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 1976,
+      "n_gold_spans": 10,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/331",
+      "annotator": "A4",
+      "sender": "Achille-Louis Martinet (1806-1877)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1510,
+      "n_gold_spans": 12,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/332",
+      "annotator": "A3",
+      "sender": "Achille-Louis Martinet (1806-1877)",
+      "year": 1847,
+      "decade": "1840s",
+      "text_length": 2442,
+      "n_gold_spans": 11,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/335",
+      "annotator": "A4",
+      "sender": "Achille-Louis Martinet (1806-1877)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 1038,
+      "n_gold_spans": 9,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/336",
+      "annotator": "A2",
+      "sender": "Achille-Louis Martinet (1806-1877)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 3681,
+      "n_gold_spans": 19,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/34",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 4310,
+      "n_gold_spans": 45,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/35",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 7368,
+      "n_gold_spans": 87,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/36",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 7282,
+      "n_gold_spans": 57,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/37",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 3006,
+      "n_gold_spans": 30,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/38",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 6691,
+      "n_gold_spans": 67,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/4",
+      "annotator": "A1",
+      "sender": "Jean-Alexandre Allais (1792-1850)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 3908,
+      "n_gold_spans": 62,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/41",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 7770,
+      "n_gold_spans": 69,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/42",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 8175,
+      "n_gold_spans": 74,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/42bis",
+      "annotator": "A3",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2582,
+      "n_gold_spans": 33,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/47",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 4049,
+      "n_gold_spans": 43,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/48",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 3048,
+      "n_gold_spans": 39,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/49",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 3168,
+      "n_gold_spans": 40,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/5",
+      "annotator": "A4",
+      "sender": "Alexandre Bally (1764-1835)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 608,
+      "n_gold_spans": 5,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/50",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 1065,
+      "n_gold_spans": 10,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/51",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 4149,
+      "n_gold_spans": 23,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/52",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1828,
+      "decade": "1820s",
+      "text_length": 5170,
+      "n_gold_spans": 38,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/53",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1828,
+      "decade": "1820s",
+      "text_length": 4334,
+      "n_gold_spans": 41,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/54",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1828,
+      "decade": "1820s",
+      "text_length": 2756,
+      "n_gold_spans": 50,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/55",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1828,
+      "decade": "1820s",
+      "text_length": 1204,
+      "n_gold_spans": 18,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/56",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1828,
+      "decade": "1820s",
+      "text_length": 4416,
+      "n_gold_spans": 53,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/57",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 3841,
+      "n_gold_spans": 39,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/58",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 2518,
+      "n_gold_spans": 24,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/59",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 4192,
+      "n_gold_spans": 32,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/6",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste Lesueur (1794-1883)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 1947,
+      "n_gold_spans": 26,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/60",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 2910,
+      "n_gold_spans": 25,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/61",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 1173,
+      "n_gold_spans": 9,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/62",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 3853,
+      "n_gold_spans": 31,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/63",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 2318,
+      "n_gold_spans": 24,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/64",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 3437,
+      "n_gold_spans": 25,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/65",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 6606,
+      "n_gold_spans": 60,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/66",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 5873,
+      "n_gold_spans": 39,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/67",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 898,
+      "n_gold_spans": 12,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/68",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 3568,
+      "n_gold_spans": 46,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/69",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 4884,
+      "n_gold_spans": 40,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/7",
+      "annotator": "A1",
+      "sender": "Désiré-Alexandre Batton (1798-1855)",
+      "year": 1853,
+      "decade": "1850s",
+      "text_length": 650,
+      "n_gold_spans": 7,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/70",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 311,
+      "n_gold_spans": 3,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/71",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 3623,
+      "n_gold_spans": 32,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/72",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 3148,
+      "n_gold_spans": 27,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/73",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 271,
+      "n_gold_spans": 3,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/74",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 2235,
+      "n_gold_spans": 15,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/75",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1834,
+      "decade": "1830s",
+      "text_length": 2224,
+      "n_gold_spans": 13,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/76",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 5419,
+      "n_gold_spans": 35,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/77",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 2142,
+      "n_gold_spans": 16,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/8",
+      "annotator": "A4",
+      "sender": "Désiré-Alexandre Batton (1798-1855)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 977,
+      "n_gold_spans": 9,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/82",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1834,
+      "decade": "1830s",
+      "text_length": 5842,
+      "n_gold_spans": 34,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/83",
+      "annotator": "A1",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1834,
+      "decade": "1830s",
+      "text_length": 2958,
+      "n_gold_spans": 26,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/2/85",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1834,
+      "decade": "1830s",
+      "text_length": 834,
+      "n_gold_spans": 15,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/9",
+      "annotator": "A1",
+      "sender": "Jacques-Luc Barbier-Walbonne",
+      "year": 1838,
+      "decade": "1830s",
+      "text_length": 2201,
+      "n_gold_spans": 18,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/2/90",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 4045,
+      "n_gold_spans": 46,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/91",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 5391,
+      "n_gold_spans": 51,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/92",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 5350,
+      "n_gold_spans": 42,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/93",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 4124,
+      "n_gold_spans": 45,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/94",
+      "annotator": "A3",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 2736,
+      "n_gold_spans": 19,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/95",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 3217,
+      "n_gold_spans": 26,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/2/96",
+      "annotator": "A2",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 1298,
+      "n_gold_spans": 13,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/97",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 3850,
+      "n_gold_spans": 35,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/2/98",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 5701,
+      "n_gold_spans": 41,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/2/99",
+      "annotator": "A4",
+      "sender": "Louis Caillard de Beauvoir (1786-1861)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 4697,
+      "n_gold_spans": 37,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/351",
+      "annotator": "A4",
+      "sender": "Alexis-Joseph Pérignon",
+      "year": 1841,
+      "decade": "1840s",
+      "text_length": 3062,
+      "n_gold_spans": 15,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/365",
+      "annotator": "A3",
+      "sender": "Alexis-Joseph Pérignon",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 665,
+      "n_gold_spans": 8,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/374",
+      "annotator": "A4",
+      "sender": "Louis Petitot (1794-1862)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 3027,
+      "n_gold_spans": 32,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/381",
+      "annotator": "A3",
+      "sender": "François-Édouard Picot (1786-1868)",
+      "year": 1858,
+      "decade": "1850s",
+      "text_length": 1413,
+      "n_gold_spans": 13,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/382",
+      "annotator": "A4",
+      "sender": "François-Édouard Picot (1786-1868)",
+      "year": 1858,
+      "decade": "1850s",
+      "text_length": 2009,
+      "n_gold_spans": 15,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/384",
+      "annotator": "A3",
+      "sender": "François-Édouard Picot (1786-1868)",
+      "year": 1862,
+      "decade": "1860s",
+      "text_length": 1006,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/387",
+      "annotator": "A4",
+      "sender": "François-Édouard Picot (1786-1868)",
+      "year": 1864,
+      "decade": "1860s",
+      "text_length": 1604,
+      "n_gold_spans": 14,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/394",
+      "annotator": "A3",
+      "sender": "Pierre III Poisson (1786-1854)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2347,
+      "n_gold_spans": 18,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/396",
+      "annotator": "A2",
+      "sender": "Pierre III Poisson (1786-1854)",
+      "year": 1817,
+      "decade": "1810s",
+      "text_length": 2016,
+      "n_gold_spans": 38,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/400",
+      "annotator": "A4",
+      "sender": "Pierre III Poisson (1786-1854)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 4163,
+      "n_gold_spans": 41,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/402",
+      "annotator": "A3",
+      "sender": "Pierre III Poisson (1786-1854)",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 5669,
+      "n_gold_spans": 49,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/405",
+      "annotator": "A1",
+      "sender": "Étienne-Jules Ramey (1796-1852)",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 2175,
+      "n_gold_spans": 23,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/408",
+      "annotator": "A4",
+      "sender": "Étienne-Jules Ramey (1796-1852)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1897,
+      "n_gold_spans": 21,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/409bis",
+      "annotator": "A4",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": 1844,
+      "decade": "1840s",
+      "text_length": 4491,
+      "n_gold_spans": 25,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/410",
+      "annotator": "A4",
+      "sender": "Desiré-Raoul Rochette (1790-1854)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 2106,
+      "n_gold_spans": 21,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/411",
+      "annotator": "A3",
+      "sender": "Desiré-Raoul Rochette (1790-1854)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 533,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/413",
+      "annotator": "A2",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": 1819,
+      "decade": "1810s",
+      "text_length": 8313,
+      "n_gold_spans": 81,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/414",
+      "annotator": "A1",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": 1821,
+      "decade": "1820s",
+      "text_length": 2931,
+      "n_gold_spans": 41,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/416",
+      "annotator": "A2",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": 1821,
+      "decade": "1820s",
+      "text_length": 2911,
+      "n_gold_spans": 43,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/428",
+      "annotator": "A3",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": 1823,
+      "decade": "1820s",
+      "text_length": 8375,
+      "n_gold_spans": 78,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/429",
+      "annotator": "A4",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 6354,
+      "n_gold_spans": 42,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/436",
+      "annotator": "A3",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 6800,
+      "n_gold_spans": 63,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/447",
+      "annotator": "A4",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": 1821,
+      "decade": "1820s",
+      "text_length": 4106,
+      "n_gold_spans": 31,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/448",
+      "annotator": "A4",
+      "sender": "Léopold Robert (1794-1835)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 5668,
+      "n_gold_spans": 50,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/456",
+      "annotator": "A3",
+      "sender": "Jean-Baptiste Roman (1792-1835)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 2953,
+      "n_gold_spans": 31,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/457",
+      "annotator": "A2",
+      "sender": "Jean-Baptiste Roman (1792-1835)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 3383,
+      "n_gold_spans": 40,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/463",
+      "annotator": "A3",
+      "sender": "Jean-Baptiste Roman (1792-1835)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 4142,
+      "n_gold_spans": 48,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/464",
+      "annotator": "A4",
+      "sender": "Bernard Seurre (1795-1867)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 3059,
+      "n_gold_spans": 36,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/466",
+      "annotator": "A3",
+      "sender": "Jean-Baptiste Roman (1792-1835)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2161,
+      "n_gold_spans": 27,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/467",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste Roman (1792-1835)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 2994,
+      "n_gold_spans": 33,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/469",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste Roman (1792-1835)",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 2790,
+      "n_gold_spans": 39,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/477",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste Roman (1792-1835)",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 5227,
+      "n_gold_spans": 52,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/493",
+      "annotator": "A3",
+      "sender": "Jean Jacques Théodore Sauvé (1792-1869)",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 3001,
+      "n_gold_spans": 24,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/503",
+      "annotator": "A1",
+      "sender": "Jean Victor Schnetz (1787-1870)",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 4816,
+      "n_gold_spans": 77,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/3/508",
+      "annotator": "A4",
+      "sender": "Jean Victor Schnetz (1787-1870)",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 1315,
+      "n_gold_spans": 18,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/517",
+      "annotator": "A3",
+      "sender": "Jean Victor Schnetz (1787-1870)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 5522,
+      "n_gold_spans": 63,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/536",
+      "annotator": "A1",
+      "sender": "Jean Victor Schnetz (1787-1870)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 2397,
+      "n_gold_spans": 28,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/560",
+      "annotator": "A4",
+      "sender": "Jean Victor Schnetz (1787-1870)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 5251,
+      "n_gold_spans": 72,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/561",
+      "annotator": "A3",
+      "sender": "Jean Victor Schnetz (1787-1870)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 3012,
+      "n_gold_spans": 29,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/3/569",
+      "annotator": "A1",
+      "sender": "Jean Victor Schnetz (1787-1870)",
+      "year": 1860,
+      "decade": "1860s",
+      "text_length": 1966,
+      "n_gold_spans": 25,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/3/604",
+      "annotator": "A4",
+      "sender": "Bernard Seurre (1795-1867)",
+      "year": 1843,
+      "decade": "1840s",
+      "text_length": 3152,
+      "n_gold_spans": 46,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/3/612",
+      "annotator": "A3",
+      "sender": "Bernard Seurre (1795-1867)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 584,
+      "n_gold_spans": 2,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/620",
+      "annotator": "A1",
+      "sender": "Bernard Seurre (1795-1867)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 3695,
+      "n_gold_spans": 73,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/642",
+      "annotator": "A4",
+      "sender": "Bernard Seurre (1795-1867)",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 2987,
+      "n_gold_spans": 39,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/3/659",
+      "annotator": "A3",
+      "sender": "Charles Thévenin (1764-1838)",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 785,
+      "n_gold_spans": 6,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/10",
+      "annotator": "A1",
+      "sender": "Auguste Baron (1794-1862)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 390,
+      "n_gold_spans": 9,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/115",
+      "annotator": "A4",
+      "sender": "Égide Norbert Cornelissen (1769-1849)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1146,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/117",
+      "annotator": "A3",
+      "sender": "Charles de Brouckère (1796-1860)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 530,
+      "n_gold_spans": 14,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/119",
+      "annotator": "A4",
+      "sender": "Charles de Brouckère (1796-1860)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 373,
+      "n_gold_spans": 4,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/121",
+      "annotator": "A4",
+      "sender": "Charles de Brouckère (1796-1860)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 615,
+      "n_gold_spans": 7,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/122",
+      "annotator": "A3",
+      "sender": "Charles de Brouckère (1796-1860)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 448,
+      "n_gold_spans": 10,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/124",
+      "annotator": "A3",
+      "sender": "Louis de Cartier d'Yves (1787-1852)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 1260,
+      "n_gold_spans": 11,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/126",
+      "annotator": "A4",
+      "sender": "Dechamps, pere",
+      "year": 1856,
+      "decade": "1850s",
+      "text_length": 2314,
+      "n_gold_spans": 12,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/127",
+      "annotator": "A4",
+      "sender": "J. A. Juten - priest",
+      "year": 1856,
+      "decade": "1850s",
+      "text_length": 775,
+      "n_gold_spans": 7,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/136",
+      "annotator": "A1",
+      "sender": "A. Delavault",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1880,
+      "n_gold_spans": 28,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/138",
+      "annotator": "A3",
+      "sender": "A. Delavault",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 712,
+      "n_gold_spans": 5,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/139",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 4230,
+      "n_gold_spans": 16,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/14",
+      "annotator": "A2",
+      "sender": "Alexis Baron",
+      "year": 1847,
+      "decade": "1840s",
+      "text_length": 1157,
+      "n_gold_spans": 9,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/152",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 2652,
+      "n_gold_spans": 12,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/154",
+      "annotator": "A3",
+      "sender": "A. Delavault",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 752,
+      "n_gold_spans": 11,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/155",
+      "annotator": "A2",
+      "sender": "A. Delavault",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 875,
+      "n_gold_spans": 6,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/156",
+      "annotator": "A3",
+      "sender": "A. Delavault",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 752,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/157",
+      "annotator": "A1",
+      "sender": "A. Delavault",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 371,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/158",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2626,
+      "n_gold_spans": 24,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/160",
+      "annotator": "A3",
+      "sender": "A. Delavault",
+      "year": 1832,
+      "decade": "1830s",
+      "text_length": 1629,
+      "n_gold_spans": 11,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/170",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 828,
+      "n_gold_spans": 7,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/177",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 883,
+      "n_gold_spans": 4,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/178",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 572,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/187",
+      "annotator": "A3",
+      "sender": "A. Delavault",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1771,
+      "n_gold_spans": 9,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/188",
+      "annotator": "A1",
+      "sender": "A. Delavault",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 5491,
+      "n_gold_spans": 70,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/190",
+      "annotator": "A3",
+      "sender": "A. Delavault",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1871,
+      "n_gold_spans": 12,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/202",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": 1842,
+      "decade": "1840s",
+      "text_length": 1776,
+      "n_gold_spans": 16,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/209",
+      "annotator": "A4",
+      "sender": "A. Delavault",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2409,
+      "n_gold_spans": 10,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/21",
+      "annotator": "A3",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1823,
+      "decade": "1820s",
+      "text_length": 3344,
+      "n_gold_spans": 49,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/217",
+      "annotator": "A4",
+      "sender": "Louis Joseph Antoine de Potter (1786-1859)",
+      "year": 1819,
+      "decade": "1810s",
+      "text_length": 2215,
+      "n_gold_spans": 28,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/229",
+      "annotator": "A3",
+      "sender": "Louis Joseph Antoine de Potter (1786-1859)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 1268,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/23",
+      "annotator": "A4",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1823,
+      "decade": "1820s",
+      "text_length": 3417,
+      "n_gold_spans": 36,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/230",
+      "annotator": "A3",
+      "sender": "Louis Joseph Antoine de Potter (1786-1859)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 3453,
+      "n_gold_spans": 44,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/238",
+      "annotator": "A4",
+      "sender": "Louis Joseph Antoine de Potter (1786-1859)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 699,
+      "n_gold_spans": 5,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/239",
+      "annotator": "A3",
+      "sender": "Louis Joseph Antoine de Potter (1786-1859)",
+      "year": 1855,
+      "decade": "1850s",
+      "text_length": 260,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/248",
+      "annotator": "A4",
+      "sender": "Markies De Prié",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 264,
+      "n_gold_spans": 1,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/249",
+      "annotator": "A1",
+      "sender": "Frédéric Auguste Ferdinand Thomas de Reiffenberg (1795-1850)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 656,
+      "n_gold_spans": 2,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/251",
+      "annotator": "A3",
+      "sender": "Frédéric Auguste Ferdinand Thomas de Reiffenberg (1795-1850)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 653,
+      "n_gold_spans": 16,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/252",
+      "annotator": "A4",
+      "sender": "Frédéric Auguste Ferdinand Thomas de Reiffenberg (1795-1850)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 374,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/263",
+      "annotator": "A4",
+      "sender": "Mr. De Savoye",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 1878,
+      "n_gold_spans": 17,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/266",
+      "annotator": "A3",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1831,
+      "decade": "1830s",
+      "text_length": 751,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/267",
+      "annotator": "A2",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1831,
+      "decade": "1830s",
+      "text_length": 597,
+      "n_gold_spans": 10,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/268",
+      "annotator": "A2",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1835,
+      "decade": "1830s",
+      "text_length": 450,
+      "n_gold_spans": 4,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/27",
+      "annotator": "A4",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 5200,
+      "n_gold_spans": 10,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/272",
+      "annotator": "A4",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1836,
+      "decade": "1830s",
+      "text_length": 508,
+      "n_gold_spans": 9,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/274",
+      "annotator": "A3",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 443,
+      "n_gold_spans": 7,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/277",
+      "annotator": "A4",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1848,
+      "decade": "1840s",
+      "text_length": 655,
+      "n_gold_spans": 7,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/28",
+      "annotator": "A2",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 1346,
+      "n_gold_spans": 11,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/288",
+      "annotator": "A4",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 1586,
+      "n_gold_spans": 16,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/289",
+      "annotator": "A3",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 1198,
+      "n_gold_spans": 13,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/290",
+      "annotator": "A1",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 1003,
+      "n_gold_spans": 7,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/294",
+      "annotator": "A4",
+      "sender": "Goswin de Stassart (1780-1854)",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 857,
+      "n_gold_spans": 7,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/300",
+      "annotator": "A3",
+      "sender": "Bernard-Amé-Léonard vicomte Du Bus de Gisignies (1808-1874)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 228,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/309",
+      "annotator": "A1",
+      "sender": "Albéric du Bus de Gisignies (1810-1874)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 516,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/319",
+      "annotator": "A4",
+      "sender": "Mathias Dupret",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 1423,
+      "n_gold_spans": 19,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/335",
+      "annotator": "A3",
+      "sender": "Félix-Sébastien Feuillet de Conches (1798-1887)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 1064,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/34",
+      "annotator": "A3",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 1609,
+      "n_gold_spans": 16,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/345",
+      "annotator": "A1",
+      "sender": "",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 915,
+      "n_gold_spans": 19,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/37",
+      "annotator": "A2",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 3245,
+      "n_gold_spans": 51,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/41",
+      "annotator": "A4",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2105,
+      "n_gold_spans": 24,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/4/42",
+      "annotator": "A4",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 2984,
+      "n_gold_spans": 49,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/45",
+      "annotator": "A4",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1826,
+      "decade": "1820s",
+      "text_length": 1650,
+      "n_gold_spans": 19,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/48",
+      "annotator": "A3",
+      "sender": "Alexandre Louis Pierre Nicolas Bénard",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 2373,
+      "n_gold_spans": 31,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/5",
+      "annotator": "A1",
+      "sender": "Jules Bar",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 1432,
+      "n_gold_spans": 13,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/59",
+      "annotator": "A4",
+      "sender": "Natalis Briavoinne (1799-1869)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 991,
+      "n_gold_spans": 14,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/4/60",
+      "annotator": "A4",
+      "sender": "Brugelman",
+      "year": 1833,
+      "decade": "1830s",
+      "text_length": 2171,
+      "n_gold_spans": 19,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/61",
+      "annotator": "A3",
+      "sender": "Jean-François Nicolas Boch Buschmann (1782-1858) (1782-1858)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 1551,
+      "n_gold_spans": 21,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/4/62",
+      "annotator": "A3",
+      "sender": "Victor Cappellemans (1823-1871)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 297,
+      "n_gold_spans": 4,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/68",
+      "annotator": "A4",
+      "sender": "Mariana Cenci",
+      "year": 1821,
+      "decade": "1820s",
+      "text_length": 799,
+      "n_gold_spans": 9,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/82",
+      "annotator": "A4",
+      "sender": "Joseph de Riquet de Caraman (1808-1886)",
+      "year": 1837,
+      "decade": "1830s",
+      "text_length": 1817,
+      "n_gold_spans": 15,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/4/94",
+      "annotator": "A3",
+      "sender": "Pierre Olivier Joseph Coomans (1816-1889)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 4632,
+      "n_gold_spans": 21,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/4/96",
+      "annotator": "A4",
+      "sender": "Pierre Olivier Joseph Coomans (1816-1889)",
+      "year": 1814,
+      "decade": "1810s",
+      "text_length": 2153,
+      "n_gold_spans": 10,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/350",
+      "annotator": "A4",
+      "sender": "Paul-François Huart-Chapel (1771-1850)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 1488,
+      "n_gold_spans": 7,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/5/365",
+      "annotator": "A2",
+      "sender": "Etienne-Victor Le Roy (1808-1878)",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 706,
+      "n_gold_spans": 10,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/367",
+      "annotator": "A3",
+      "sender": "Etienne-Victor Le Roy (1808-1878)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 718,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/368",
+      "annotator": "A4",
+      "sender": "Etienne-Victor Le Roy (1808-1878)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 1316,
+      "n_gold_spans": 12,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/372",
+      "annotator": "A1",
+      "sender": "Etienne-Victor Le Roy (1808-1878)",
+      "year": 1857,
+      "decade": "1850s",
+      "text_length": 465,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/5/375",
+      "annotator": "A2",
+      "sender": "Etienne-Victor Le Roy (1808-1878)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 328,
+      "n_gold_spans": 6,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/378",
+      "annotator": "A3",
+      "sender": "Etienne-Victor Le Roy (1808-1878)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 381,
+      "n_gold_spans": 10,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/379",
+      "annotator": "A4",
+      "sender": "Etienne-Victor Le Roy (1808-1878)",
+      "year": 1856,
+      "decade": "1850s",
+      "text_length": 583,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/383",
+      "annotator": "A4",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 775,
+      "n_gold_spans": 6,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/385",
+      "annotator": "A4",
+      "sender": "Hadelin de Liedekerke Beaufort",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 595,
+      "n_gold_spans": 4,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/389",
+      "annotator": "A4",
+      "sender": "Ferdinand Meeûs",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 628,
+      "n_gold_spans": 4,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/390",
+      "annotator": "A3",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1007,
+      "n_gold_spans": 10,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/401",
+      "annotator": "A3",
+      "sender": "Pierre-Joseph Meeus-Vandermaelen (1793-1873)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 772,
+      "n_gold_spans": 5,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/406",
+      "annotator": "A4",
+      "sender": "Fanny Maes",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 190,
+      "n_gold_spans": 2,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/413",
+      "annotator": "A1",
+      "sender": "Annette Marotte",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1752,
+      "n_gold_spans": 28,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/5/422",
+      "annotator": "A4",
+      "sender": "Materne?",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 407,
+      "n_gold_spans": 7,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/424",
+      "annotator": "A3",
+      "sender": "Jeanne Pétronille t'Kint-Matthieu (1797-1863)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 600,
+      "n_gold_spans": 9,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/432",
+      "annotator": "A1",
+      "sender": "Morren Jr.",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 524,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/433",
+      "annotator": "A4",
+      "sender": "Isabelle Coghen-Mosselman (1822-1891)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 636,
+      "n_gold_spans": 5,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/445",
+      "annotator": "A3",
+      "sender": "Auguste Orts (1814-1880)",
+      "year": 1856,
+      "decade": "1850s",
+      "text_length": 371,
+      "n_gold_spans": 3,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/446",
+      "annotator": "A2",
+      "sender": "Auguste Orts (1814-1880)",
+      "year": 1856,
+      "decade": "1850s",
+      "text_length": 413,
+      "n_gold_spans": 6,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/447",
+      "annotator": "A4",
+      "sender": "A. Peron",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1105,
+      "n_gold_spans": 14,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/449",
+      "annotator": "A3",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 1496,
+      "n_gold_spans": 23,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/451",
+      "annotator": "A4",
+      "sender": "Charles Thévenin (1764-1838)",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 1207,
+      "n_gold_spans": 22,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/452",
+      "annotator": "A3",
+      "sender": "Joseph Meeus",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 988,
+      "n_gold_spans": 18,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/454",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 1540,
+      "n_gold_spans": 31,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/455",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 3957,
+      "n_gold_spans": 42,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/456",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 4384,
+      "n_gold_spans": 62,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/471",
+      "annotator": "A2",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1817,
+      "decade": "1810s",
+      "text_length": 2193,
+      "n_gold_spans": 28,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/5/473",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1817,
+      "decade": "1810s",
+      "text_length": 1806,
+      "n_gold_spans": 24,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/474",
+      "annotator": "A3",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1818,
+      "decade": "1810s",
+      "text_length": 2442,
+      "n_gold_spans": 27,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/477",
+      "annotator": "A4",
+      "sender": "François-Joseph Meeus (1765-1821)",
+      "year": 1818,
+      "decade": "1810s",
+      "text_length": 3790,
+      "n_gold_spans": 43,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/486",
+      "annotator": "A3",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 944,
+      "n_gold_spans": 33,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/487",
+      "annotator": "A4",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 6051,
+      "n_gold_spans": 91,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/489",
+      "annotator": "A3",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 2216,
+      "n_gold_spans": 32,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/494",
+      "annotator": "A1",
+      "sender": "Jean-Baptiste Picard (1763-1843)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 789,
+      "n_gold_spans": 9,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/502",
+      "annotator": "A4",
+      "sender": "Adolphe Quetelet (1796-1874)",
+      "year": 1851,
+      "decade": "1850s",
+      "text_length": 756,
+      "n_gold_spans": 5,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/506",
+      "annotator": "A4",
+      "sender": "Adolphe Quetelet (1796-1874)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 311,
+      "n_gold_spans": 1,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/508",
+      "annotator": "A4",
+      "sender": "Adolphe Quetelet (1796-1874)",
+      "year": 1853,
+      "decade": "1850s",
+      "text_length": 469,
+      "n_gold_spans": 9,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/5/519",
+      "annotator": "A3",
+      "sender": "Sophie Amalie Dorothea Wilhelmine “Minna” Ritter Reinhold (1782-1846)",
+      "year": 1820,
+      "decade": "1820s",
+      "text_length": 739,
+      "n_gold_spans": 3,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/520",
+      "annotator": "A4",
+      "sender": "Johann Gotthard Reinhold (1771-1838)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 700,
+      "n_gold_spans": 13,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/536",
+      "annotator": "A1",
+      "sender": "Édouard Romberg (1817-1899)",
+      "year": 1859,
+      "decade": "1850s",
+      "text_length": 779,
+      "n_gold_spans": 16,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/537",
+      "annotator": "A4",
+      "sender": "Albertus Bernardus Roothaan (1783-1847)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 983,
+      "n_gold_spans": 9,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/540",
+      "annotator": "A3",
+      "sender": "Albertus Bernardus Roothaan (1783-1847)",
+      "year": 1823,
+      "decade": "1820s",
+      "text_length": 2311,
+      "n_gold_spans": 19,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/551",
+      "annotator": "A4",
+      "sender": "Albertus Bernardus Roothaan (1783-1847)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 1186,
+      "n_gold_spans": 18,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/587",
+      "annotator": "A4",
+      "sender": "Abraham Jacob Saportas (1776-1836)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 2642,
+      "n_gold_spans": 13,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/588",
+      "annotator": "A1",
+      "sender": "Abraham Jacob Saportas (1776-1836)",
+      "year": 1824,
+      "decade": "1820s",
+      "text_length": 3190,
+      "n_gold_spans": 19,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/5/593",
+      "annotator": "A4",
+      "sender": "Abraham Jacob Saportas (1776-1836)",
+      "year": 1825,
+      "decade": "1820s",
+      "text_length": 2999,
+      "n_gold_spans": 22,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/604",
+      "annotator": "A3",
+      "sender": "De Haen-Brak",
+      "year": 1829,
+      "decade": "1820s",
+      "text_length": 982,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/613",
+      "annotator": "A1",
+      "sender": "Auguste-Benoît Serruys (1790-1862)",
+      "year": 1840,
+      "decade": "1840s",
+      "text_length": 1604,
+      "n_gold_spans": 22,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/625",
+      "annotator": "A4",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": 1855,
+      "decade": "1850s",
+      "text_length": 1789,
+      "n_gold_spans": 18,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/632",
+      "annotator": "A4",
+      "sender": "Baron Isidore Justin Séverin Taylor (1789-1879)",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 1022,
+      "n_gold_spans": 25,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/639",
+      "annotator": "A3",
+      "sender": "Cosmas Carolus Josephus Tombeur",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 4381,
+      "n_gold_spans": 29,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/648",
+      "annotator": "A2",
+      "sender": "Eugène van der Belen",
+      "year": 1852,
+      "decade": "1850s",
+      "text_length": 544,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/666",
+      "annotator": "A1",
+      "sender": "Gustave van Leempoel de Nieuwmunster (1795-1877)",
+      "year": 1821,
+      "decade": "1820s",
+      "text_length": 1063,
+      "n_gold_spans": 21,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/667",
+      "annotator": "A4",
+      "sender": "Gustave van Leempoel de Nieuwmunster (1795-1877)",
+      "year": 1861,
+      "decade": "1860s",
+      "text_length": 708,
+      "n_gold_spans": 10,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/5/680",
+      "annotator": "A3",
+      "sender": "François-Joseph Navez (1787-1869)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 786,
+      "n_gold_spans": 6,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/5/684",
+      "annotator": "A4",
+      "sender": "Pierre-Théodore Verhaegen (1796-1862)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 583,
+      "n_gold_spans": 4,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/5/689",
+      "annotator": "A1",
+      "sender": "Abel Warocqué (1805-1864)",
+      "year": 1845,
+      "decade": "1840s",
+      "text_length": 736,
+      "n_gold_spans": 11,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/5/694",
+      "annotator": "A4",
+      "sender": "Matthias Wolverley Attwood (1808-1865)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 669,
+      "n_gold_spans": 8,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/5/698",
+      "annotator": "A3",
+      "sender": "Guillaume Bosschaert (1737-1815)",
+      "year": 1813,
+      "decade": "1810s",
+      "text_length": 2567,
+      "n_gold_spans": 26,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/6/14",
+      "annotator": "A1",
+      "sender": "Theodor Hildebrandt (1804-1874)",
+      "year": 1849,
+      "decade": "1840s",
+      "text_length": 629,
+      "n_gold_spans": 14,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/6/18",
+      "annotator": "A2",
+      "sender": "Wilhelm von Kaulbach (1805-1874)",
+      "year": 1853,
+      "decade": "1850s",
+      "text_length": 1862,
+      "n_gold_spans": 11,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/6/29",
+      "annotator": "A2",
+      "sender": "Anne Murray, Duchess of Atholl (1814-1897)",
+      "year": 1827,
+      "decade": "1820s",
+      "text_length": 886,
+      "n_gold_spans": 8,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/6/37",
+      "annotator": "A4",
+      "sender": "Marcello Reghellini",
+      "year": 1830,
+      "decade": "1830s",
+      "text_length": 570,
+      "n_gold_spans": 8,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./100",
+      "annotator": "A3",
+      "sender": "Seraphin Lambert Louis Malfait (1775-1827)",
+      "year": 1822,
+      "decade": "1820s",
+      "text_length": 1467,
+      "n_gold_spans": 14,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./105",
+      "annotator": "A1",
+      "sender": "Parfait Joseph Namur (1815-1890)",
+      "year": 1846,
+      "decade": "1840s",
+      "text_length": 951,
+      "n_gold_spans": 14,
+      "fold": 1
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./110",
+      "annotator": "A2",
+      "sender": "Eugène Prévinaire (1805-1877)",
+      "year": 1839,
+      "decade": "1830s",
+      "text_length": 1397,
+      "n_gold_spans": 18,
+      "fold": 3
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./112",
+      "annotator": "A4",
+      "sender": "Eugène Prévinaire (1805-1877)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 196,
+      "n_gold_spans": 3,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./115",
+      "annotator": "A4",
+      "sender": "Antoine Schayes (1808-1859)",
+      "year": 1854,
+      "decade": "1850s",
+      "text_length": 935,
+      "n_gold_spans": 8,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./3",
+      "annotator": "A3",
+      "sender": "Eugène Bochart (1819-1877)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 787,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./42",
+      "annotator": "A2",
+      "sender": "François Xavier de Robiano (1778-1836)? (1778-1836)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 388,
+      "n_gold_spans": 6,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./44",
+      "annotator": "A1",
+      "sender": "François Xavier de Robiano (1778-1836)? (1778-1836)",
+      "year": 1855,
+      "decade": "1850s",
+      "text_length": 514,
+      "n_gold_spans": 7,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./53",
+      "annotator": "A4",
+      "sender": "Charles du Trieu de Terdonck (1790-1861)",
+      "year": 1850,
+      "decade": "1850s",
+      "text_length": 1517,
+      "n_gold_spans": 17,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./54",
+      "annotator": "A3",
+      "sender": "J. Gautier",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1003,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./62",
+      "annotator": "A1",
+      "sender": "Henri Joseph Heris",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1128,
+      "n_gold_spans": 14,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./68",
+      "annotator": "A4",
+      "sender": "Henri Joseph Heris",
+      "year": 1858,
+      "decade": "1850s",
+      "text_length": 1251,
+      "n_gold_spans": 20,
+      "fold": 0
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./70",
+      "annotator": "A2",
+      "sender": "Henri Joseph Heris",
+      "year": 1861,
+      "decade": "1860s",
+      "text_length": 3496,
+      "n_gold_spans": 58,
+      "fold": 4
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./71",
+      "annotator": "A4",
+      "sender": "Henri Joseph Heris",
+      "year": 1861,
+      "decade": "1860s",
+      "text_length": 816,
+      "n_gold_spans": 11,
+      "fold": 2
+    },
+    {
+      "letter_id": "Ms. II 70/6/sup./79bis",
+      "annotator": "A3",
+      "sender": "Alexis Hody (1807-1880)",
+      "year": null,
+      "decade": "unknown",
+      "text_length": 1772,
+      "n_gold_spans": 28,
+      "fold": 0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿annotator,letter_id,flag,entity_label,span_start,span_end,span_text,origin,overlaps_disagreement
+A1,Ms. II 70/1/164,uncertain entity type,ART_NOM,744,763,titre de concourant,manual,True
+A1,Ms. II 70/2/106,uncertain entity type,LOC,3423,3435,rue du cours,prediction,True
+A1,Ms. II 70/2/107,uncertain entity type,PER,5705,5723,les Duval le Camus,prediction-changed,True
+A1,Ms. II 70/2/107,uncertain entity type,PER,5167,5176,Drolingue,manual,True
+A1,Ms. II 70/2/107,uncertain entity type,ART_NOM,5481,5490,La Dubufe,manual,True
+A1,Ms. II 70/2/66,uncertain entity type,PER_NOM,4174,4181,grognon,prediction,True
+A1,Ms. II 70/2/66,uncertain entity type,ART_NOM,823,842,une carte\nde musée,manual,True
+A1,Ms. II 70/2/66,uncertain entity type,PER_NOM,1626,1637,St. Antoine,manual,True
+A1,Ms. II 70/2/66,uncertain entity type,ART,4280,4293,Abel de Pu...,manual,True
+A1,Ms. II 70/2/66,uncertain entity type,PER_NOM,4334,4340,Négeon,manual,True
+A1,Ms. II 70/2/91,uncertain entity type,ORG,4460,4478,l'ad- ministration,prediction,True
+A1,Ms. II 70/2/91,uncertain entity type,ART,4542,4560,la garde nationale,prediction-changed,True
+A1,Ms. II 70/2/91,uncertain entity type,PER_NOM,1995,2001,Mayeux,manual,True
+A1,Ms. II 70/2/93,uncertain entity type,PER,1125,1134,Bourniche,prediction-changed,True
+A1,Ms. II 70/2/93,uncertain entity type,ORG,1395,1413,une administration,manual,True
+A1,Ms. II 70/2/93,uncertain entity type,ART_NOM,2327,2336,monuments,manual,True
+Gaëtan,Ms. II 70/1/200,uncertain PER / PER_NOM boundary,PER_NOM,1046,1053,Le Jury,manual,True
+A2,Ms. II 70/2/106,uncertain entity type,LOC,3423,3435,rue du cours,prediction,True
+A2,Ms. II 70/2/106,severe OCR error,LOC,1729,1739,Champagne ,manual,True
+A2,Ms. II 70/2/106,severe OCR error,EVT,680,696,notre exposition,manual,True
+A2,Ms. II 70/2/107,severe OCR error,EVT,125,143,notre exposi-\ntion,manual,False
+A2,Ms. II 70/2/107,severe OCR error,PER_NOM,7622,7634,ros enfants ,manual,True
+A2,Ms. II 70/2/109,severe OCR error,PER,5064,5078,Mr. Dehemptume,manual,True
+A2,Ms. II 70/2/109,severe OCR error,EVT,2695,2713,notre exposi-\ntion,manual,False
+A4,Ms. II 70/1/116,severe OCR error,ART_NOM,515,527,le monrceaua,manual,True
+A4,Ms. II 70/2/66,uncertain entity type,PER,4280,4293,Abel de Pu...,manual,True
+A4,Ms. II 70/2/66,uncertain entity type,PER_NOM,4334,4340,Négeon,manual,True
+A4,Ms. II 70/2/91,uncertain entity type,PER,4374,4386,Gros Laroche,manual,True
+A4,Ms. II 70/2/93,severe OCR error,PER_NOM,40,52,mon chez ami,manual,True
