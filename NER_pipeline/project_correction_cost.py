@@ -288,41 +288,42 @@ def make_figure(res: pd.DataFrame) -> None:
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
+        import figstyle
     except ImportError:
         print("matplotlib not available — skipping figure")
         return
 
+    figstyle.apply()
     FIG_DIR.mkdir(parents=True, exist_ok=True)
     sub = res[res.pricing == "measured"].set_index("system")
     con = res[res.pricing == "conservative"].set_index("system")
     d = sub.drop(index="manual from scratch").sort_values("corr_h")
-    fig, ax = plt.subplots(figsize=(8.5, 4.4))
+    fig, ax = plt.subplots(figsize=figstyle.size(height=3.0))
     ys = list(range(len(d)))
     err = [(d["corr_h"] - d["corr_lo"]).values,
            (d["corr_hi"] - d["corr_h"]).values]
-    colors = {"zero-shot": "#95a5a6", "fine-tuned": "#7fb3d5",
-              "prompted LLM": "#c0392b"}
+    colors = figstyle.FAMILY
     ax.barh(ys, d["corr_h"], xerr=err,
             color=[colors[f] for f in d["family"]],
             error_kw={"ecolor": "#2c3e50", "lw": 1})
-    ax.scatter(con.loc[d.index, "corr_h"], ys, marker="|", s=180,
+    ax.scatter(con.loc[d.index, "corr_h"], ys, marker="|", s=140,
                color="k", zorder=5, label="conservative pricing")
     base = sub.loc["manual from scratch", "corr_h"]
     ax.axvline(base, color="k", ls="--", lw=1)
-    ax.text(base, -0.75, f" from scratch: {base:.1f} h", fontsize=8,
+    ax.text(base, -0.75, f" from scratch: {base:.1f} h", fontsize=7.5,
             va="center")
     ax.set_yticks(ys)
-    ax.set_yticklabels(d.index, fontsize=8)
+    ax.set_yticklabels([figstyle.display(m) for m in d.index])
     ax.set_ylim(len(d) - 0.4, -1.1)
     ax.set_xlabel("estimated correction hours per 100 letters (95% CI)")
     ax.set_title("Projected post-correction effort")
+    figstyle.clean(ax)
     handles = [plt.Rectangle((0, 0), 1, 1, color=c) for c in colors.values()]
     ax.legend(handles + [plt.Line2D([], [], marker="|", color="k", ls="")],
-              list(colors) + ["conservative pricing"], fontsize=8,
+              list(colors) + ["conservative pricing"],
               loc="lower right", framealpha=0.95)
     fig.tight_layout()
-    for ext in ("png", "pdf"):
-        fig.savefig(FIG_DIR / f"fig_projected_cost.{ext}", dpi=200)
+    figstyle.save(fig, FIG_DIR / "fig_projected_cost")
     plt.close(fig)
     print(f"wrote {FIG_DIR / 'fig_projected_cost.png'}")
 

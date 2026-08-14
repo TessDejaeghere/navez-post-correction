@@ -31,14 +31,21 @@ appended to every figure filename so raw and filtered figures coexist.
 from __future__ import annotations
 
 import argparse
+import sys
 from math import sqrt
 from pathlib import Path
 
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
 REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO / "NER_pipeline"))
+
+import figstyle  # noqa: E402
+
 DEFAULT_CSV = REPO / "NER_pipeline" / "eval" / "ner_final_metrics.csv"
 FIG_DIR = REPO / "NER_pipeline" / "eval" / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
@@ -56,11 +63,7 @@ MODEL_META = {
     "gliner2-ft":                {"display": "GLiNER2 (ft)",          "regime": "fine_tuned"},
     "gliner2":                   {"display": "GLiNER2 (zero-shot)",   "regime": "zero_shot"},
 }
-REGIME_COLOR = {
-    "zero_shot":    "#a6a6a6",   # neutral grey
-    "fine_tuned":   "#1f77b4",   # blue
-    "prompted_llm": "#d62728",   # red
-}
+REGIME_COLOR = figstyle.REGIME
 REGIME_LABEL = {
     "zero_shot":    "Zero-shot",
     "fine_tuned":   "Fine-tuned (in-corpus)",
@@ -174,7 +177,7 @@ def plot_overall(micro: pd.DataFrame, suffix: str = "") -> None:
     Sorted by lenient F1 so the ranking is visually intuitive.
     """
     n = len(micro)
-    fig, ax = plt.subplots(figsize=(6.8, 4.2))
+    fig, ax = plt.subplots(figsize=figstyle.size(height=3.5))
     y = np.arange(n)
     bar_h = 0.36
     colors = [REGIME_COLOR[r] for r in micro["regime"]]
@@ -183,30 +186,27 @@ def plot_overall(micro: pd.DataFrame, suffix: str = "") -> None:
     ax.barh(y + bar_h / 2, micro["lenient_mean"], height=bar_h,
             xerr=micro["lenient_ci"], color=colors,
             edgecolor="black", linewidth=0.5,
-            error_kw={"elinewidth": 1.0, "capsize": 2.5, "ecolor": "black"})
+            error_kw={"elinewidth": 0.9, "capsize": 2.0, "ecolor": "black"})
     # Strict bars (hatched, lower half of each slot)
     ax.barh(y - bar_h / 2, micro["strict_mean"], height=bar_h,
             xerr=micro["strict_ci"], color=colors, alpha=0.55,
             edgecolor="black", linewidth=0.5, hatch="////",
-            error_kw={"elinewidth": 1.0, "capsize": 2.5, "ecolor": "black"})
+            error_kw={"elinewidth": 0.9, "capsize": 2.0, "ecolor": "black"})
 
     # value labels at bar end
     for i, r in micro.iterrows():
         ax.text(r["lenient_mean"] + r["lenient_ci"] + 0.008, i + bar_h / 2,
-                f"{r['lenient_mean']:.2f}", va="center", fontsize=7,
-                color="black")
+                f"{r['lenient_mean']:.2f}", va="center", fontsize=7.5,
+                color=figstyle.VALUE)
         ax.text(r["strict_mean"] + r["strict_ci"] + 0.008, i - bar_h / 2,
-                f"{r['strict_mean']:.2f}", va="center", fontsize=7,
-                color="black")
+                f"{r['strict_mean']:.2f}", va="center", fontsize=7.5,
+                color=figstyle.VALUE)
 
     ax.set_yticks(y)
-    ax.set_yticklabels(micro["display"], fontsize=9)
-    ax.set_xlabel("Micro-F1 (mean across folds, 95% CI)", fontsize=9)
+    ax.set_yticklabels(micro["display"])
+    ax.set_xlabel("Micro-F1 (mean across folds, 95% CI)", labelpad=6)
     ax.set_xlim(0, 1.0)
-    ax.tick_params(axis="x", labelsize=8)
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    ax.axvline(0.0, color="black", linewidth=0.5)
+    figstyle.clean(ax)
 
     # annotate n_folds where less than max
     max_n = int(micro["n_folds"].max())
@@ -227,17 +227,14 @@ def plot_overall(micro: pd.DataFrame, suffix: str = "") -> None:
               alpha=0.55, label="Strict F1"),
     ]
     leg1 = ax.legend(handles=regime_handles, loc="lower right",
-                     fontsize=8, frameon=False, title="Regime",
-                     title_fontsize=8)
+                     frameon=False, title="Regime")
     ax.add_artist(leg1)
-    ax.legend(handles=metric_handles, loc="lower right", fontsize=8,
+    ax.legend(handles=metric_handles, loc="lower right",
               frameon=False, bbox_to_anchor=(1.0, 0.22),
-              title="Match criterion", title_fontsize=8)
+              title="Match criterion")
 
     fig.tight_layout()
-    for ext in ("pdf", "png"):
-        fig.savefig(FIG_DIR / f"fig_overall{suffix}.{ext}", dpi=200,
-                    bbox_inches="tight")
+    figstyle.save(fig, FIG_DIR / f"fig_overall{suffix}")
     plt.close(fig)
     print(f"  wrote fig_overall{suffix}.pdf / .png ({n} models, strict + lenient)")
 
@@ -250,14 +247,14 @@ def plot_per_label(pivot: pd.DataFrame, suffix: str = "") -> None:
     row_display = [MODEL_META[m]["display"] for m in pivot.index]
     data = pivot.to_numpy()
 
-    fig, ax = plt.subplots(figsize=(6.5, 3.6))
+    fig, ax = plt.subplots(figsize=figstyle.size(height=3.0))
     im = ax.imshow(data, aspect="auto", cmap="viridis", vmin=0.0, vmax=1.0)
 
     ax.set_xticks(np.arange(len(pivot.columns)))
-    ax.set_xticklabels(pivot.columns, fontsize=9)
+    ax.set_xticklabels(pivot.columns)
     ax.set_yticks(np.arange(len(row_display)))
-    ax.set_yticklabels(row_display, fontsize=9)
-    ax.set_xlabel("Entity label", fontsize=9)
+    ax.set_yticklabels(row_display)
+    ax.set_xlabel("Entity label")
 
     # annotate cells
     for i in range(data.shape[0]):
@@ -265,18 +262,16 @@ def plot_per_label(pivot: pd.DataFrame, suffix: str = "") -> None:
             v = data[i, j]
             txt_color = "white" if v < 0.55 else "black"
             ax.text(j, i, f"{v:.2f}", ha="center", va="center",
-                    color=txt_color, fontsize=8)
+                    color=txt_color, fontsize=7.5)
 
     cbar = fig.colorbar(im, ax=ax, fraction=0.035, pad=0.02)
     cbar.set_label("Lenient F1", fontsize=8)
-    cbar.ax.tick_params(labelsize=7)
+    cbar.ax.tick_params(labelsize=7.5)
     ax.spines[:].set_visible(False)
     ax.tick_params(top=False, bottom=False, left=False, right=False)
 
     fig.tight_layout()
-    for ext in ("pdf", "png"):
-        fig.savefig(FIG_DIR / f"fig_per_label_lenient{suffix}.{ext}", dpi=200,
-                    bbox_inches="tight")
+    figstyle.save(fig, FIG_DIR / f"fig_per_label_lenient{suffix}")
     plt.close(fig)
     print(f"  wrote fig_per_label_lenient{suffix}.pdf / .png "
           f"({pivot.shape[0]} models × {pivot.shape[1]} labels)")
@@ -297,7 +292,10 @@ def plot_schema_fit(micro: pd.DataFrame, suffix: str = "") -> None:
         ("GLiNER2",  "gliner2",  "gliner2-ft"),
     ]
 
-    fig, ax = plt.subplots(figsize=(4.5, 3.0))
+    # Only two bars of content, so this one is authored at half the text width
+    # and should be included with width=0.5\linewidth (see figstyle docstring).
+    fig, ax = plt.subplots(figsize=figstyle.size(
+        height=2.6, width=figstyle.TEXT_WIDTH_IN / 2))
     x = np.arange(len(families))
     w = 0.35
     zs_vals = [m.loc[z, "mean_F1"] for _, z, _ in families]
@@ -307,31 +305,27 @@ def plot_schema_fit(micro: pd.DataFrame, suffix: str = "") -> None:
 
     ax.bar(x - w/2, zs_vals, w, yerr=zs_err, color=REGIME_COLOR["zero_shot"],
            edgecolor="black", linewidth=0.5, label="Zero-shot",
-           error_kw={"elinewidth": 1.0, "capsize": 3, "ecolor": "black"})
+           error_kw={"elinewidth": 0.9, "capsize": 2.5, "ecolor": "black"})
     ax.bar(x + w/2, ft_vals, w, yerr=ft_err, color=REGIME_COLOR["fine_tuned"],
            edgecolor="black", linewidth=0.5, label="Fine-tuned",
-           error_kw={"elinewidth": 1.0, "capsize": 3, "ecolor": "black"})
+           error_kw={"elinewidth": 0.9, "capsize": 2.5, "ecolor": "black"})
 
     # delta annotations
     for i, (zs, ft) in enumerate(zip(zs_vals, ft_vals)):
         delta = ft - zs
         ax.annotate(f"+{delta:.2f}", xy=(x[i], max(zs, ft) + 0.04),
-                    ha="center", fontsize=9, fontweight="bold",
-                    color="black")
+                    ha="center", fontsize=8.5, fontweight="bold",
+                    color=figstyle.VALUE)
 
     ax.set_xticks(x)
-    ax.set_xticklabels([fam for fam, _, _ in families], fontsize=9)
-    ax.set_ylabel("Lenient micro-F1 (mean ± 95% CI)", fontsize=9)
+    ax.set_xticklabels([fam for fam, _, _ in families])
+    ax.set_ylabel("Lenient micro-F1 (mean ± 95% CI)")
     ax.set_ylim(0, 1.0)
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    ax.legend(loc="upper left", fontsize=8, frameon=False)
-    ax.tick_params(axis="y", labelsize=8)
+    figstyle.clean(ax, axis="y")
+    ax.legend(loc="upper left", frameon=False)
 
     fig.tight_layout()
-    for ext in ("pdf", "png"):
-        fig.savefig(FIG_DIR / f"fig_schema_fit{suffix}.{ext}", dpi=200,
-                    bbox_inches="tight")
+    figstyle.save(fig, FIG_DIR / f"fig_schema_fit{suffix}")
     plt.close(fig)
     print(f"  wrote fig_schema_fit{suffix}.pdf / .png (schema-exposure paired bars)")
 
@@ -353,45 +347,41 @@ def plot_run_vs_fold_variance(rv: pd.DataFrame, variance_fold: int = 0,
     rv = rv.sort_values("lenient_mean", ascending=True).reset_index(drop=True)
     display = [MODEL_META[m]["display"] for m in rv["model"]]
 
-    fig, ax = plt.subplots(figsize=(6.5, 2.8))
+    fig, ax = plt.subplots(figsize=figstyle.size(height=2.6))
     y = np.arange(len(rv))
     offset = 0.18
 
     # Fold variance (5 folds, run 0): mean across folds ± fold CI
     ax.errorbar(rv["lenient_mean"], y + offset,
-                xerr=rv["lenient_ci"], fmt="o", markersize=6,
-                color="#1f77b4", ecolor="#1f77b4", elinewidth=1.5,
-                capsize=4, label="Fold variance (5 folds × 1 run)")
+                xerr=rv["lenient_ci"], fmt="o", markersize=5,
+                color=figstyle.MECH, ecolor=figstyle.MECH, elinewidth=1.3,
+                capsize=3.5, label="Fold variance (5 folds × 1 run)")
     # Run variance (fold `variance_fold`, N runs): mean across runs ± run CI
     ax.errorbar(rv["run_mean_lenient"], y - offset,
-                xerr=rv["run_ci_lenient"], fmt="s", markersize=6,
-                color="#d62728", ecolor="#d62728", elinewidth=1.5,
-                capsize=4,
+                xerr=rv["run_ci_lenient"], fmt="s", markersize=5,
+                color=figstyle.COG, ecolor=figstyle.COG, elinewidth=1.3,
+                capsize=3.5,
                 label=f"Run variance (fold {variance_fold} × 3 runs)")
 
     # numeric CI labels at right edge
     for i, r in rv.iterrows():
         ax.text(r["lenient_mean"] + r["lenient_ci"] + 0.008, i + offset,
                 f"±{r['lenient_ci']:.03f}", va="center", fontsize=7,
-                color="#1f77b4")
+                color=figstyle.MECH)
         ax.text(r["run_mean_lenient"] + r["run_ci_lenient"] + 0.008,
                 i - offset,
                 f"±{r['run_ci_lenient']:.03f}", va="center", fontsize=7,
-                color="#d62728")
+                color=figstyle.COG)
 
     ax.set_yticks(y)
-    ax.set_yticklabels(display, fontsize=9)
-    ax.set_xlabel("Lenient micro-F1 (95% CI)", fontsize=9)
+    ax.set_yticklabels(display)
+    ax.set_xlabel("Lenient micro-F1 (95% CI)")
     ax.set_xlim(0.30, 0.85)
-    ax.tick_params(axis="x", labelsize=8)
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    ax.legend(loc="lower right", fontsize=8, frameon=False)
+    figstyle.clean(ax)
+    ax.legend(loc="lower right", frameon=False)
 
     fig.tight_layout()
-    for ext in ("pdf", "png"):
-        fig.savefig(FIG_DIR / f"fig_variance_decomp{suffix}.{ext}", dpi=200,
-                    bbox_inches="tight")
+    figstyle.save(fig, FIG_DIR / f"fig_variance_decomp{suffix}")
     plt.close(fig)
     print(f"  wrote fig_variance_decomp{suffix}.pdf / .png "
           f"({len(rv)} LLMs, fold vs run variance)")
@@ -420,12 +410,8 @@ def main() -> None:
     print(f"Loaded {len(df):,} rows from {csv_path.relative_to(REPO)}"
           + (f"  (suffix='{suffix}')" if suffix else ""))
 
-    plt.rcParams.update({
-        "font.family":       "sans-serif",
-        "font.sans-serif":   ["DejaVu Sans", "Arial", "Helvetica"],
-        "pdf.fonttype":      42,   # embed as TrueType (not Type-3) for LaTeX
-        "ps.fonttype":       42,
-    })
+    if not figstyle.apply():
+        print("  note: Tinos not found, falling back to a metric-compatible serif")
 
     micro = load_micro(df, mode="lenient")
     micro_both = load_micro_both(df)

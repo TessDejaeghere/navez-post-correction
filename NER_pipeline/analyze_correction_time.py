@@ -186,6 +186,45 @@ def classify_edits(text: str,
     return events
 
 
+def _annotator(stem: str) -> str:
+    name = stem.replace("NER_", "").replace("_final", "")
+    name = name.replace("707_", "").replace("607_", "")
+    return name.replace("_207", "").lower()
+
+
+def _load_exports() -> list[tuple[str, str, list]]:
+    return [(p.stem, _annotator(p.stem),
+             json.loads(p.read_text(encoding="utf-8")))
+            for p in sorted(LS_DIR.glob("NER_*.json"))]
+
+
+def _latest_copies(exports: list[tuple[str, str, list]]) -> tuple[dict, int]:
+    """Map ``(annotator, letter)`` to the export holding its most recent copy.
+
+    The dated exports and the ``*_final`` ones overlap, so the same submitted
+    annotation is present in several files with an identical ``lead_time``.
+    Scoring every copy would count the same work twice, inflating n and
+    narrowing every confidence interval below.
+    """
+    best: dict[tuple[str, str], tuple[str, str]] = {}
+    duplicates = 0
+    for stem, annotator, tasks in exports:
+        for t in tasks:
+            lid = (t.get("data") or {}).get("letter_id")
+            anns = t.get("annotations") or []
+            if not lid or not anns:
+                continue
+            a = anns[0]
+            cand = (str(a.get("updated_at") or a.get("created_at") or ""), stem)
+            key = (annotator, lid)
+            if key in best:
+                duplicates += 1
+                if cand <= best[key]:
+                    continue
+            best[key] = cand
+    return {k: v[1] for k, v in best.items()}, duplicates
+
+
 def load_tasks(max_minutes: float,
                drop_classes: frozenset[str] = frozenset()
                ) -> tuple[pd.DataFrame, list[dict], Counter]:
@@ -195,17 +234,19 @@ def load_tasks(max_minutes: float,
     dropped = Counter()
     dropped_events: Counter = Counter()
 
-    for path in sorted(LS_DIR.glob("NER_*.json")):
-        export = json.loads(path.read_text(encoding="utf-8"))
-        annotator = path.stem.replace("NER_", "").replace("_final", "")
-        annotator = annotator.replace("707_", "").replace("607_", "")
-        annotator = annotator.replace("_207", "").lower()
-        for t in export:
+    exports = _load_exports()
+    keep, n_duplicates = _latest_copies(exports)
+    dropped["duplicate export"] = n_duplicates
+
+    for stem, annotator, tasks in exports:
+        for t in tasks:
             data = t.get("data") or {}
             lid, text = data.get("letter_id"), data.get("text") or ""
             anns = t.get("annotations") or []
             if not lid or not text or not anns:
                 dropped["no data"] += 1
+                continue
+            if keep.get((annotator, lid)) != stem:
                 continue
             a = anns[0]
             lead = a.get("lead_time")
@@ -233,7 +274,7 @@ def load_tasks(max_minutes: float,
             counts = Counter(e["cls"] for e in evs)
 
             row = {
-                "annotator": annotator, "export": path.stem, "letter_id": lid,
+                "annotator": annotator, "export": stem, "letter_id": lid,
                 "minutes": lead / 60, "chars": len(text),
                 "n_pred": len(pred), "n_final": len(final),
                 "has_prediction": has_pred,
@@ -270,7 +311,7 @@ def load_tasks(max_minutes: float,
 # Models
 # ---------------------------------------------------------------------------
 def fit(df: pd.DataFrame, regressors: list[str], label: str,
-        include_spans: bool = True):
+        include_spans: bool = True, cluster: pd.Series | None = None):
     """OLS of minutes on event counts + length + annotator fixed effects.
 
     ``include_spans`` adds the total number of spans in the submitted
@@ -278,6 +319,9 @@ def fit(df: pd.DataFrame, regressors: list[str], label: str,
     that was accepted unchanged", so every event coefficient reads as the
     *extra* seconds that error class costs relative to a correct suggestion.
     Without it, coefficients are absolute but confounded with letter length.
+
+    ``cluster`` groups the standard errors, for the letters that were annotated
+    by more than one person and whose rows therefore share a difficulty.
     """
     X = df[regressors].astype(float).copy()
     X["chars_k"] = df["chars"] / 1000.0
@@ -289,7 +333,12 @@ def fit(df: pd.DataFrame, regressors: list[str], label: str,
     X = pd.concat([X, dummies.astype(float)], axis=1)
     X = sm.add_constant(X, has_constant="add")
     y = df["minutes"].astype(float)
-    model = sm.OLS(y, X).fit(cov_type="HC1")
+    if cluster is None:
+        model = sm.OLS(y, X).fit(cov_type="HC1")
+    else:
+        model = sm.OLS(y, X).fit(
+            cov_type="cluster",
+            cov_kwds={"groups": pd.factorize(cluster)[0], "use_correction": True})
     return model, terms, label
 
 
@@ -379,7 +428,8 @@ def build_report(df: pd.DataFrame, dfp: pd.DataFrame, events: list[dict],
 
     A("## 3. How long does each kind of correction take?\n")
     A("`minutes ~ event counts + letter length + annotator`, OLS with HC1 "
-      "robust standard errors. Coefficients are absolute seconds per event; "
+      "robust standard errors, except where the heading says otherwise. "
+      "Coefficients are absolute seconds per event; "
       "`chars_k` is seconds per 1,000 characters and absorbs reading. The "
       "number of accepted suggestions is deliberately left out of the primary "
       "model: it is almost collinear with the letter's total span count, and "
@@ -497,21 +547,23 @@ def make_figure(df: pd.DataFrame, models: list[tuple]) -> None:
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
+        import figstyle
     except ImportError:
         print("matplotlib not available — skipping figure")
         return
 
+    figstyle.apply()
     FIG_DIR.mkdir(parents=True, exist_ok=True)
     model, terms, _ = models[0]
     rows = coef_table(model, terms)
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4.2))
+    fig, axes = plt.subplots(1, 2, figsize=figstyle.size(height=3.0))
 
     ax = axes[0]
-    ax.scatter(df["chars"] / 1000, df["minutes"], s=9, alpha=.35,
-               color="#34495e")
+    ax.scatter(df["chars"] / 1000, df["minutes"], s=7, alpha=.35,
+               color=figstyle.MECH)
     ax.set_xlabel("letter length (1,000 characters)")
     ax.set_ylabel("time on task (minutes)")
-    ax.set_title("Time on task vs letter length")
+    ax.set_title("Time on task vs letter length", fontsize=9)
 
     ax = axes[1]
     names = [r[0] for r in rows][::-1]
@@ -522,19 +574,18 @@ def make_figure(df: pd.DataFrame, models: list[tuple]) -> None:
                  "C1", "C2", "C3", "C4"}
     mech_terms = {"n_mech_edit", "n_mech", "n_deleted",
                   "F0", "M1", "M2", "M3", "M4"}
-    colors = ["#c0392b" if n in cog_terms else
-              "#7fb3d5" if n in mech_terms else "#95a5a6" for n in names]
+    colors = [figstyle.COG if n in cog_terms else
+              figstyle.MECH if n in mech_terms else "#95a5a6" for n in names]
     ax.barh(range(len(names)), vals, xerr=[los, his], color=colors,
             error_kw={"ecolor": "#2c3e50", "lw": 1})
     ax.axvline(0, color="k", lw=.8)
     ax.set_yticks(range(len(names)))
-    ax.set_yticklabels(names, fontsize=8)
+    ax.set_yticklabels(names, fontsize=7.5)
     ax.set_xlabel("seconds per event (95% CI)")
-    ax.set_title("Marginal time cost per correction event")
+    ax.set_title("Marginal time cost per correction event", fontsize=9)
 
     fig.tight_layout()
-    for ext in ("png", "pdf"):
-        fig.savefig(FIG_DIR / f"fig_correction_time.{ext}", dpi=200)
+    figstyle.save(fig, FIG_DIR / "fig_correction_time")
     plt.close(fig)
     print(f"wrote {FIG_DIR / 'fig_correction_time.png'}")
 
@@ -580,6 +631,15 @@ def main() -> None:
         dfp, ["A0", "n_deleted", "n_mech_edit", "n_cog_edit", "C1"],
         "Robustness — with accepted suggestions in the model",
         include_spans=False))
+
+    # Robustness: the IAA letters were annotated by all four people, so those
+    # rows are not independent draws of a letter's difficulty.
+    n_shared = int((dfp.groupby("letter_id").size() > 1).sum())
+    models.append(fit(
+        dfp, ["n_deleted", "n_mech_edit", "n_cog_edit", "C1"],
+        f"Robustness — standard errors clustered by letter "
+        f"({dfp.letter_id.nunique()} clusters, {n_shared} annotated more than once)",
+        include_spans=False, cluster=dfp["letter_id"]))
 
     vifs = {
         "Aggregate": vif(dfp.assign(chars_k=dfp["chars"] / 1000.0),

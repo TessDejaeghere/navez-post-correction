@@ -4,17 +4,17 @@ Estimated from the annotators' own edit log: every NER letter was pre-annotated 
 
 ## 1. Sample
 
-- 1128 submitted tasks from 4 annotators over 554 distinct letters.
-- 908 of those carry the GLiNER2 suggestion object and can be diffed span by span (220 cannot: the export for one annotator dropped the prediction payload).
-- Time on task: mean 7.7 min, median 4.7 min, p90 17.2 min.
-- Total recorded effort: 145.4 hours.
+- 651 submitted tasks from 4 annotators over 554 distinct letters.
+- 519 of those carry the GLiNER2 suggestion object and can be diffed span by span (132 cannot: the export for one annotator dropped the prediction payload).
+- Time on task: mean 7.1 min, median 4.2 min, p90 16.6 min.
+- Total recorded effort: 77.6 hours.
 
 | annotator | tasks | median min | mean min | accepted | edited | manual |
 |---|---:|---:|---:|---:|---:|---:|
-| A1 | 206 | 6.6 | 9.3 | 1317 | 954 | 3051 |
-| A2 | 249 | 6.6 | 10.1 | 1217 | 486 | 4864 |
-| A3 | 310 | 4.1 | 7.0 | 1151 | 1286 | 3889 |
-| A4 | 363 | 3.7 | 5.8 | 1827 | 81 | 5987 |
+| A1 | 124 | 6.4 | 9.0 | 749 | 556 | 1838 |
+| A2 | 94 | 6.4 | 9.6 | 441 | 173 | 1766 |
+| A3 | 189 | 3.7 | 6.8 | 707 | 761 | 2379 |
+| A4 | 244 | 3.5 | 5.5 | 1173 | 50 | 3864 |
 
 Annotator style differs sharply and is absorbed by fixed effects in every model below: some annotators edit a suggestion, others delete it and re-draw the span by hand, which moves the same correction from the `prediction-changed` column to the `manual` one.
 
@@ -24,76 +24,88 @@ Excluded from this analysis: `F0` (malformed span) — 2 events. `F0` is not a t
 
 | class | error class | cost | events | % of spans touched |
 |---|---|---|---:|---:|
-| `A0` | accepted suggestion | (none) | 4245 | 16.3% |
-| `M1` | redundant span | mechanical | 1041 | 4.0% |
-| `M2` | affix drift | mechanical | 134 | 0.5% |
-| `M3` | token drift | mechanical | 69 | 0.3% |
-| `M4` | decidable label flip | mechanical | 1261 | 4.8% |
-| `C1` | missed mention | cognitive | 14478 | 55.4% |
-| `C2` | spurious mention | cognitive | 4554 | 17.4% |
-| `C3` | semantic label confusion | cognitive | 274 | 1.0% |
-| `C4` | mention segmentation | cognitive | 65 | 0.2% |
+| `A0` | accepted suggestion | (none) | 2343 | 16.2% |
+| `M1` | redundant span | mechanical | 627 | 4.3% |
+| `M2` | affix drift | mechanical | 65 | 0.5% |
+| `M3` | token drift | mechanical | 28 | 0.2% |
+| `M4` | decidable label flip | mechanical | 716 | 5.0% |
+| `C1` | missed mention | cognitive | 7911 | 54.9% |
+| `C2` | spurious mention | cognitive | 2576 | 17.9% |
+| `C3` | semantic label confusion | cognitive | 128 | 0.9% |
+| `C4` | mention segmentation | cognitive | 25 | 0.2% |
 
 ## 3. How long does each kind of correction take?
 
-`minutes ~ event counts + letter length + annotator`, OLS with HC1 robust standard errors. Coefficients are absolute seconds per event; `chars_k` is seconds per 1,000 characters and absorbs reading. The number of accepted suggestions is deliberately left out of the primary model: it is almost collinear with the letter's total span count, and including it makes the remaining coefficients unidentifiable.
+`minutes ~ event counts + letter length + annotator`, OLS with HC1 robust standard errors, except where the heading says otherwise. Coefficients are absolute seconds per event; `chars_k` is seconds per 1,000 characters and absorbs reading. The number of accepted suggestions is deliberately left out of the primary model: it is almost collinear with the letter's total span count, and including it makes the remaining coefficients unidentifiable.
 
 ### Aggregate — absolute seconds per event
 
-n = 908 tasks, adjusted R² = 0.539.
+n = 519 tasks, adjusted R² = 0.472.
 
 | term | events | seconds per event | 95% CI | p |
 |---|---:|---:|---|---:|
-| `n_deleted` | 5595 | -8.1 | [-17.1, 0.8] | 0.0736 |
-| `n_mech_edit` | 1464 | 0.8 | [-4.3, 5.8] | 0.768 |
-| `n_cog_edit` | 339 | 55.4 ** | [18.1, 92.7] | 0.00361 |
-| `C1` | 14478 | 13.6 *** | [7.6, 19.6] | 8.55e-06 |
-| `chars_k` | — | 89.8 *** | [56.1, 123.6] | 1.81e-07 |
+| `n_deleted` | 3203 | -4.0 | [-14.4, 6.5] | 0.457 |
+| `n_mech_edit` | 809 | 0.7 | [-6.2, 7.6] | 0.845 |
+| `n_cog_edit` | 153 | 50.5 | [-2.8, 103.9] | 0.0635 |
+| `C1` | 7911 | 11.4 ** | [3.5, 19.4] | 0.00471 |
+| `chars_k` | — | 87.6 *** | [43.8, 131.4] | 8.96e-05 |
 
-Intercept: 104 s of fixed cost per letter (opening the task, orienting in the text).
+Intercept: 121 s of fixed cost per letter (opening the task, orienting in the text).
 
 ### Per class — absolute seconds per event
 
-n = 908 tasks, adjusted R² = 0.546.
+n = 519 tasks, adjusted R² = 0.469.
 
 | term | events | seconds per event | 95% CI | p |
 |---|---:|---:|---|---:|
-| `M1` | 1041 | -15.5 | [-35.8, 4.7] | 0.133 |
-| `M2` | 134 | 36.8 | [-32.7, 106.3] | 0.299 |
-| `M3` ⚠︎ | 69 | -103.5 ** | [-175.1, -31.8] | 0.00464 |
-| `M4` | 1261 | 5.2 | [-4.0, 14.5] | 0.269 |
-| `C1` | 14478 | 14.0 *** | [8.2, 19.8] | 2.24e-06 |
-| `C2` | 4554 | -7.9 | [-17.3, 1.5] | 0.0979 |
-| `C3` | 274 | 26.7 | [-16.7, 70.1] | 0.227 |
-| `C4` ⚠︎ | 65 | 170.7 *** | [79.1, 262.3] | 0.000261 |
-| `chars_k` | — | 91.6 *** | [57.0, 126.1] | 2.04e-07 |
+| `M1` | 627 | -6.1 | [-36.7, 24.5] | 0.697 |
+| `M2` ⚠︎ | 65 | 52.7 | [-55.8, 161.3] | 0.341 |
+| `M4` | 716 | 2.4 | [-11.2, 16.0] | 0.726 |
+| `C1` | 7911 | 11.9 ** | [3.7, 20.1] | 0.00469 |
+| `C2` | 2576 | -4.0 | [-13.7, 5.8] | 0.425 |
+| `C3` | 128 | 35.5 | [-23.5, 94.6] | 0.238 |
+| `chars_k` | — | 85.3 *** | [40.3, 130.4] | 0.000207 |
 
-Intercept: 92 s of fixed cost per letter (opening the task, orienting in the text).
+Intercept: 122 s of fixed cost per letter (opening the task, orienting in the text).
 
 ### Robustness — with accepted suggestions in the model
 
-n = 908 tasks, adjusted R² = 0.542.
+n = 519 tasks, adjusted R² = 0.476.
 
 | term | events | seconds per event | 95% CI | p |
 |---|---:|---:|---|---:|
-| `A0` | 4245 | -11.1 * | [-21.5, -0.8] | 0.0351 |
-| `n_deleted` | 5595 | -6.2 | [-15.8, 3.5] | 0.209 |
-| `n_mech_edit` | 1464 | 0.2 | [-5.1, 5.5] | 0.94 |
-| `n_cog_edit` | 339 | 55.6 ** | [17.4, 93.9] | 0.00432 |
-| `C1` | 14478 | 14.9 *** | [8.9, 20.9] | 1.05e-06 |
-| `chars_k` | — | 95.0 *** | [60.3, 129.7] | 7.85e-08 |
+| `A0` | 2343 | -13.4 | [-27.1, 0.3] | 0.0554 |
+| `n_deleted` | 3203 | -1.7 | [-13.2, 9.7] | 0.767 |
+| `n_mech_edit` | 809 | -0.0 | [-7.2, 7.1] | 0.993 |
+| `n_cog_edit` | 153 | 50.1 | [-4.7, 104.9] | 0.073 |
+| `C1` | 7911 | 13.0 ** | [5.2, 20.8] | 0.00106 |
+| `chars_k` | — | 94.8 *** | [49.2, 140.4] | 4.58e-05 |
 
-Intercept: 111 s of fixed cost per letter (opening the task, orienting in the text).
+Intercept: 128 s of fixed cost per letter (opening the task, orienting in the text).
+
+### Robustness — standard errors clustered by letter (457 clusters, 33 annotated more than once)
+
+n = 519 tasks, adjusted R² = 0.472.
+
+| term | events | seconds per event | 95% CI | p |
+|---|---:|---:|---|---:|
+| `n_deleted` | 3203 | -4.0 | [-14.3, 6.4] | 0.452 |
+| `n_mech_edit` | 809 | 0.7 | [-5.9, 7.3] | 0.838 |
+| `n_cog_edit` | 153 | 50.5 | [-0.7, 101.7] | 0.0531 |
+| `C1` | 7911 | 11.4 ** | [3.6, 19.3] | 0.00439 |
+| `chars_k` | — | 87.6 *** | [47.6, 127.6] | 1.77e-05 |
+
+Intercept: 121 s of fixed cost per letter (opening the task, orienting in the text).
 
 ⚠︎ = fewer than 100 events in the whole corpus; the estimate is not usable.
 
 ### Collinearity
 
-Variance inflation factors. Above ~5 the coefficient is poorly identified and its interval should be read as indicative only. Classes with few events (`M3`, `C4`) are additionally imprecise regardless of their VIF.
+Variance inflation factors. Above ~5 the coefficient is poorly identified and its interval should be read as indicative only. Classes with few events (`M2`, `M3`, `C4`) are additionally imprecise regardless of their VIF.
 
-**Aggregate model** — `C1` 6.3, `chars_k` 4.7, `n_deleted` 2.4, `n_cog_edit` 1.5, `n_mech_edit` 1.4
+**Aggregate model** — `C1` 6.1, `chars_k` 4.4, `n_deleted` 2.4, `n_cog_edit` 1.4, `n_mech_edit` 1.4
 
-**Per class model** — `C1` 6.4, `chars_k` 4.8, `M4` 4.0, `M1` 4.0, `C2` 2.7, `C3` 1.6, `M2` 1.2, `C4` 1.2, `M3` 1.1
+**Per class model** — `C1` 6.1, `chars_k` 4.6, `M1` 3.6, `M4` 3.6, `C2` 2.6, `C3` 1.5, `M2` 1.1
 
 ## 4. Where the time actually went
 
@@ -101,14 +113,14 @@ Seconds per event from the aggregate model, multiplied by the number of events o
 
 | component | events | estimated minutes | share of measured time |
 |---|---:|---:|---:|
-| reading the letters | — | 3288 | 49% |
-| fixed cost per task | — | 1572 | 23% |
-| deleting spurious suggestions † | 5595 | -759 | -11% |
-| mechanical edits † | 1464 | 19 | 0% |
-| cognitive edits | 339 | 313 | 5% |
-| drawing missed mentions by hand | 14478 | 3286 | 49% |
-| annotator differences (fixed effects) | — | -979 | -15% |
-| **measured total** | | **6740** | 100% |
+| reading the letters | — | 1761 | 50% |
+| fixed cost per task | — | 1046 | 30% |
+| deleting spurious suggestions † | 3203 | -211 | -6% |
+| mechanical edits † | 809 | 9 | 0% |
+| cognitive edits † | 153 | 129 | 4% |
+| drawing missed mentions by hand | 7911 | 1508 | 43% |
+| annotator differences (fixed effects) | — | -730 | -21% |
+| **measured total** | | **3512** | 100% |
 
 † coefficient not significant at the 5 % level; the component is reported for completeness but is not distinguishable from zero. Components are model-fitted and sum to the measured total up to rounding, since OLS residuals sum to zero.
 

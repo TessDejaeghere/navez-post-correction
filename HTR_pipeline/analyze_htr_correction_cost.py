@@ -56,6 +56,7 @@ import csv
 import difflib
 import json
 import re
+import sys
 import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -758,9 +759,12 @@ def make_edit_class_figure(edits: pd.DataFrame) -> None:
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
+        sys.path.insert(0, str(REPO / "NER_pipeline"))
+        import figstyle
     except ImportError:
         print("matplotlib not available — skipping figure")
         return
+    figstyle.apply()
     FIG_DIR.mkdir(parents=True, exist_ok=True)
 
     tot_e = len(edits)
@@ -782,15 +786,15 @@ def make_edit_class_figure(edits: pd.DataFrame) -> None:
     share_c = [r[2] for r in rows]
 
     PALETTE = {
-        "mech_edits": "#2f6690", "mech_chars": "#9dc3d8",
-        "cog_edits": "#a83232", "cog_chars": "#e5a9a2",
+        "mech_edits": figstyle.MECH, "mech_chars": figstyle.MECH_LIGHT,
+        "cog_edits": figstyle.COG, "cog_chars": figstyle.COG_LIGHT,
     }
     col_e = [PALETTE["mech_edits"] if c in MECHANICAL else PALETTE["cog_edits"]
              for c in order]
     col_c = [PALETTE["mech_chars"] if c in MECHANICAL else PALETTE["cog_chars"]
              for c in order]
 
-    fig, ax = plt.subplots(figsize=(9.6, 6.2))
+    fig, ax = plt.subplots(figsize=figstyle.size(height=4.6))
     fig.patch.set_facecolor("white")
     # A gap between the two cost groups leaves room for a group heading.
     GAP = 1.15
@@ -805,14 +809,14 @@ def make_edit_class_figure(edits: pd.DataFrame) -> None:
 
     for y, se, sc in zip(ys, share_e, share_c):
         ax.text(se + 0.5, y - h / 2 - 0.02, f"{se:.1f}%", va="center",
-                fontsize=8, color="#333333", zorder=4)
+                fontsize=7.5, color=figstyle.VALUE, zorder=4)
         ax.text(sc + 0.5, y + h / 2 + 0.02, f"{sc:.1f}%", va="center",
-                fontsize=8, color="#666666", zorder=4)
+                fontsize=7.5, color="#666666", zorder=4)
 
     labels = [f"{EDIT_CLASSES[c][0]}\n" + r"$\it{n}$" + f" = {n:,} edits"
               for c, n in zip(order, n_edits)]
     ax.set_yticks(ys)
-    ax.set_yticklabels(labels, fontsize=8.5, linespacing=1.35)
+    ax.set_yticklabels(labels, linespacing=1.3)
 
     # Group headings, placed in the gap above each block.
     def _tot(group):
@@ -823,31 +827,24 @@ def make_edit_class_figure(edits: pd.DataFrame) -> None:
     me, mc = _tot(set(mech))
     ce, cc = _tot(set(cog))
     ax.text(0, -1.0, f"MECHANICAL  ·  {me:.0f}% of edits, {mc:.0f}% of "
-            "characters", fontsize=9, fontweight="bold",
+            "characters", fontsize=8.5, fontweight="bold",
             color=PALETTE["mech_edits"], va="center", zorder=4)
     ax.text(0, len(mech) + GAP / 2 - 0.15,
             f"COGNITIVE  ·  {ce:.0f}% of edits, {cc:.0f}% of characters",
-            fontsize=9, fontweight="bold", color=PALETTE["cog_edits"],
+            fontsize=8.5, fontweight="bold", color=PALETTE["cog_edits"],
             va="center", zorder=4)
     ax.set_ylim(ys[-1] + 0.8, -1.5)
 
     ax.set_xlim(0, max(share_e + share_c) * 1.16)
-    ax.set_xlabel("% of the HTR edit log", fontsize=9.5, labelpad=8)
+    ax.set_xlabel("% of the HTR edit log", labelpad=6)
     ax.xaxis.set_major_formatter(lambda v, _: f"{v:.0f}%")
-    ax.grid(axis="x", color="#dddddd", lw=.7, ls="-", zorder=1)
-    ax.set_axisbelow(True)
-    ax.spines[["top", "right", "left"]].set_visible(False)
-    ax.spines["bottom"].set_color("#bbbbbb")
-    ax.tick_params(axis="y", length=0, pad=6)
-    ax.tick_params(axis="x", colors="#666666", labelsize=8.5)
+    figstyle.clean(ax)
 
-    ax.legend(fontsize=8.5, loc="lower right", frameon=True, framealpha=.95,
-              edgecolor="#dddddd")
+    ax.legend(loc="lower right", frameon=True, framealpha=.95,
+              edgecolor=figstyle.GRID)
 
     fig.tight_layout()
-    for ext in ("png", "pdf"):
-        fig.savefig(FIG_DIR / f"fig_htr_edit_classes.{ext}", dpi=220,
-                    bbox_inches="tight", facecolor="white")
+    figstyle.save(fig, FIG_DIR / "fig_htr_edit_classes")
     plt.close(fig)
     print(f"wrote {FIG_DIR / 'fig_htr_edit_classes.png'}")
 
@@ -863,9 +860,12 @@ def make_mech_cog_figure(edits: pd.DataFrame) -> None:
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
+        sys.path.insert(0, str(REPO / "NER_pipeline"))
+        import figstyle
     except ImportError:
         print("matplotlib not available — skipping figure")
         return
+    figstyle.apply()
     FIG_DIR.mkdir(parents=True, exist_ok=True)
 
     tot_e = len(edits)
@@ -877,9 +877,9 @@ def make_mech_cog_figure(edits: pd.DataFrame) -> None:
     share_c = [100 * edits[edits.cls == c].n_changed.sum() / tot_c
                for c in order]
     n_edits = [len(edits[edits.cls == c]) for c in order]
-    cols = ["#2e6da4" if c in MECHANICAL else "#c0392b" for c in order]
+    cols = [figstyle.MECH if c in MECHANICAL else figstyle.COG for c in order]
 
-    fig, axes = plt.subplots(1, 2, figsize=(12.5, 5.0),
+    fig, axes = plt.subplots(1, 2, figsize=figstyle.size(height=3.2),
                              gridspec_kw={"width_ratios": [2.1, 1]})
 
     ax = axes[0]
@@ -890,19 +890,19 @@ def make_mech_cog_figure(edits: pd.DataFrame) -> None:
             alpha=.42, hatch="///", edgecolor="white",
             label="share of changed characters")
     for y, (se, sc, n) in enumerate(zip(share_e, share_c, n_edits)):
-        ax.text(max(se, sc) + 0.8, y, f"n={n:,}", va="center", fontsize=7,
+        ax.text(max(se, sc) + 0.8, y, f"n={n:,}", va="center", fontsize=6.5,
                 color="#555555")
     # Separator between the two cost groups.
     n_mech = sum(1 for c in order if c in MECHANICAL)
     ax.axhline(n_mech - 0.5, color="#999999", lw=.8, ls=":")
     ax.set_yticks(ys)
-    ax.set_yticklabels([EDIT_CLASSES[c][0] for c in order], fontsize=9)
+    ax.set_yticklabels([EDIT_CLASSES[c][0] for c in order], fontsize=7)
     ax.invert_yaxis()
     ax.set_xlim(0, max(share_e + share_c) * 1.30)
     ax.set_xlabel("% of the edit log")
     ax.set_title("HTR edit log by class\n(blue = mechanical, red = cognitive)",
-                 fontsize=11)
-    ax.legend(fontsize=8.5, loc="center right", framealpha=0.95)
+                 fontsize=9)
+    ax.legend(fontsize=7, loc="upper right", framealpha=0.95)
     ax.spines[["top", "right"]].set_visible(False)
 
     ax = axes[1]
@@ -910,28 +910,26 @@ def make_mech_cog_figure(edits: pd.DataFrame) -> None:
     mech_c = (100 * edits[edits.cls.isin(MECHANICAL)].n_changed.sum() / tot_c)
     xs = [0, 1]
     bottoms = [mech_e, mech_c]
-    ax.bar(xs, bottoms, width=.55, color="#2e6da4", label="mechanical")
+    ax.bar(xs, bottoms, width=.55, color=figstyle.MECH, label="mechanical")
     ax.bar(xs, [100 - mech_e, 100 - mech_c], width=.55, bottom=bottoms,
-           color="#c0392b", label="cognitive")
+           color=figstyle.COG, label="cognitive")
     for x, b in zip(xs, bottoms):
         ax.text(x, b / 2, f"{b:.0f}%", ha="center", va="center",
-                color="white", fontsize=11, fontweight="bold")
+                color="white", fontsize=9, fontweight="bold")
         ax.text(x, b + (100 - b) / 2, f"{100 - b:.0f}%", ha="center",
-                va="center", color="white", fontsize=11, fontweight="bold")
+                va="center", color="white", fontsize=9, fontweight="bold")
     ax.set_xticks(xs)
     ax.set_xticklabels([f"edits\n(n={tot_e:,})",
-                        f"changed characters\n(n={int(tot_c):,})"], fontsize=9)
+                        f"changed characters\n(n={int(tot_c):,})"], fontsize=7)
     ax.set_ylim(0, 100)
     ax.set_ylabel("%")
-    ax.set_title("The split inverts with the unit", fontsize=11)
-    ax.legend(fontsize=8.5, loc="lower left", bbox_to_anchor=(0, -0.28), ncol=2,
+    ax.set_title("The split inverts with the unit", fontsize=9)
+    ax.legend(fontsize=7, loc="lower left", bbox_to_anchor=(0, -0.30), ncol=2,
               frameon=False)
     ax.spines[["top", "right"]].set_visible(False)
 
     fig.tight_layout()
-    for ext in ("png", "pdf"):
-        fig.savefig(FIG_DIR / f"fig_htr_mech_cog.{ext}", dpi=200,
-                    bbox_inches="tight")
+    figstyle.save(fig, FIG_DIR / "fig_htr_mech_cog")
     plt.close(fig)
     print(f"wrote {FIG_DIR / 'fig_htr_mech_cog.png'}")
 
@@ -942,16 +940,19 @@ def make_figure(df: pd.DataFrame, edits: pd.DataFrame, hl: pd.DataFrame,
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
+        sys.path.insert(0, str(REPO / "NER_pipeline"))
+        import figstyle
     except ImportError:
         print("matplotlib not available — skipping figure")
         return
+    figstyle.apply()
     FIG_DIR.mkdir(parents=True, exist_ok=True)
-    fig, axes = plt.subplots(2, 2, figsize=(11.5, 8))
+    fig, axes = plt.subplots(2, 2, figsize=figstyle.size(height=5.4))
     axes = axes.ravel()
 
     ax = axes[0]
-    ax.hist(df.minutes, bins=30, color="#34495e")
-    ax.axvline(df.minutes.median(), color="#c0392b", ls="--",
+    ax.hist(df.minutes, bins=30, color=figstyle.MECH)
+    ax.axvline(df.minutes.median(), color=figstyle.COG, ls="--",
                label=f"median {df.minutes.median():.1f} min")
     ax.set_xlabel("minutes per letter")
     ax.set_ylabel("letters")
@@ -965,7 +966,8 @@ def make_figure(df: pd.DataFrame, edits: pd.DataFrame, hl: pd.DataFrame,
     share_c = [100 * edits[edits.cls == c].n_changed.sum() / tot_c
                for c in CLASS_ORDER]
     ys = list(range(len(CLASS_ORDER)))
-    cols = ["#7fb3d5" if c in MECHANICAL else "#c0392b" for c in CLASS_ORDER]
+    cols = [figstyle.MECH_LIGHT if c in MECHANICAL else figstyle.COG
+            for c in CLASS_ORDER]
     ax.barh([y - 0.2 for y in ys], share_e, height=.38, color=cols,
             label="% of edits")
     ax.barh([y + 0.2 for y in ys], share_c, height=.38, color=cols,
@@ -984,7 +986,7 @@ def make_figure(df: pd.DataFrame, edits: pd.DataFrame, hl: pd.DataFrame,
     ax.bar([i - 0.2 for i in x], 100 * d.char_coverage, width=.4,
            label="char coverage", color="#95a5a6")
     ax.bar([i + 0.2 for i in x], 100 * d.edit_hit_rate, width=.4,
-           label="edit hit rate", color="#2980b9")
+           label="edit hit rate", color=figstyle.MECH)
     ax.set_xticks(list(x))
     ax.set_xticklabels(d.highlight, fontsize=7.5, rotation=15)
     ax.set_ylabel("%")
@@ -996,7 +998,7 @@ def make_figure(df: pd.DataFrame, edits: pd.DataFrame, hl: pd.DataFrame,
         pl = ge["per_label"]
         labs = [l for l in GOLD_LABEL_ORDER if pl.get(l, {}).get("n")]
         vals = [100 * pl[l]["edited"] / pl[l]["n"] for l in labs]
-        cols = ["#c0392b" if l in PROPER_NAME_LABELS else "#95a5a6"
+        cols = [figstyle.COG if l in PROPER_NAME_LABELS else "#95a5a6"
                 for l in labs]
         ax.bar(range(len(labs)), vals, color=cols)
         base = (100 * ge["non_ent_chars_edited"]
@@ -1012,8 +1014,7 @@ def make_figure(df: pd.DataFrame, edits: pd.DataFrame, hl: pd.DataFrame,
         ax.axis("off")
 
     fig.tight_layout()
-    for ext in ("png", "pdf"):
-        fig.savefig(FIG_DIR / f"fig_htr_correction.{ext}", dpi=200)
+    figstyle.save(fig, FIG_DIR / "fig_htr_correction")
     plt.close(fig)
     print(f"wrote {FIG_DIR / 'fig_htr_correction.png'}")
 
